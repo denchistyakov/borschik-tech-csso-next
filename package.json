@@ -1,0 +1,34 @@
+{
+  "name": "borschik-tech-csso-next",
+  "version": "1.0.0",
+  "description": "Borschik CSS tech based on csso-next",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/denchistyakov/borschik-tech-csso-next.git"
+  },
+  "keywords": [
+    "borschik",
+    "css",
+    "csso-next"
+  ],
+  "author": "Denis Chistyakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denchistyakov/borschik-tech-csso-next/issues"
+  },
+  "homepage": "https://github.com/denchistyakov/borschik-tech-csso-next#readme",
+  "peerDependencies": {
+    "borschik": "^1.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "eslint-config-xo": "^0.11.0"
+  },
+  "dependencies": {
+    "csso": "^1.6.4"
+  }
+}
