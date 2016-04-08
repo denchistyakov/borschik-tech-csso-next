@@ -53,20 +53,24 @@ Vow.all(cssFiles.map(inputCssFilename => {
 	.catch(err => console.error(err));
 
 function writeResults() {
-	fs.writeFileSync(pjoin(__dirname, 'compare.md'), `
+	fs.writeFileSync(pjoin(__dirname, 'readme.md'), `
 # Сравнение технологий для Борщика
 
 ## Размеры файлов в килобайтах до минификации и после
 ${sizeCompareTable()}
 
+
 ## Время минификации в милисекундах
 ${timeCompareTable()}
+
 	`, 'utf-8');
 
+	console.log('Successfully!!! Read compare/readme.md');
+
 	function sizeCompareTable() {
-		const columns = ['', 'base'].concat(techRequireNames);
+		const columns = ['    ', 'base'].concat(techRequireNames);
 		const header = `| ${columns.join(' | ')} |
-	| ${columns.map(item => Array(item.length).join('_')).join(' | ')} |`;
+| ${columns.map(item => Array(item.length).join('-')).join(' | ')} |`;
 
 		const rows = [];
 		Object.keys(result).forEach(key => {
@@ -83,9 +87,9 @@ ${timeCompareTable()}
 	}
 
 	function timeCompareTable() {
-		const columns = [''].concat(techRequireNames);
+		const columns = ['    '].concat(techRequireNames);
 		const header = `| ${columns.join(' | ')} |
-	| ${columns.map(item => Array(item.length).join('_')).join(' | ')} |`;
+| ${columns.map(item => Array(item.length).join('-')).join(' | ')} |`;
 
 		const rows = [];
 		Object.keys(result).forEach(key => {

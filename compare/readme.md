@@ -2,8 +2,8 @@
 # Сравнение технологий для Борщика
 
 ## Размеры файлов в килобайтах до минификации и после
-|  | base | borschik-tech-csso-next | borschik-tech-csso | borschik-tech-cleancss |
-	|  | ___ | ______________________ | _________________ | _____________________ |
+|      | base | borschik-tech-csso-next | borschik-tech-csso | borschik-tech-cleancss |
+| --- | --- | ---------------------- | ----------------- | --------------------- |
 | beta.css | 153.842 | 91.217 | 92.058 | 90.973 |
 | browser4-index.css | 227.173 | 112.965 | 114.662 | 106.663 |
 | device-detect.css | 67.064 | 31.47 | 31.663 | 31.606 |
@@ -21,22 +21,25 @@
 | welcome-xml.css | 54.343 | 22.825 | 22.993 | 23.075 |
 | welcome.css | 97.318 | 40.396 | 40.73 | 39.855 |
 
+
 ## Время минификации в милисекундах
-|  | borschik-tech-csso-next | borschik-tech-csso | borschik-tech-cleancss |
-	|  | ______________________ | _________________ | _____________________ |
-| beta.css | 723 | 544 | 294 |
-| browser4-index.css | 588 | 369 | 333 |
-| device-detect.css | 443 | 43 | 963 |
-| feedback.css | 412 | 244 | 905 |
-| football-goodbye.css | 335 | 446 | 382 |
-| goodbye-survey-end.css | 300 | 59 | 972 |
-| granny.ie7.css | 296 | 947 | 800 |
-| promo-button.css | 206 | 720 | 803 |
-| safe.css | 204 | 717 | 585 |
-| simple.css | 184 | 659 | 519 |
-| sync.css | 445 | 912 | 62 |
-| welcome-custom.css | 106 | 523 | 393 |
-| welcome-exp4.css | 100 | 563 | 541 |
-| welcome-protect.css | 90 | 504 | 445 |
-| welcome-xml.css | 370 | 200 | 180 |
-| welcome.css | 344 | 154 | 142 |
+|      | borschik-tech-csso-next | borschik-tech-csso | borschik-tech-cleancss |
+| --- | ---------------------- | ----------------- | --------------------- |
+| beta.css | 723 | 588 | 778 |
+| browser4-index.css | 575 | 384 | 614 |
+| device-detect.css | 425 | 544 | 366 |
+| feedback.css | 388 | 325 | 107 |
+| football-goodbye.css | 313 | 168 | 442 |
+| goodbye-survey-end.css | 283 | 779 | 984 |
+| granny.ie7.css | 279 | 56 | 388 |
+| promo-button.css | 193 | 769 | 978 |
+| safe.css | 191 | 767 | 973 |
+| simple.css | 172 | 705 | 902 |
+| sync.css | 137 | 210 | 195 |
+| welcome-custom.css | 101 | 601 | 914 |
+| welcome-exp4.css | 92 | 481 | 819 |
+| welcome-protect.css | 82 | 447 | 676 |
+| welcome-xml.css | 61 | 381 | 45 |
+| welcome.css | 41 | 276 | 137 |
+
+	
