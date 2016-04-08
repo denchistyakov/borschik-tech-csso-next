@@ -4,7 +4,8 @@
   "description": "Borschik CSS tech based on csso-next",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -t 60000 -R spec tests"
+    "test": "mocha -t 60000 -R spec tests",
+    "compare": "node compare"
   },
   "repository": {
     "type": "git",
@@ -25,10 +26,13 @@
     "borschik": "^1.5.2"
   },
   "devDependencies": {
+    "borschik-tech-cleancss": "^2.1.0",
+    "borschik-tech-postcss": "^0.1.1",
     "chai": "^3.5.0",
     "eslint": "^2.2.0",
     "eslint-config-xo": "^0.11.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "vow": "^0.4.12"
   },
   "dependencies": {
     "csso": "^2.0.0"

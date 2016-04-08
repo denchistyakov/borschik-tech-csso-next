@@ -1,0 +1,2337 @@
+/* ../../vendors/islands-romochka/desktop.blocks/i-global/_type/i-global_type_simple.css: begin */ /**/
+    /* ../__body/i-global__body.css: begin */ /**/
+        /* Global definitions (begin) */ /**/
+        body
+        {
+                /* Чтобы в FF2- заработал z-index: -1 */ /**/
+            position: relative;
+            z-index: 0;
+        
+            margin: 0;
+            padding: 0 0 1em 0;
+        
+            font: .8em Arial, Helvetica, sans-serif;
+        
+            color: #000;
+            background: #fff;
+        }
+        /* Global definitions (end) */ /**/
+        
+    /* ../__body/i-global__body.css: end */ /**/
+    
+    /* ../__wbr/i-global__wbr.css: begin */ /**/
+        /* Поддержка wbr в Opera и Safari 2/3 (begin) */ /**/
+            /* См. http://harisov.livejournal.com/97666.html */ /**/
+        wbr
+        {
+            display: inline-block;
+        }
+        /* Поддержка wbr в Opera и Safari 2/3 (end) */ /**/
+        
+    /* ../__wbr/i-global__wbr.css: end */ /**/
+    
+    /* ../__hover/i-global__hover.css: begin */ /**/
+        /* Global definitions: Links hover (begin) */ /**/
+        :link:hover,
+            :visited:hover
+        {
+            color: #f00 !important; /*!head*/
+        }
+        /* Global definitions: Links hover (end) */ /**/
+        
+    /* ../__hover/i-global__hover.css: end */ /**/
+    
+    
+/* ../../vendors/islands-romochka/desktop.blocks/i-global/_type/i-global_type_simple.css: end */ /**/
+
+/* ../../vendors/islands-romochka/common.blocks/b-statcounter/b-statcounter.css: begin */ /**/
+    .b-statcounter
+    {
+        position: absolute;
+        left: -9999px;
+    }
+    
+/* ../../vendors/islands-romochka/common.blocks/b-statcounter/b-statcounter.css: end */ /**/
+
+/* ../../vendors/islands-specific/specific.blocks/yanalytics/yanalytics.css: begin */ /**/
+    .yanalytics
+    {
+        display: none;
+    }
+/* ../../vendors/islands-specific/specific.blocks/yanalytics/yanalytics.css: end */ /**/
+
+/* ../../desktop.blocks/b-page/b-page.css: begin */ /**/
+    .b-page__body
+    {
+        min-width: 1000px;
+    
+        letter-spacing: -.02em;
+    
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+    
+        font-kerning: normal;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    .yashare-auto-init
+    {
+        text-align: center;
+    }
+    
+/* ../../desktop.blocks/b-page/b-page.css: end */ /**/
+
+/* ./blocks/b-page/b-page.css: begin */ /**/
+    .b-page__body
+    {
+        overflow: hidden;
+    
+        min-width: 0;
+    }
+    
+/* ./blocks/b-page/b-page.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/image/image.css: begin */ /**/
+    .image
+    {
+        font: 0/0 a;
+    
+        border: 0;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/image/image.css: end */ /**/
+
+/* ../../desktop.blocks/image/image.css: begin */ /**/
+    .b-link_inner_yes .image
+    {
+        margin-right: 5px;
+    
+        vertical-align: middle;
+    }
+    
+/* ../../desktop.blocks/image/image.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_protection.css: begin */ /**/
+    .image_type_protection
+    {
+        margin: 0 0 60px 0;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_protection.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_settings.css: begin */ /**/
+    .image_type_settings
+    {
+        margin: 0 0 60px 0;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_settings.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_turbo.css: begin */ /**/
+    .image_type_turbo
+    {
+        margin: 60px 0 0 0;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_turbo.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_turbo-icon.css: begin */ /**/
+    .image_type_turbo-icon
+    {
+        position: relative;
+    
+        float: right;
+    
+        margin: -63px 7px -20px -10px;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_turbo-icon.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_type/b-link_type_global.css: begin */ /**/
+    :link
+    {
+        color: #1a3dc1;
+    }
+    
+    :link:hover,
+    :visited:hover
+    {
+        color: #f00 !important;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_type/b-link_type_global.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_pseudo/b-link_pseudo_yes.css: begin */ /**/
+    .b-link_pseudo_yes
+    {
+        color: #1a3dc1;
+    }
+    
+    .i-ua_js_yes .b-link_pseudo_yes
+    {
+        text-decoration: none;
+    
+        cursor: pointer;
+    }
+    
+    .i-ua_js_yes .b-link_pseudo_yes .b-link__inner
+    {
+        text-decoration: none;
+    
+        color: inherit;
+        border-bottom: 1px dotted;
+    }
+    
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_pseudo/b-link_pseudo_yes.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_pseudo/b-link_pseudo_yes.css: begin */ /**/
+    .b-link_pseudo_yes:hover
+    {
+        color: #f00;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_pseudo/b-link_pseudo_yes.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_inner/b-link_inner_yes.css: begin */ /**/
+    .b-link_inner_yes:link,
+    .b-link_inner_yes:hover,
+    .b-link_inner_yes:visited
+    {
+        text-decoration: none;
+    }
+    
+    .b-link_inner_yes .b-link__inner
+    {
+        text-decoration: underline;
+    
+        color: inherit;
+    }
+    
+    .b-link_inner_yes .b-icon
+    {
+        vertical-align: middle;
+    
+        margin-right: 5px;
+    }
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_inner/b-link_inner_yes.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-icon/b-icon.css: begin */ /**/
+    .b-icon
+    {
+        font: 0/0 a;
+    
+        border: 0;
+    
+    }
+    
+/* ../../vendors/bem-bl/blocks-desktop/b-icon/b-icon.css: end */ /**/
+
+/* ../../desktop.blocks/i-clearfix/i-clearfix.css: begin */ /**/
+    .i-clearfix:before,
+    .i-clearfix:after
+    {
+        display: table; /* 2 */
+    
+        content: ' '; /* 1 */
+    }
+    
+    .i-clearfix:after
+    {
+        clear: both;
+    }
+    
+    /*
+    .i-clearfix {
+        *zoom: 1;
+    }
+    */
+    
+/* ../../desktop.blocks/i-clearfix/i-clearfix.css: end */ /**/
+
+/* ./blocks/b-page/_type/b-page_type_welcome-calypso.css: begin */ /**/
+    .b-page_type_welcome-calypso
+    {
+        background: #f2f2f2;
+    }
+    .b-page_type_welcome-calypso .title__text_type_done
+    {
+        color: #000;
+    }
+    .b-page_type_welcome-calypso .done .title__subtext
+    {
+        color: #000;
+    }
+    
+/* ./blocks/b-page/_type/b-page_type_welcome-calypso.css: end */ /**/
+
+/* ./blocks/b-page/_type/b-page_type_welcome-classic.css: begin */ /**/
+    .b-page_type_welcome-classic .title__text_type_done
+    {
+        color: #fff;
+    }
+    .b-page_type_welcome-classic .done .title__subtext
+    {
+        color: #fff;
+    }
+    
+/* ./blocks/b-page/_type/b-page_type_welcome-classic.css: end */ /**/
+
+/* ../../desktop.blocks/button-wrap/button-wrap.css: begin */ /**/
+    .button-wrap
+    {
+        position: relative;
+    
+        display: inline-block;
+    }
+    
+    .button-wrap .goto-full-link
+    {
+        text-align: center;
+    }
+    
+/* ../../desktop.blocks/button-wrap/button-wrap.css: end */ /**/
+
+/* ../../desktop.blocks/button-wrap/__note/button-wrap__note.css: begin */ /**/
+    .button-wrap__note
+    {
+        margin-top: 7px;
+    
+        text-align: center;
+        white-space: nowrap;
+    
+        font-size: 14px;
+        line-height: 20px;
+    
+        color: #333;
+    }
+    
+    .button-wrap__note .popup-wrap__content
+    {
+        position: relative;
+    
+        color: #addadc;
+        border-bottom: 1px dashed;
+    }
+    
+/* ../../desktop.blocks/button-wrap/__note/button-wrap__note.css: end */ /**/
+
+/* ../../desktop.blocks/button-wrap/__free/button-wrap__free.css: begin */ /**/
+    .button-wrap__free
+    {
+        position: absolute;
+        top: 50%;
+        left: 100%;
+    
+        margin-top: -2px;
+        margin-left: 10px;
+        padding: 11px 0 0 47px;
+    
+        color: #fff;
+        background: url(../../desktop.blocks/button-wrap/__free/button-wrap__free.png) 0 0 no-repeat;
+    }
+    
+    .button-wrap__free-text
+    {
+        white-space: nowrap;
+    
+        font-size: 18px;
+    
+        transform: rotate(-20deg) translate3d(5px, -20px, 0);
+    }
+    
+/* ../../desktop.blocks/button-wrap/__free/button-wrap__free.css: end */ /**/
+
+/* ../../desktop.blocks/button-wrap/__wrap/button-wrap__wrap.css: begin */ /**/
+    .button-wrap__wrap
+    {
+        position: relative;
+    }
+    
+/* ../../desktop.blocks/button-wrap/__wrap/button-wrap__wrap.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/promo-button.css: begin */ /**/
+    .promo-button
+    {
+        font-family: 'Arial', sans-serif;
+    
+        position: relative;
+    
+        display: inline-block;
+    
+        cursor: pointer;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+        text-align: center;
+        text-decoration: none !important;
+    
+        border: none;
+        outline: 0;
+        background: -webkit-linear-gradient(top, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background:    -moz-linear-gradient(top, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background:      -o-linear-gradient(top, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background:         linear-gradient(to bottom, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background-color: #f9c400;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, .36);
+    }
+    
+    .promo-button::-moz-focus-inner
+    {
+        padding: 0;
+    
+        border: 0;
+    }
+    
+    @media all and (min-width: 0)
+    {
+        .promo-button:before
+        {
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            bottom: 1px;
+            left: 1px;
+    
+            content: '';
+    
+            background:    -moz-linear-gradient(top, #ffe34a 0%, #ffdb03 100%);
+            background: -webkit-linear-gradient(top, #ffe34a 0%, #ffdb03 100%);
+            background:      -o-linear-gradient(top, #ffe34a 0%, #ffdb03 100%);
+            background:         linear-gradient(to bottom, #ffe34a 0%, #ffdb03 100%);
+            -webkit-box-shadow: inset 0 -.085em 0 0 rgba(102, 52, 0, .20), inset 0 0 3px 0 rgba(254, 255, 187, .5);
+                    box-shadow: inset 0 -.085em 0 0 rgba(102, 52, 0, .20), inset 0 0 3px 0 rgba(254, 255, 187, .5);
+        }
+    
+        .promo-button_hovered_yes:before
+        {
+            background:    -moz-linear-gradient(top, #ffe86a 0%, #ffe130 100%);
+            background: -webkit-linear-gradient(top, #ffe86a 0%, #ffe130 100%);
+            background:      -o-linear-gradient(top, #ffe86a 0%, #ffdb03 100%);
+            background:         linear-gradient(to bottom, #ffe86a 0%, #ffe130 100%);
+        }
+    }
+    
+/* ../../vendors/islands-promo/common.blocks/promo-button/promo-button.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/promo-button.css: begin */ /**/
+    .promo-button
+    {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+    }
+    
+/* ../../desktop.blocks/promo-button/promo-button.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/__text/promo-button__text.css: begin */ /**/
+    .promo-button__text
+    {
+        position: relative;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/__text/promo-button__text.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_unsupported/promo-button_unsupported.css: begin */ /**/
+    .promo-button_unsupported:before
+    {
+        background: #fcf9d1 !important;
+    }
+    
+    .promo-button_unsupported
+    {
+        opacity: 1;
+        background: #fcf9d1 !important;
+    }
+    
+    .promo-button_unsupported .promo-button__text
+    {
+        opacity: .33;
+        color: #000;
+    }
+    
+/* ../../desktop.blocks/promo-button/_unsupported/promo-button_unsupported.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/_size/promo-button_size_l.css: begin */ /**/
+    .promo-button_size_l
+    {
+        font-size: 30px;
+        line-height: 58px;
+    
+        height: 60px;
+        padding: 0 36px;
+    }
+    
+    .promo-button_size_l,
+    a.promo-button_size_l.promo-button_hovered_yes
+    {
+        color: #473e09 !important;
+    }
+    
+    .promo-button_size_l,
+    .promo-button_size_l:before
+    {
+        border-radius: 6px;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/_size/promo-button_size_l.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/_size/promo-button_size_m.css: begin */ /**/
+    .promo-button_size_m
+    {
+        font-size: 24px;
+        line-height: 48px;
+    
+        height: 50px;
+        padding: 0 27px;
+    }
+    
+    .promo-button_size_m,
+    a.promo-button_size_m.promo-button_hovered_yes
+    {
+        color: #473e09 !important;
+    }
+    
+    .promo-button_size_m,
+    .promo-button_size_m:before
+    {
+        border-radius: 4px;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/_size/promo-button_size_m.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_size/promo-button_size_m.css: begin */ /**/
+    .promo-button_size_m
+    {
+        line-height: 47px;
+    }
+    
+/* ../../desktop.blocks/promo-button/_size/promo-button_size_m.css: end */ /**/
+
+/* ./blocks/promo-button/_size/promo-button_size_m.css: begin */ /**/
+    .promo-button_size_m
+    {
+        height: 62px;
+    
+        letter-spacing: -.03em;
+        word-spacing: 1px;
+    
+        font-size: 14px;
+        font-weight: 600;
+    
+        border-radius: 0;
+        background: #fc0;
+    }
+    
+    .promo-button_size_m
+    {
+        color: #000!important;
+    }
+    .promo-button::before
+    {
+        display: none;
+    
+        background: none;
+        box-shadow: none;
+    }
+    .promo-page_welcome_classic .promo-button_size_m
+    {
+        padding: 0 58px 0 58px;
+    }
+    
+    .promo-page_welcome_calypso .promo-button_size_m
+    {
+        padding: 0 70px 0 70px;
+    }
+    
+/* ./blocks/promo-button/_size/promo-button_size_m.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/_theme/promo-button_theme_flying.css: begin */ /**/
+    .promo-button_theme_flying
+    {
+        -webkit-box-shadow: 0 0 1px 0 #ffffff, 0 9px 18px 0 rgba(153, 120, 46, 0.36);
+        box-shadow: 0 0 1px 0 #ffffff, 0 9px 18px 0 rgba(153, 120, 46, 0.36);
+    }
+    
+    .promo-button_theme_flying.promo-button_pressed_yes
+    {
+        -webkit-box-shadow: 0 0 1px 0 #ffffff, 0 3px 9px 0 rgba(153, 120, 46, 0.36);
+        box-shadow: 0 0 1px 0 #ffffff, 0 3px 9px 0 rgba(153, 120, 46, 0.36);
+    }
+    
+    .promo-button_theme_flying.promo-button_pressed_yes .promo-button__text
+    {
+        top: 3px;
+    }
+    
+    @media all and (min-width: 0)
+    {
+        .promo-button_theme_flying.promo-button_pressed_yes .promo-button__text
+        {
+            top: auto;
+        }
+    
+        .promo-button_theme_flying.promo-button_pressed_yes
+        {
+            -webkit-transform: translateY(2px);
+            -moz-transform: translateY(2px);
+            -ms-transform: translateY(2px);
+            -o-transform: translateY(2px);
+            transform: translateY(2px);
+        }
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/_theme/promo-button_theme_flying.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_welcome/promo-button_welcome_true.css: begin */ /**/
+    .promo-button_welcome_true
+    {
+        margin: 28px 0;
+    }
+    
+/* ../../desktop.blocks/promo-button/_welcome/promo-button_welcome_true.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_update/promo-button_update_yes.css: begin */ /**/
+    .promo-button_update_yes
+    {
+        padding: 0 16px;
+    
+        font-size: 18px;
+    }
+    
+/* ../../desktop.blocks/promo-button/_update/promo-button_update_yes.css: end */ /**/
+
+/* ../../desktop.blocks/popup-wrap/popup-wrap.css: begin */ /**/
+    .popup-wrap
+    {
+        display: inline-block;
+    }
+    
+/* ../../desktop.blocks/popup-wrap/popup-wrap.css: end */ /**/
+
+/* ../../desktop.blocks/popup-wrap/__type/popup-wrap__type.css: begin */ /**/
+    .popup-wrap__type
+    {
+        position: relative;
+    
+        display: inline-block;
+    
+        cursor: pointer;
+    
+        font-size: 17px;
+    
+        color: #fff;
+        border-bottom: 1px dashed;
+    }
+    
+/* ../../desktop.blocks/popup-wrap/__type/popup-wrap__type.css: end */ /**/
+
+/* ../../desktop.blocks/popup-wrap/__content/popup-wrap__content.css: begin */ /**/
+    .popup-wrap__content
+    {
+        position: relative;
+    
+        margin: 2px 0;
+    
+        cursor: pointer;
+    }
+    
+/* ../../desktop.blocks/popup-wrap/__content/popup-wrap__content.css: end */ /**/
+
+/* ../../desktop.blocks/popup-wrap/__arrow/popup-wrap__arrow.css: begin */ /**/
+    .popup-wrap__arrow
+    {
+        position: absolute;
+        top: 50%;
+        left: 100%;
+    
+        display: inline-block;
+    
+        width: 7px;
+        height: 5px;
+        margin-top: -2px;
+        margin-left: 5px;
+    
+        background: url(../../desktop.blocks/popup-wrap/__arrow/popup-wrap__arrow.png) 0 50% no-repeat;
+    }
+    
+    .button-wrap__note_color_black .popup-wrap__arrow,
+    .popup-wrap_color_black .popup-wrap__arrow
+    {
+        background: url(../../desktop.blocks/popup-wrap/__arrow/popup-wrap__arrow_black.png) 0 50% no-repeat;
+    }
+    
+    .b-page_type_com .popup-wrap_color_black .popup-wrap__arrow
+    {
+        background: url(../../desktop.blocks/popup-wrap/__arrow/popup-wrap__arrow.png) 0 50% no-repeat;
+    }
+    
+/* ../../desktop.blocks/popup-wrap/__arrow/popup-wrap__arrow.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/popup.css: begin */ /**/
+    .popup
+    {
+        position: absolute;
+        z-index: 32700;
+    
+        display: none;
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    
+        border: 1px solid transparent;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/popup.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__content/popup__content.css: begin */ /**/
+    .popup__content
+    {
+        position: relative;
+        z-index: 10;
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 4px 8px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__content/popup__content.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_theme/popup_theme_ffffff.css: begin */ /**/
+    .popup_theme_ffffff
+    {
+        border-color: rgba(0,0,0,.1);
+    }
+    
+    .popup_theme_ffffff:before
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    
+        content: '';
+    
+        -webkit-box-shadow: 0 10px 20px -4px rgba(0,0,0,.4);
+                box-shadow: 0 10px 20px -4px rgba(0,0,0,.4);
+    }
+    
+    .popup_theme_ffffff:before,
+    .popup_theme_ffffff .popup__tail:after
+    {
+        background: #fff;
+    }
+    
+    .popup_theme_ffffff .popup__tail
+    {
+        background: rgba(0,0,0,.1);
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, rgba(0,0,0,.1)), color-stop(50%, rgba(0,0,0,0)));
+        background: -webkit-linear-gradient(bottom left, rgba(0,0,0,.1) 50%, rgba(0,0,0,0) 50%);
+        background:         linear-gradient(to top right, rgba(0,0,0,.1) 50%, rgba(0,0,0,0) 50%);
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_theme/popup_theme_ffffff.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_visible.css: begin */ /**/
+    .popup_visibility_visible
+    {
+        display: block;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_visible.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_outside.css: begin */ /**/
+    .popup_visibility_outside
+    {
+        top: -99999px;
+        left: -99999px;
+    
+        display: block;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_outside.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__under/popup__under.css: begin */ /**/
+    .popup__under
+    {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    
+        border: 0;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__under/popup__under.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__under/_color/popup__under_color_white.css: begin */ /**/
+    .popup__under_color_white
+    {
+        opacity: .8;
+        background: #fff;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__under/_color/popup__under_color_white.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__under/_type/popup__under_type_paranja.css: begin */ /**/
+    .popup__under_type_paranja
+    {
+        position: fixed;
+        z-index: 32000;
+        top: 0;
+        left: 0;
+    
+        padding: 0;
+    
+        opacity: .3;
+        background: #000;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__under/_type/popup__under_type_paranja.css: end */ /**/
+
+/* ../../vendors/islands-specific/specific.blocks/popup/__wrapper/popup__wrapper.css: begin */ /**/
+    .popup__wrapper
+    {
+        display: block;
+    }
+/* ../../vendors/islands-specific/specific.blocks/popup/__wrapper/popup__wrapper.css: end */ /**/
+
+/* ../../desktop.blocks/popup/_name/popup_name_sms-form-popup.css: begin */ /**/
+    .popup_name_sms-form-popup
+    {
+        width: 500px;
+    }
+    .popup_name_sms-form-popup .popup__content
+    {
+        padding: 10px 20px;
+        line-height: 20px;
+    }
+    .popup_name_sms-form-popup .popup__content h1
+    {
+        line-height: 30px;
+    }
+    
+/* ../../desktop.blocks/popup/_name/popup_name_sms-form-popup.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__tail/popup__tail.css: begin */ /**/
+    .popup__tail
+    {
+        position: absolute;
+        z-index: 9;
+    
+        display: block;
+    
+        width: 17px;
+        height: 17px;
+    
+        font: 0/0 a;
+    }
+    
+    .popup__tail:after
+    {
+        position: absolute;
+        bottom: 1px;
+        left: 1px;
+    
+        width: 17px;
+        height: 17px;
+    
+        content: '';
+    }
+    
+    .popup_to_top .popup__tail
+    {
+        bottom: -18px; /* ширина хвостика + 1px бордер */
+    
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        -webkit-transform-origin: top left;
+            -ms-transform-origin: top left;
+                transform-origin: top left;
+    }
+    
+    .popup_to_left .popup__tail
+    {
+        right: -18px;
+    
+        margin-top: 24.04px; /* 17 * sqrt(2)*/
+    
+        -webkit-transform: rotate(-135deg);
+            -ms-transform: rotate(-135deg);
+                transform: rotate(-135deg);
+        -webkit-transform-origin: top left;
+            -ms-transform-origin: top left;
+                transform-origin: top left;
+    }
+    
+    .popup_to_bottom .popup__tail
+    {
+        top: -18px;
+    
+        margin-left: -17px;
+    
+        -webkit-transform: rotate(135deg);
+            -ms-transform: rotate(135deg);
+                transform: rotate(135deg);
+        -webkit-transform-origin: 100% 100%;
+            -ms-transform-origin: 100% 100%;
+                transform-origin: 100% 100%;
+    }
+    
+    .popup_to_right .popup__tail
+    {
+        left: -18px;
+    
+        margin-top: 7.04px; /* ( 17*sqrt(2) - 17) */
+    
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+        -webkit-transform-origin: 100% 100%;
+            -ms-transform-origin: 100% 100%;
+                transform-origin: 100% 100%;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__tail/popup__tail.css: end */ /**/
+
+/* ../../desktop.blocks/popup/__license/popup__license.css: begin */ /**/
+    .popup__license
+    {
+        width: 200px;
+        margin: 10px 0 3px;
+    }
+    
+    .popup__license,
+    .popup__license .b-link
+    {
+        font-size: 12px !important;
+        line-height: 14px !important;
+    
+        color: #666;
+    }
+    
+/* ../../desktop.blocks/popup/__license/popup__license.css: end */ /**/
+
+/* ../../desktop.blocks/popup/_name/popup_name_alternate-os.css: begin */ /**/
+    .popup_name_alternate-os
+    {
+        padding: 4px 8px;
+    }
+    
+    .popup_name_alternate-os .b-link
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+/* ../../desktop.blocks/popup/_name/popup_name_alternate-os.css: end */ /**/
+
+/* ../../desktop.blocks/popup/_name/popup_name_alternate-linux-versions.css: begin */ /**/
+    .popup_name_alternate-linux-versions
+    {
+        border-radius: 6px;
+    }
+    
+    .popup_name_alternate-linux-versions .popup__content
+    {
+        width: 256px;
+        min-width: 256px !important;
+        max-width: 256px !important;
+        padding: 18px;
+    
+        font-size: 14px;
+        line-height: 18px;
+    
+        color: #666;
+        border-radius: 5px;
+    }
+    
+    .popup_name_alternate-linux-versions .popup__content .b-link:link,
+    .popup_name_alternate-linux-versions .popup__content .b-link:visited
+    {
+        text-decoration: none;
+    
+        color: #719bd9;
+    }
+    
+    .popup_name_alternate-linux-versions .popup__content .b-link:hover,
+    .popup_name_alternate-linux-versions .popup__content .b-link:active
+    {
+        color: #f00;
+    }
+    
+    .popup_name_alternate-linux-versions .license-agreement
+    {
+        margin-top: 10px;
+    }
+    
+/* ../../desktop.blocks/popup/_name/popup_name_alternate-linux-versions.css: end */ /**/
+
+/* ../../vendors/islands-promo/desktop.blocks/grid/grid.css: begin */ /**/
+    .grid
+    {
+        position: relative;
+    
+        margin:  0 -9px;
+    }
+/* ../../vendors/islands-promo/desktop.blocks/grid/grid.css: end */ /**/
+
+/* ../../desktop.blocks/grid/grid.css: begin */ /**/
+    .grid
+    {
+        margin: 0;
+        padding: 0 8px;
+    }
+    
+/* ../../desktop.blocks/grid/grid.css: end */ /**/
+
+/* ./blocks/grid/grid.css: begin */ /**/
+    .grid
+    {
+        padding: 0;
+    }
+    
+/* ./blocks/grid/grid.css: end */ /**/
+
+/* ../../vendors/islands-promo/desktop.blocks/grid/__row/grid__row.css: begin */ /**/
+    .grid__row
+    {
+        padding-right: 58.33%;
+    
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+/* ../../vendors/islands-promo/desktop.blocks/grid/__row/grid__row.css: end */ /**/
+
+/* ../../vendors/islands-promo/desktop.blocks/grid/__cell/grid__cell.css: begin */ /**/
+    .grid__cell
+    {
+        float: left;
+        position: relative;
+    }
+    
+    .grid__cell-inner
+    {
+        padding: 0 9px;
+    }
+/* ../../vendors/islands-promo/desktop.blocks/grid/__cell/grid__cell.css: end */ /**/
+
+/* ../../desktop.blocks/grid/__cell/grid__cell.css: begin */ /**/
+    .grid__cell-inner
+    {
+        padding: 0 8px;
+    }
+    
+/* ../../desktop.blocks/grid/__cell/grid__cell.css: end */ /**/
+
+/* ../../vendors/islands-promo/desktop.blocks/grid/__cell/_size/grid__cell_size.css: begin */ /**/
+    .grid__cell_size_1
+    {
+        margin-right: -20%;
+        width: 20%;
+    }
+    
+    .grid__cell_size_2
+    {
+        margin-right: -40%;
+        width: 40%;
+    }
+    
+    .grid__cell_size_3
+    {
+        margin-right: -60%;
+        width: 60%;
+    }
+    
+    .grid__cell_size_4
+    {
+        margin-right: -80%;
+        width: 80%;
+    }
+    
+    .grid__cell_size_5
+    {
+        margin-right: -100%;
+        width: 100%;
+    }
+    
+    .grid__cell_size_6
+    {
+        margin-right: -120%;
+        width: 120%;
+    }
+    
+    .grid__cell_size_7
+    {
+        margin-right: -140%;
+        width: 140%;
+    }
+    
+    .grid__cell_size_8
+    {
+        margin-right: -160%;
+        width: 160%;
+    }
+    
+    .grid__cell_size_9
+    {
+        margin-right: -180%;
+        width: 180%;
+    }
+    
+    .grid__cell_size_10
+    {
+        margin-right: -200%;
+        width: 200%;
+    }
+    
+    .grid__cell_size_11
+    {
+        margin-right: -220%;
+        width: 220%;
+    }
+    
+    .grid__cell_size_12
+    {
+        margin-right: -240%;
+        width: 240%;
+    }
+/* ../../vendors/islands-promo/desktop.blocks/grid/__cell/_size/grid__cell_size.css: end */ /**/
+
+/* ../../vendors/islands-promo/desktop.blocks/grid/__cell/_pos/grid__cell_pos.css: begin */ /**/
+    .grid__cell_pos_1
+    {
+        left: 0;
+    }
+    
+    .grid__cell_pos_2
+    {
+        left: 20%;
+    }
+    
+    .grid__cell_pos_3
+    {
+        left: 40%;
+    }
+    
+    .grid__cell_pos_4
+    {
+        left: 60%;
+    }
+    
+    .grid__cell_pos_5
+    {
+        left: 80%;
+    }
+    
+    .grid__cell_pos_6
+    {
+        left: 100%;
+    }
+    
+    .grid__cell_pos_7
+    {
+        left: 120%;
+    }
+    
+    .grid__cell_pos_8
+    {
+        left: 140%;
+    }
+    
+    .grid__cell_pos_9
+    {
+        left: 160%;
+    }
+    
+    .grid__cell_pos_10
+    {
+        left: 180%;
+    }
+    
+    .grid__cell_pos_11
+    {
+        left: 200%;
+    }
+    
+    .grid__cell_pos_12
+    {
+        left: 220%;
+    }
+/* ../../vendors/islands-promo/desktop.blocks/grid/__cell/_pos/grid__cell_pos.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/link/link.css: begin */ /**/
+    .link,
+    .link:visited
+    {
+        color: #22c;
+    }
+    
+    .link
+    {
+        text-decoration: none;
+    
+        -webkit-transition: color .15s ease-out;
+                transition: color .15s ease-out;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/link/link.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/link/link.css: begin */ /**/
+    .link:hover,
+    .link:visited:hover
+    {
+        color: #d00 !important; /* Оторвать !important после того, как оторвем .i-global__hover */
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/link/link.css: end */ /**/
+
+/* ../../desktop.blocks/link/link.css: begin */ /**/
+    .link
+    {
+        cursor: pointer;
+        text-decoration: none;
+    
+        color: #0f6fb3;
+    
+        transition: color .15s ease-out;
+    }
+    
+    .link_type_attention:link,
+    .link_type_attention:visited
+    {
+        text-decoration: underline;
+    
+        color: #f00 !important;
+    }
+    
+    .link_type_attention:hover:link,
+    .link_type_attention:hover:visited
+    {
+        color: #0f6fb3 !important;
+    }
+    
+/* ../../desktop.blocks/link/link.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/link/_disabled/link_disabled_yes.css: begin */ /**/
+    .link_disabled_yes,
+    .link_disabled_yes:hover,
+    .link_disabled_yes:hover .link__inner,
+    a.link_disabled_yes:link,
+    a.link_disabled_yes:visited
+    {
+        cursor: default !important;
+    
+        color: #ddd !important;
+        outline: 0;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/link/_disabled/link_disabled_yes.css: end */ /**/
+
+/* ./blocks/promo-button/_type/promo-button_type_unreachable.css: begin */ /**/
+    .promo-button_type_unreachable
+    {
+        cursor: text;
+    }
+    .promo-page_welcome_classic .promo-button_type_unreachable
+    {
+        padding: 0 85px 0 87px;
+    
+        color: rgba(255,255,255, .5)!important;
+        background: rgba(255,255,255, .1);
+    }
+    .promo-page_welcome_calypso .promo-button_type_unreachable
+    {
+        padding: 0 68px 0 68px;
+    
+        color: #a3a3a3!important;
+        background: #d9d9d9;
+    }
+    
+/* ./blocks/promo-button/_type/promo-button_type_unreachable.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-page/promo-page.css: begin */ /**/
+    html, body
+    {
+        height: 100%;
+        padding: 0;
+    }
+    
+    .promo-page
+    {
+        position: relative;
+    
+        min-width: 954px; /* 918 + 18 * 2 */
+        min-height: 100%;
+    
+        border: solid #ffffff;
+        border-width: 0 18px;
+        background-color: #f6f5f3;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-page/promo-page.css: end */ /**/
+
+/* ../../desktop.blocks/promo-page/promo-page.css: begin */ /**/
+    .promo-page
+    {
+        padding: 0;
+    }
+    
+/* ../../desktop.blocks/promo-page/promo-page.css: end */ /**/
+
+/* ./blocks/promo-page/promo-page.css: begin */ /**/
+    .promo-page
+    {
+        min-width: 0;
+        max-width: 100%;
+        margin: 0 auto;
+    
+        border-color: #eaeaea;
+    }
+    
+/* ./blocks/promo-page/promo-page.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-page/__padder/promo-page__padder.css: begin */ /**/
+    .promo-page__padder
+    {
+        height: 18px;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-page/__padder/promo-page__padder.css: end */ /**/
+
+/* ./blocks/promo-page/__padder/promo-page__padder.css: begin */ /**/
+    .promo-page__padder
+    {
+        display: none;
+    }
+    
+/* ./blocks/promo-page/__padder/promo-page__padder.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-page/__border/promo-page__border.css: begin */ /**/
+    .promo-page__border
+    {
+        position: absolute;
+    
+        background-color: #ffffff;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-page/__border/promo-page__border.css: end */ /**/
+
+/* ./blocks/promo-page/__border/promo-page__border.css: begin */ /**/
+    .promo-page__border
+    {
+        display: none;
+    }
+    
+/* ./blocks/promo-page/__border/promo-page__border.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-page/__border/_position/promo-page__border_position_top.css: begin */ /**/
+    .promo-page__border_position_top
+    {
+        top: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 18px;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-page/__border/_position/promo-page__border_position_top.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-page/__border/_position/promo-page__border_position_bottom.css: begin */ /**/
+    .promo-page__border_position_bottom
+    {
+        bottom: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 18px;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-page/__border/_position/promo-page__border_position_bottom.css: end */ /**/
+
+/* ./blocks/promo-page/_welcome/promo-page_welcome_classic.css: begin */ /**/
+    .promo-page_welcome_classic
+    {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        min-width: 600px;
+        height: auto;
+        min-height: 100%;
+    
+        border: none;
+        background: none;
+    }
+    
+/* ./blocks/promo-page/_welcome/promo-page_welcome_classic.css: end */ /**/
+
+/* ./blocks/promo-page/_welcome/promo-page_welcome_calypso.css: begin */ /**/
+    .promo-page_welcome_calypso
+    {
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+    
+        border: none;
+        background: #f2f2f2;
+    }
+    
+/* ./blocks/promo-page/_welcome/promo-page_welcome_calypso.css: end */ /**/
+
+/* ./blocks/promo-page/_type/promo-page_type_done.css: begin */ /**/
+    .promo-page_type_done .image_type_protect,
+    .promo-page_type_done .grid,
+    .promo-page_type_done .header2__nav
+    {
+        display: none;
+    }
+    .promo-page_type_done.promo-page_welcome_calypso .image_type_protect
+    {
+        display: block;
+    }
+    
+/* ./blocks/promo-page/_type/promo-page_type_done.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-page/__section/promo-page__section.css: begin */ /**/
+    .promo-page__section
+    {
+        position: relative;
+    
+        max-width: 918px;
+        margin: 0 auto;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-page/__section/promo-page__section.css: end */ /**/
+
+/* ./blocks/promo-page/__section/promo-page__section.css: begin */ /**/
+    .promo-page__section
+    {
+        min-width: 0;
+        max-width: 1255px;
+    }
+    
+/* ./blocks/promo-page/__section/promo-page__section.css: end */ /**/
+
+/* ./blocks/promo-page/__section/_align/promo-page__section_align_middle.css: begin */ /**/
+    .promo-page__section_align_middle
+    {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+    
+        flex: 1 0 auto;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .promo-page__section_align_middle > .grid
+    {
+        width: 100%;
+    
+        align-self: center;
+    }
+    
+    .promo-page__section_align_middle
+    {
+        padding: 105px 30px;
+    }
+    
+/* ./blocks/promo-page/__section/_align/promo-page__section_align_middle.css: end */ /**/
+
+/* ./blocks/promo-page/__section/_align/promo-page__section_align_bottom.css: begin */ /**/
+    .promo-page__section_align_bottom
+    {
+        display: flex;
+    
+        flex: 0 1 auto;
+        align-self: stretch;
+    }
+    
+/* ./blocks/promo-page/__section/_align/promo-page__section_align_bottom.css: end */ /**/
+
+/* ../../vendors/islands-specific/specific.blocks/survey/survey.css: begin */ /**/
+    .survey
+    {
+        transition: height .3s ease-out;
+    }
+/* ../../vendors/islands-specific/specific.blocks/survey/survey.css: end */ /**/
+
+/* ../../vendors/islands-specific/specific.blocks/survey/__spinner/survey__spinner.css: begin */ /**/
+    .survey__spinner
+    {
+        text-align: center;
+    }
+/* ../../vendors/islands-specific/specific.blocks/survey/__spinner/survey__spinner.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/spin2/spin2.css: begin */ /**/
+    .spin2
+    {
+        display: none;
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    
+        border: 2px solid transparent;
+        border-radius: 100px; /* На android 2.3 border-radius в % не поддерживается */
+        /*
+         * Поддержка CSS анимаций и CSS градиентов у основных браузеров совпадает
+         * Если браузер не поддерживает градиенты, будет показана gif-анимация
+         */
+        background-image: url(../../vendors/islands-components/common.blocks/spin2/spin2.gif);
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+        background-image:         linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    }
+    
+    /* Для правильного позиционирования прелоадера относительно baseline */
+    .spin2:after
+    {
+        visibility: hidden;
+    
+        content: '\00A0'; /* &nbsp; */
+    }
+    
+/* ../../vendors/islands-components/common.blocks/spin2/spin2.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/spin2/spin2.css: begin */ /**/
+    /* При использовании display:none в Opera 12 ломается анимация */
+    noindex:-o-prefocus, .spin2
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        display: inline-block;
+        visibility: hidden;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/spin2/spin2.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/spin2/_progress/spin2_progress_yes.css: begin */ /**/
+    .spin2_progress_yes
+    {
+        display: inline-block;
+    
+        -webkit-animation: islands-spin2 1s infinite linear;
+                animation: islands-spin2 1s infinite linear;
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;  /* Для ускорения анимации */
+    }
+    
+    @-webkit-keyframes islands-spin2
+    {
+        from
+        {
+            border-top-color: #fc0;
+            border-left-color: #fc0;
+    
+            -webkit-transform: rotate(0deg);
+                    transform: rotate(0deg);
+        }
+        to
+        {
+            border-top-color: #fc0;
+            border-left-color: #fc0;
+    
+            -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg);
+        }
+    }
+    
+    @keyframes islands-spin2
+    {
+        from
+        {
+            border-top-color: #fc0;
+            border-left-color: #fc0;
+    
+            -webkit-transform: rotate(0deg);
+                    transform: rotate(0deg);
+        }
+        to
+        {
+            border-top-color: #fc0;
+            border-left-color: #fc0;
+    
+            -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg);
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/spin2/_progress/spin2_progress_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/spin2/_progress/spin2_progress_yes.css: begin */ /**/
+    /* При использовании display:none в Opera 12 ломается анимация */
+    noindex:-o-prefocus, .spin2_progress_yes
+    {
+        position: static;
+    
+        visibility: visible;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/spin2/_progress/spin2_progress_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/spin2/_size/spin2_size_m.css: begin */ /**/
+    .spin2_size_m
+    {
+        width: 32px;
+        height: 32px;
+    
+        font-size: 15px;
+        line-height: 28px;
+    
+        background-position: -2px -73px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/spin2/_size/spin2_size_m.css: end */ /**/
+
+/* ./blocks/survey/_type/survey_type_feedback.css: begin */ /**/
+    .survey_type_feedback
+    {
+        width: 476px;
+        margin: 20px auto 0;
+        padding: 30px 36px;
+    
+        border-radius: 13px;
+        background: #fff;
+        box-shadow: 0 21px 69px rgba(0,0,0,.3);
+    }
+    
+/* ./blocks/survey/_type/survey_type_feedback.css: end */ /**/
+
+/* ../../desktop.blocks/title/title.css: begin */ /**/
+    .title
+    {
+        margin: 71px 0 4px 0;
+    }
+    
+    .title__inner
+    {
+        margin: 0;
+    
+        font-size: 30px;
+        font-weight: 400;
+    
+        color: #333;
+    }
+    
+/* ../../desktop.blocks/title/title.css: end */ /**/
+
+/* ./blocks/title/title.css: begin */ /**/
+    .title
+    {
+        position: relative;
+        z-index: 10;
+    
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    
+    .title__inner
+    {
+        text-align: center;
+    }
+    
+/* ./blocks/title/title.css: end */ /**/
+
+/* ../../desktop.blocks/title/_type/title_type_thankyou.css: begin */ /**/
+    .title_type_thankyou
+    {
+        margin: 0 16px 4px;
+    }
+    
+/* ../../desktop.blocks/title/_type/title_type_thankyou.css: end */ /**/
+
+/* ../../desktop.blocks/title/_color/title_color_ffffff.css: begin */ /**/
+    .title_color_ffffff .title__inner
+    {
+        color: #fff;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, .36);
+    }
+    
+/* ../../desktop.blocks/title/_color/title_color_ffffff.css: end */ /**/
+
+/* ./blocks/title/_type/title_type_classic.css: begin */ /**/
+    .title_type_classic .title__text
+    {
+        color: #fff;
+    }
+    .title_type_classic .title__subtext
+    {
+        color: #fff;
+    }
+    
+/* ./blocks/title/_type/title_type_classic.css: end */ /**/
+
+/* ./blocks/title/_type/title_type_calypso.css: begin */ /**/
+    .title_type_calypso .title__text
+    {
+        color: #000;
+    }
+    .title_type_calypso .title__subtext
+    {
+        color: #000;
+    }
+    
+/* ./blocks/title/_type/title_type_calypso.css: end */ /**/
+
+/* ./blocks/title/_show/title_show_no.css: begin */ /**/
+    .title_show_no
+    {
+        display: none;
+    
+        pointer-events: none;
+    }
+    
+/* ./blocks/title/_show/title_show_no.css: end */ /**/
+
+/* ./blocks/title/__text/title__text.css: begin */ /**/
+    .title__text
+    {
+        margin-bottom: 15px;
+    
+        vertical-align: middle;
+    
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+        font-size: 29px;
+        font-weight: 500;
+        line-height: 1.4em;
+    }
+    
+/* ./blocks/title/__text/title__text.css: end */ /**/
+
+/* ./blocks/title/__subtext/title__subtext.css: begin */ /**/
+    .title__subtext
+    {
+        max-width: 630px;
+        margin: 0 auto 35px;
+    
+        font-size: 16px;
+        line-height: 23px;
+    }
+    
+    
+    .done .title__subtext
+    {
+        font-weight: 600;
+    }
+    
+/* ./blocks/title/__subtext/title__subtext.css: end */ /**/
+
+/* ./blocks/title/__text/_type/title__text_type_done.css: begin */ /**/
+    
+/* ./blocks/title/__text/_type/title__text_type_done.css: end */ /**/
+
+/* ../../vendors/islands-page/common.blocks/header2/header2.css: begin */ /**/
+    .header2
+    {
+        position: relative;
+        z-index: 100;
+    
+        min-width: 1000px;
+    }
+    
+/* ../../vendors/islands-page/common.blocks/header2/header2.css: end */ /**/
+
+/* ./blocks/header2/header2.css: begin */ /**/
+    .header2
+    {
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+    
+        min-width: inherit;
+        height: 70px;
+    }
+    
+    .header2__middle
+    {
+        vertical-align: middle;
+    }
+    
+    .header2__middle .header2__middle-wrap
+    {
+        margin-top: 0;
+    }
+    
+    .header2__arrow
+    {
+        display: table-cell;
+    
+        height: 70px;
+    
+        vertical-align: middle;
+    }
+    
+/* ./blocks/header2/header2.css: end */ /**/
+
+/* ../../vendors/islands-page/common.blocks/header2/__main/header2__main.css: begin */ /**/
+    .header2__main
+    {
+        position: relative;
+        z-index: 10; /* __main должен быть выше _under и основного контента */
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        height: 70px;
+    
+        border-bottom: 1px solid rgba(0,0,0,.06);
+        background: #fff;
+    }
+    
+/* ../../vendors/islands-page/common.blocks/header2/__main/header2__main.css: end */ /**/
+
+/* ./blocks/header2/__main/header2__main.css: begin */ /**/
+    .header2__main
+    {
+        display: table;
+    
+        height: 70px;
+    
+        border-bottom: none;
+        background: none;
+    }
+    
+/* ./blocks/header2/__main/header2__main.css: end */ /**/
+
+/* ../../vendors/islands-page/common.blocks/header2/__logo/header2__logo.css: begin */ /**/
+    .header2__logo
+    {
+        display: table-cell;
+    }
+    
+    .header2__logo .link
+    {
+        position: relative;
+    
+        display: block;
+    
+        width: 130px;
+        height: 70px;
+    
+        outline: 0;
+    }
+    
+    .header2__logo .image
+    {
+        position: absolute;
+        top: 17px;
+        left: 24px;
+    
+        width: 82px;
+        height: 34px;
+    }
+    
+    .i-ua_inlinesvg_yes .header2__logo .image
+    {
+        background-image: none !important;  /* для нормальных браузеров зануляем bg-image из style */
+    }
+    
+    .i-ua_inlinesvg_no .header2__logo .image    /* для Android 2.3 показываем PNG-картинку в bg-image */
+    {
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        padding-left: 82px;
+    }
+    
+/* ../../vendors/islands-page/common.blocks/header2/__logo/header2__logo.css: end */ /**/
+
+/* ../../vendors/islands-page/common.blocks/header2/__middle/header2__middle.css: begin */ /**/
+    .header2__middle
+    {
+        display: table-cell;
+    
+        width: 100%;
+    
+        vertical-align: top;
+    }
+    
+    /* В FF position:relative нельзя применять к элементам с display:table-cell,
+     * поэтому создаём элемент-обертку и вешаем position:relative на неё
+     */
+    .header2__middle-wrap
+    {
+        position: relative;
+    
+        display: table;
+    
+        width: 100%;
+        margin-top: 19px;
+    }
+    
+/* ../../vendors/islands-page/common.blocks/header2/__middle/header2__middle.css: end */ /**/
+
+/* ../../vendors/islands-page/common.blocks/header2/__nav/header2__nav.css: begin */ /**/
+    .header2__nav
+    {
+        display: table-cell;
+    
+        text-align: right;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    
+    /* TODO унести в блок user при его рефакторинге */
+    .header2__nav .user
+    {
+        margin-right: 20px;
+        margin-left: 15px;
+    
+        vertical-align: middle;
+    }
+    
+    .header2__nav .user .user__name
+    {
+        margin-left: 10px;
+    }
+    
+/* ../../vendors/islands-page/common.blocks/header2/__nav/header2__nav.css: end */ /**/
+
+/* ./blocks/header2/__nav/header2__nav.css: begin */ /**/
+    .header2__nav .link
+    {
+        padding-right: 7px;
+    
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .header2__nav .link:hover
+    {
+        color: #222!important;
+    }
+    .promo-page_welcome_classic .header2__nav .link
+    {
+        color: #666;
+    }
+    .promo-page_welcome_calypso .header2__nav .link
+    {
+        color: #999;
+    }
+    
+/* ./blocks/header2/__nav/header2__nav.css: end */ /**/
+
+/* ./blocks/header2/__logo2/header2__logo2.css: begin */ /**/
+    .header2__logo2
+    {
+        display: table-cell;
+    }
+    .promo-page_welcome_classic .header2__logo2 .link
+    {
+        width: 55px;
+    }
+    .header2__logo2 .link
+    {
+        position: relative;
+    
+        display: block;
+    
+        width: 55px;
+        height: 70px;
+    
+        outline: 0;
+    }
+    
+    .header2__logo2 .image
+    {
+        position: absolute;
+    
+        width: 38px;
+        height: 17px;
+    }
+    
+/* ./blocks/header2/__logo2/header2__logo2.css: end */ /**/
+
+/* ./blocks/header2/__logo2/_type/header2__logo2_type_ru.css: begin */ /**/
+    .b-page_type_welcome-classic .header2__logo2_type_ru .image
+    {
+        top: 27px;
+        left: 10px;
+    
+        background-image: url('data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MjAgMzIwIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTMzIDBIOTBDNDcgMCAxMCAzMiAxMCA5NGMwIDM3IDE4IDY1IDQ5IDc5TDEgMjc3Yy0yIDMgMCA2IDMgNmgyN2MyIDAgNC0xIDUtM2w1My0xMDJoMTl2MTAyYzAgMSAxIDMgMyAzaDI0YzIgMCAzLTEgMy0zVjRjLTEtMy0yLTQtNS00em0tMjUgMTU0SDkyYy02OSAwLTY0LTEzMC0zLTEzMGgyMHYxMzB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI3NyA5NGgtMjRjLTIgMC0zIDEtMyAzdjcyaC00NFY5N2MwLTItMS0zLTMtM2gtMjNjLTIgMC0zIDEtMyAzdjE4M2MwIDIgMSAzIDMgM2gyNGMyIDAgMy0xIDMtM3YtODhoNDR2ODhjMCAyIDEgMyAzIDNoMjRjMiAwIDMtMSAzLTNWOTdjLTEtMi0yLTMtNC0zem01NDAgMTY0YzAtMS0xLTEtMi0xLTEwIDAtNzEgMjktNzEtNjcgMC00MiAxNi0xMDEgNTQtNjYgMSAxIDIgMSAzIDFzMi0xIDMtM2wxMC0xN2MxLTEgMS0yIDEtMyAwLTItMi0zLTQtNC02Ni0zMy0xMDAgMjgtMTAwIDk5IDAgOTIgNjcgMTA1IDEwNSA3NyAyLTEgMi0zIDItNGwtMS0xMnptLTE2NC03OWw0Ni04M2MxLTEgMC0zLTEtM2gtMjNjLTcgMC05IDItMTEgN3MtMzYgNzYtNDAgNzlWOTZjMC0xLTEtMy0yLTNoLTI1Yy0xIDAtMiAxLTIgM3YxODRjMCAxIDEgMyAyIDNoMjVjMiAwIDItMSAyLTN2LTk1YzMgMiA0NSA4OSA0NiA5MiAyIDQgNiA2IDExIDZoMjVjMiAwIDItMSAxLTNsLTU0LTEwMXptLTIxOSA4MGgtNWMtNiAwLTctMi03LTdWOTZjMC0yLTEtMy0yLTNoLTc3Yy0yIDAtMyAxLTMgMyAwIDQyIDEgMTEyLTI3IDE2M2gtOGMtMiAwLTMgMS0zIDN2NTVjMCAyIDIgMyAzIDNoMThjNCAwIDYtMyA2LTZ2LTMxaDgxdjM0YzAgMSAxIDMgMyAzaDIwYzIgMCA1LTIgNS02di01MmMtMS0yLTItMy00LTN6bS00MiAwaC01NmMxNi0yNiAzMS02OCAzMS0xNDJoMjV2MTQyek01MTIgODljLTQxIDAtNjAgNTEtNjAgMTA3IDAgOTIgNjQgMTA2IDEwOCA3OSAyLTEgMi0yIDItM2wtMy0xM2MwLTEtMS0yLTMtMi0xNiAwLTcyIDI4LTcyLTYzIDIwIDIgMjAgMiA4MCAyLTEtNDYtNi0xMDctNTItMTA3em0tMjcgODRjMC03MyA0OC04NyA0OC0yLTIxIDAtMzAgMC00OCAyeiIvPjwvc3ZnPgo=');
+        background-repeat: no-repeat;
+    }
+    
+    .b-page_type_welcome-calypso .header2__logo2_type_ru .image
+    {
+        top: 27px;
+        left: 10px;
+    
+        background-image: url('data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MjAgMzIwIj48cGF0aCBmaWxsPSIjMDAwIiBkPSJNMTMzIDBIOTBDNDcgMCAxMCAzMiAxMCA5NGMwIDM3IDE4IDY1IDQ5IDc5TDEgMjc3Yy0yIDMgMCA2IDMgNmgyN2MyIDAgNC0xIDUtM2w1My0xMDJoMTl2MTAyYzAgMSAxIDMgMyAzaDI0YzIgMCAzLTEgMy0zVjRjLTEtMy0yLTQtNS00em0tMjUgMTU0SDkyYy02OSAwLTY0LTEzMC0zLTEzMGgyMHYxMzB6Ii8+PHBhdGggZmlsbD0iIzAwMCIgZD0iTTI3NyA5NGgtMjRjLTIgMC0zIDEtMyAzdjcyaC00NFY5N2MwLTItMS0zLTMtM2gtMjNjLTIgMC0zIDEtMyAzdjE4M2MwIDIgMSAzIDMgM2gyNGMyIDAgMy0xIDMtM3YtODhoNDR2ODhjMCAyIDEgMyAzIDNoMjRjMiAwIDMtMSAzLTNWOTdjLTEtMi0yLTMtNC0zem01NDAgMTY0YzAtMS0xLTEtMi0xLTEwIDAtNzEgMjktNzEtNjcgMC00MiAxNi0xMDEgNTQtNjYgMSAxIDIgMSAzIDFzMi0xIDMtM2wxMC0xN2MxLTEgMS0yIDEtMyAwLTItMi0zLTQtNC02Ni0zMy0xMDAgMjgtMTAwIDk5IDAgOTIgNjcgMTA1IDEwNSA3NyAyLTEgMi0zIDItNGwtMS0xMnptLTE2NC03OWw0Ni04M2MxLTEgMC0zLTEtM2gtMjNjLTcgMC05IDItMTEgN3MtMzYgNzYtNDAgNzlWOTZjMC0xLTEtMy0yLTNoLTI1Yy0xIDAtMiAxLTIgM3YxODRjMCAxIDEgMyAyIDNoMjVjMiAwIDItMSAyLTN2LTk1YzMgMiA0NSA4OSA0NiA5MiAyIDQgNiA2IDExIDZoMjVjMiAwIDItMSAxLTNsLTU0LTEwMXptLTIxOSA4MGgtNWMtNiAwLTctMi03LTdWOTZjMC0yLTEtMy0yLTNoLTc3Yy0yIDAtMyAxLTMgMyAwIDQyIDEgMTEyLTI3IDE2M2gtOGMtMiAwLTMgMS0zIDN2NTVjMCAyIDIgMyAzIDNoMThjNCAwIDYtMyA2LTZ2LTMxaDgxdjM0YzAgMSAxIDMgMyAzaDIwYzIgMCA1LTIgNS02di01MmMtMS0yLTItMy00LTN6bS00MiAwaC01NmMxNi0yNiAzMS02OCAzMS0xNDJoMjV2MTQyek01MTIgODljLTQxIDAtNjAgNTEtNjAgMTA3IDAgOTIgNjQgMTA2IDEwOCA3OSAyLTEgMi0yIDItM2wtMy0xM2MwLTEtMS0yLTMtMi0xNiAwLTcyIDI4LTcyLTYzIDIwIDIgMjAgMiA4MCAyLTEtNDYtNi0xMDctNTItMTA3em0tMjcgODRjMC03MyA0OC04NyA0OC0yLTIxIDAtMzAgMC00OCAyeiIvPjwvc3ZnPgo=');
+        background-repeat: no-repeat;
+    }
+    
+/* ./blocks/header2/__logo2/_type/header2__logo2_type_ru.css: end */ /**/
+
+/* ./blocks/header2/__logo2/_type/header2__logo2_type_en.css: begin */ /**/
+    .promo-page_welcome_classic .header2__logo2_type_en .image
+    {
+        top: 18px;
+        left: 4px;
+    
+        background-image: url('data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9Ii00MjYgMjU5IDEwNyA0MyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAtNDI2IDI1OSAxMDcgNDM7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiNmZmY7fQ0KPC9zdHlsZT4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0tMzk4LjYsMjc1LjJjLTEuNSwwLTMuOSwwLjYtNS40LDEuM2MtMC4zLDAuMS0wLjUsMC4zLTAuNSwwLjVjMCwwLjEsMC4xLDAuMywwLjEsMC41bDEuMSwyLjMNCgljMC4xLDAuMywwLjMsMC4zLDAuNCwwLjNjMC4yLDAsMC4zLTAuMSwwLjQtMC4yYzEuNS0xLDIuNi0xLjUsMy41LTEuNWMxLjIsMCwyLDAuOCwyLjUsMS45YzAuNSwxLjEsMC42LDIuNiwwLjYsNC4zdjAuNQ0KCWMtMS0wLjYtMi42LTAuOS0zLjUtMC45Yy00LjUsMC02LjksNC4zLTYuOSw4LjhjMCw0LjksMi44LDguNSw2LjIsOC41YzEuOSwwLDMuNi0xLjEsNC44LTIuNWMwLDAsMC42LDEuNSwwLjcsMS42DQoJYzAuMSwwLjIsMC4yLDAuMiwwLjQsMC4ybDEuOCwwYzAuMiwwLDAuNC0wLjIsMC40LTAuNHYtMTQuMWMwLTMuNS0wLjItNi4xLTEuMS03LjlDLTM5NC4yLDI3Ni4yLTM5Ni4yLDI3NS4yLTM5OC42LDI3NS4yeg0KCSBNLTM5NS44LDI5N2MtMC45LDAuOS0yLDEuMy0yLjksMS4zYy0xLDAtMS43LTAuNC0yLjMtMS4zYy0wLjctMS0xLjEtMi41LTEuMS00LjJjMC0yLjcsMS01LjUsMy4xLTUuNWMxLDAsMi4yLDAuMywzLjIsMS4xDQoJTC0zOTUuOCwyOTdMLTM5NS44LDI5N3ogTS0zNzksMjc1LjZjLTIuNCwwLTUsMS44LTUsMS44di0xLjFjMC0wLjItMC4xLTAuNC0wLjMtMC40aC0zLjFjLTAuMiwwLTAuNCwwLjEtMC40LDAuNHYyNC4zDQoJYzAsMC4yLDAuMSwwLjQsMC40LDAuNGgzLjJjMC4yLDAsMC40LTAuMiwwLjQtMC40di0yMC44YzAsMCwxLjUtMC45LDMuMi0wLjljMS43LDAsMywwLjgsMywyLjZ2MTkuMmMwLDAuMiwwLjIsMC40LDAuNCwwLjRoMy4xDQoJYzAuMiwwLDAuNC0wLjIsMC40LTAuNHYtMjAuM0MtMzczLjgsMjc3LjItMzc1LjcsMjc1LjYtMzc5LDI3NS42TC0zNzksMjc1LjZ6IE0tMzU1LjIsMjYzLjNoLTMuMWMtMC4yLDAtMC40LDAuMS0wLjQsMC40VjI3Ng0KCWMtMS4yLTAuNS0yLjMtMC43LTMuMi0wLjdjLTUsMC04LjUsNC44LTguNSwxNC4xYzAsNy45LDMuNCwxMi4yLDcuOCwxMi4yYzEuOSwwLDMuNC0xLjEsNC41LTIuMWwwLjcsMS4yYzAuMSwwLjIsMC4yLDAuMywwLjQsMC4zDQoJbDEuOCwwYzAuMiwwLDAuNC0wLjIsMC40LTAuNHYtMzYuOEMtMzU0LjgsMjYzLjQtMzU0LjksMjYzLjMtMzU1LjIsMjYzLjNMLTM1NS4yLDI2My4zeiBNLTM1OC43LDI5Ny41Yy0wLjgsMC40LTEuNywwLjgtMi44LDAuOA0KCWMtMy4zLDAtNC44LTMuOS00LjgtOS43YzAtNS4xLDEuNS0xMC4yLDQuNS0xMC4yYzEsMCwyLDAuMywzLDEuMVYyOTcuNXogTS0zMTkuOCwyNzUuOGgtMi44Yy0wLjMsMC0wLjUsMC4yLTAuNSwwLjQNCgljLTAuMiwwLjUtMS4zLDMuNS0xLjgsNC44Yy0wLjMsMC45LTEuMywzLjUtMS4zLDMuNWgtMC4xYzAsMC0wLjctMS45LTEtMi44Yy0wLjMtMC44LTEuOC00LjgtMi01LjNjLTAuMS0wLjMtMC4yLTAuNS0wLjYtMC41aC0zDQoJYy0wLjMsMC0wLjUsMC40LTAuNCwwLjZjMC4xLDAuMiw0LjksMTEuMiw0LjksMTEuMnMtNS4yLDEyLjMtNS4zLDEyLjZjLTAuMiwwLjMsMCwwLjcsMC40LDAuN2gyLjdjMC41LDAsMC42LTAuMiwwLjgtMC42DQoJYzAuNC0xLjEsMC45LTIuNiwxLjgtNC45YzAuNS0xLjUsMS40LTQuMiwxLjQtNC4yaDAuMWMwLDAsMC45LDIuNywxLjMsMy42YzAuOSwyLjIsMiw1LjIsMi4xLDUuNWMwLjEsMC4zLDAuMywwLjUsMC42LDAuNWgzDQoJYzAuMywwLDAuNC0wLjMsMC4zLTAuNmMtMC4zLTAuNy0zLjItNy43LTUuMi0xMi4yYzAsMCw1LjItMTEuNCw1LjMtMTEuN0MtMzE5LjMsMjc2LjEtMzE5LjMsMjc1LjgtMzE5LjgsMjc1LjhMLTMxOS44LDI3NS44eg0KCSBNLTM0My4xLDI3NS4zYy01LjIsMC03LjcsNi44LTcuNywxNC4xYzAsNy43LDMuNiwxMiw4LjMsMTJjMi4xLDAsNC4xLTAuOCw1LjUtMS42YzAuMi0wLjEsMC4yLTAuMywwLjItMC41bC0wLjQtMS42DQoJYzAtMC4yLTAuMS0wLjMtMC40LTAuM2MtMC4xLDAtMS44LDAuNS0zLjUsMC41Yy0zLjgsMC01LjYtMy40LTUuNi03LjlWMjg5YzAsMCwxLjksMC4zLDMsMC4zaDcuMnYtMi4xDQoJQy0zMzYuNCwyNzkuNS0zMzkuMSwyNzUuMy0zNDMuMSwyNzUuM0wtMzQzLjEsMjc1LjN6IE0tMzQzLjMsMjg2LjFMLTM0My4zLDI4Ni4xYy0xLjEsMC0zLjIsMC4zLTMuMiwwLjNzMC0wLjgsMC4xLTEuNg0KCWMwLjQtNC4yLDEuNS02LjQsMy4yLTYuNGMxLjUsMCwyLjYsMi4yLDIuOCw2YzAsMC44LDAsMS43LDAsMS43Uy0zNDMuMywyODYuMS0zNDMuMywyODYuMXoiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0tNDAzLjUsMjU5LjFoLTMuNWMtMC4zLDAtMC41LDAuMi0wLjYsMC40YzAsMC4yLTUuMywxNi4zLTUuNywxNy42Yy0wLjMsMC45LTEuMiw0LjMtMS40LDUuMWwtMS44LTUNCgljLTAuNC0xLjQtNC43LTEzLjMtNC44LTEzLjhjLTAuMS0wLjMtMC4yLTAuNi0wLjYtMC42aC0zLjVjLTAuMywwLTAuNSwwLjQtMC40LDAuNmMwLjEsMC4yLDYuMywxNi44LDguOSwyMy4ydjE0DQoJYzAsMC4zLDAuMSwwLjQsMC40LDAuNGgzLjNjMC4yLDAsMC40LTAuMiwwLjQtMC40di0xMy45YzIuMS01LjksOS44LTI2LjgsOS45LTI3Qy00MDMuMSwyNTkuNC00MDMuMSwyNTkuMS00MDMuNSwyNTkuMQ0KCUwtNDAzLjUsMjU5LjF6Ii8+DQo8L3N2Zz4NCg==')!important;
+        background-repeat: no-repeat;
+    }
+    
+    .promo-page_welcome_calypso .header2__logo2_type_en .image
+    {
+        top: 18px;
+    
+        background-image: url('data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9Ii00MjYgMjU5IDEwNyA0MyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAtNDI2IDI1OSAxMDcgNDM7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiNmZmY7fQ0KPC9zdHlsZT4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0tMzk4LjYsMjc1LjJjLTEuNSwwLTMuOSwwLjYtNS40LDEuM2MtMC4zLDAuMS0wLjUsMC4zLTAuNSwwLjVjMCwwLjEsMC4xLDAuMywwLjEsMC41bDEuMSwyLjMNCgljMC4xLDAuMywwLjMsMC4zLDAuNCwwLjNjMC4yLDAsMC4zLTAuMSwwLjQtMC4yYzEuNS0xLDIuNi0xLjUsMy41LTEuNWMxLjIsMCwyLDAuOCwyLjUsMS45YzAuNSwxLjEsMC42LDIuNiwwLjYsNC4zdjAuNQ0KCWMtMS0wLjYtMi42LTAuOS0zLjUtMC45Yy00LjUsMC02LjksNC4zLTYuOSw4LjhjMCw0LjksMi44LDguNSw2LjIsOC41YzEuOSwwLDMuNi0xLjEsNC44LTIuNWMwLDAsMC42LDEuNSwwLjcsMS42DQoJYzAuMSwwLjIsMC4yLDAuMiwwLjQsMC4ybDEuOCwwYzAuMiwwLDAuNC0wLjIsMC40LTAuNHYtMTQuMWMwLTMuNS0wLjItNi4xLTEuMS03LjlDLTM5NC4yLDI3Ni4yLTM5Ni4yLDI3NS4yLTM5OC42LDI3NS4yeg0KCSBNLTM5NS44LDI5N2MtMC45LDAuOS0yLDEuMy0yLjksMS4zYy0xLDAtMS43LTAuNC0yLjMtMS4zYy0wLjctMS0xLjEtMi41LTEuMS00LjJjMC0yLjcsMS01LjUsMy4xLTUuNWMxLDAsMi4yLDAuMywzLjIsMS4xDQoJTC0zOTUuOCwyOTdMLTM5NS44LDI5N3ogTS0zNzksMjc1LjZjLTIuNCwwLTUsMS44LTUsMS44di0xLjFjMC0wLjItMC4xLTAuNC0wLjMtMC40aC0zLjFjLTAuMiwwLTAuNCwwLjEtMC40LDAuNHYyNC4zDQoJYzAsMC4yLDAuMSwwLjQsMC40LDAuNGgzLjJjMC4yLDAsMC40LTAuMiwwLjQtMC40di0yMC44YzAsMCwxLjUtMC45LDMuMi0wLjljMS43LDAsMywwLjgsMywyLjZ2MTkuMmMwLDAuMiwwLjIsMC40LDAuNCwwLjRoMy4xDQoJYzAuMiwwLDAuNC0wLjIsMC40LTAuNHYtMjAuM0MtMzczLjgsMjc3LjItMzc1LjcsMjc1LjYtMzc5LDI3NS42TC0zNzksMjc1LjZ6IE0tMzU1LjIsMjYzLjNoLTMuMWMtMC4yLDAtMC40LDAuMS0wLjQsMC40VjI3Ng0KCWMtMS4yLTAuNS0yLjMtMC43LTMuMi0wLjdjLTUsMC04LjUsNC44LTguNSwxNC4xYzAsNy45LDMuNCwxMi4yLDcuOCwxMi4yYzEuOSwwLDMuNC0xLjEsNC41LTIuMWwwLjcsMS4yYzAuMSwwLjIsMC4yLDAuMywwLjQsMC4zDQoJbDEuOCwwYzAuMiwwLDAuNC0wLjIsMC40LTAuNHYtMzYuOEMtMzU0LjgsMjYzLjQtMzU0LjksMjYzLjMtMzU1LjIsMjYzLjNMLTM1NS4yLDI2My4zeiBNLTM1OC43LDI5Ny41Yy0wLjgsMC40LTEuNywwLjgtMi44LDAuOA0KCWMtMy4zLDAtNC44LTMuOS00LjgtOS43YzAtNS4xLDEuNS0xMC4yLDQuNS0xMC4yYzEsMCwyLDAuMywzLDEuMVYyOTcuNXogTS0zMTkuOCwyNzUuOGgtMi44Yy0wLjMsMC0wLjUsMC4yLTAuNSwwLjQNCgljLTAuMiwwLjUtMS4zLDMuNS0xLjgsNC44Yy0wLjMsMC45LTEuMywzLjUtMS4zLDMuNWgtMC4xYzAsMC0wLjctMS45LTEtMi44Yy0wLjMtMC44LTEuOC00LjgtMi01LjNjLTAuMS0wLjMtMC4yLTAuNS0wLjYtMC41aC0zDQoJYy0wLjMsMC0wLjUsMC40LTAuNCwwLjZjMC4xLDAuMiw0LjksMTEuMiw0LjksMTEuMnMtNS4yLDEyLjMtNS4zLDEyLjZjLTAuMiwwLjMsMCwwLjcsMC40LDAuN2gyLjdjMC41LDAsMC42LTAuMiwwLjgtMC42DQoJYzAuNC0xLjEsMC45LTIuNiwxLjgtNC45YzAuNS0xLjUsMS40LTQuMiwxLjQtNC4yaDAuMWMwLDAsMC45LDIuNywxLjMsMy42YzAuOSwyLjIsMiw1LjIsMi4xLDUuNWMwLjEsMC4zLDAuMywwLjUsMC42LDAuNWgzDQoJYzAuMywwLDAuNC0wLjMsMC4zLTAuNmMtMC4zLTAuNy0zLjItNy43LTUuMi0xMi4yYzAsMCw1LjItMTEuNCw1LjMtMTEuN0MtMzE5LjMsMjc2LjEtMzE5LjMsMjc1LjgtMzE5LjgsMjc1LjhMLTMxOS44LDI3NS44eg0KCSBNLTM0My4xLDI3NS4zYy01LjIsMC03LjcsNi44LTcuNywxNC4xYzAsNy43LDMuNiwxMiw4LjMsMTJjMi4xLDAsNC4xLTAuOCw1LjUtMS42YzAuMi0wLjEsMC4yLTAuMywwLjItMC41bC0wLjQtMS42DQoJYzAtMC4yLTAuMS0wLjMtMC40LTAuM2MtMC4xLDAtMS44LDAuNS0zLjUsMC41Yy0zLjgsMC01LjYtMy40LTUuNi03LjlWMjg5YzAsMCwxLjksMC4zLDMsMC4zaDcuMnYtMi4xDQoJQy0zMzYuNCwyNzkuNS0zMzkuMSwyNzUuMy0zNDMuMSwyNzUuM0wtMzQzLjEsMjc1LjN6IE0tMzQzLjMsMjg2LjFMLTM0My4zLDI4Ni4xYy0xLjEsMC0zLjIsMC4zLTMuMiwwLjNzMC0wLjgsMC4xLTEuNg0KCWMwLjQtNC4yLDEuNS02LjQsMy4yLTYuNGMxLjUsMCwyLjYsMi4yLDIuOCw2YzAsMC44LDAsMS43LDAsMS43Uy0zNDMuMywyODYuMS0zNDMuMywyODYuMXoiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0tNDAzLjUsMjU5LjFoLTMuNWMtMC4zLDAtMC41LDAuMi0wLjYsMC40YzAsMC4yLTUuMywxNi4zLTUuNywxNy42Yy0wLjMsMC45LTEuMiw0LjMtMS40LDUuMWwtMS44LTUNCgljLTAuNC0xLjQtNC43LTEzLjMtNC44LTEzLjhjLTAuMS0wLjMtMC4yLTAuNi0wLjYtMC42aC0zLjVjLTAuMywwLTAuNSwwLjQtMC40LDAuNmMwLjEsMC4yLDYuMywxNi44LDguOSwyMy4ydjE0DQoJYzAsMC4zLDAuMSwwLjQsMC40LDAuNGgzLjNjMC4yLDAsMC40LTAuMiwwLjQtMC40di0xMy45YzIuMS01LjksOS44LTI2LjgsOS45LTI3Qy00MDMuMSwyNTkuNC00MDMuMSwyNTkuMS00MDMuNSwyNTkuMQ0KCUwtNDAzLjUsMjU5LjF6Ii8+DQo8L3N2Zz4NCg==');
+        background-repeat: no-repeat;
+    }
+    
+/* ./blocks/header2/__logo2/_type/header2__logo2_type_en.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/i-font/_face/i-font_face_textbook.css: begin */ /**/
+    @font-face {
+        font-family: 'textbook';
+    
+        src: local('textbook');
+        src: url('../../vendors/islands-romochka/desktop.blocks/i-font/_face/i-font_face_textbook.woff'),
+             url('../../vendors/islands-romochka/desktop.blocks/i-font/_face/i-font_face_textbook.ttf');
+    }
+    
+    .i-font_face_textbook
+    {
+        font-family: 'textbook';
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/i-font/_face/i-font_face_textbook.css: end */ /**/
+
+/* ../../vendors/islands-promo/desktop.blocks/service-arrow/service-arrow.css: begin */ /**/
+    .service-arrow
+    {
+        font-size: 17px;
+        line-height: 32px;
+    
+        display: inline-block;
+    
+        height: 32px;
+        padding: 0 19px 0 14px;
+    
+        white-space: nowrap;
+        text-decoration: none;
+    
+        color: #000 !important;
+        border-left: 2px solid #ffca00;
+        outline: none;
+        background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDA0IiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgNDA0IDMyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj48cGF0aCBkPSJNMCAxaDM5My45NjVsNy45OTMgMTUtNy45OTMgMTVoLTM5My45NjUiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiIHN0cm9rZT0iI0ZGQ0IwMCIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+PC9zdmc+) 100% 50% no-repeat;
+        background-size: auto 100%;
+    }
+    
+/* ../../vendors/islands-promo/desktop.blocks/service-arrow/service-arrow.css: end */ /**/
+
+/* ./blocks/service-arrow/service-arrow.css: begin */ /**/
+    .service-arrow
+    {
+        height: 25px;
+        padding: 0 10px 0 5px;
+    
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    .b-page_type_welcome-classic .service-arrow
+    {
+        color: #fff!important;
+        border-left: 2px solid #adbfc9;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEzIiBoZWlnaHQ9IjQyIiB2aWV3Qm94PSIwIDAgNTEzIDQyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMCAyaDQ5OS44MDZsMTAuMTQgMTktMTAuMTQgMTlIMCIgc3Ryb2tlPSIjYWRiZmM5IiBzdHJva2Utd2lkdGg9IjMiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+    }
+    
+    .b-page_type_welcome-calypso .service-arrow
+    {
+        color: #000!important;
+        border-left: 2px solid #747474;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEzIiBoZWlnaHQ9IjQyIiB2aWV3Qm94PSIwIDAgNTEzIDQyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMCAyaDQ5OS44MDZsMTAuMTQgMTktMTAuMTQgMTlIMCIgc3Ryb2tlPSIjNzQ3NDc0IiBzdHJva2Utd2lkdGg9IjMiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+    }
+    
+/* ./blocks/service-arrow/service-arrow.css: end */ /**/
+
+/* ./blocks/done/done.css: begin */ /**/
+    .done
+    {
+        position: absolute;
+        top: 105px;
+        left: 50%;
+    
+        margin-left: -275px;
+    
+        pointer-events: auto;
+    
+        font-size: 40px;
+    
+        opacity: 0;
+    
+        transition: opacity 1s ease-out .5s;
+    }
+    
+/* ./blocks/done/done.css: end */ /**/
+
+/* ./blocks/done/__wrap/done__wrap.css: begin */ /**/
+    .done__wrap
+    {
+        width: 550px;
+    
+        text-align: center;
+    }
+    
+/* ./blocks/done/__wrap/done__wrap.css: end */ /**/
+
+/* ./blocks/done/_show/done_show_yes.css: begin */ /**/
+    .done_show_yes
+    {
+        opacity: 1;
+    }
+    
+/* ./blocks/done/_show/done_show_yes.css: end */ /**/
+
+/* ./blocks/image/_type/image_type_protect.css: begin */ /**/
+    
+/* ./blocks/image/_type/image_type_protect.css: end */ /**/
+
+/* ./blocks/image/_show/image_show_no.css: begin */ /**/
+    .image_show_no
+    {
+        display: none;
+    }
+    
+/* ./blocks/image/_show/image_show_no.css: end */ /**/
+
+/* ./blocks/image/_theme/image_theme_calypso.css: begin */ /**/
+    .image_theme_calypso
+    {
+        width: auto;
+        margin: 60px 0 0 -310px;
+    }
+    
+/* ./blocks/image/_theme/image_theme_calypso.css: end */ /**/
+
+/* ./blocks/image/_theme/image_theme_classic.css: begin */ /**/
+    .image_theme_classic
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+/* ./blocks/image/_theme/image_theme_classic.css: end */ /**/
+
+/* ./blocks/grid/__cell-inner/grid__cell-inner.css: begin */ /**/
+    .grid__cell-inner
+    {
+        padding: 0;
+    }
+    
+/* ./blocks/grid/__cell-inner/grid__cell-inner.css: end */ /**/
+
+/* ./blocks/image-wrap/image-wrap.css: begin */ /**/
+    .image-wrap
+    {
+        position: relative;
+        z-index: 12;
+    
+        margin-top: 70px;
+    }
+    
+/* ./blocks/image-wrap/image-wrap.css: end */ /**/
+
+/* ./blocks/image-wrap/_type/image-wrap_type_done.css: begin */ /**/
+    .image-wrap_type_done
+    {
+        margin-top: 320px;
+        min-width: 800px;
+    }
+    .image-wrap_type_done .image_type_protect
+    {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .image-wrap__alt_type_1
+    {
+        text-align: left;
+    }
+    
+    .image-wrap__alt_type_2
+    {
+        text-align: center;
+    }
+    .image-wrap__alt_type_3
+    {
+        text-align: right;
+    }
+    
+/* ./blocks/image-wrap/_type/image-wrap_type_done.css: end */ /**/
+
+/* ./blocks/image-wrap/__alt/image-wrap__alt.css: begin */ /**/
+    .image-wrap__alt
+    {
+        position: absolute;
+    
+        max-width: 294px;
+    
+        letter-spacing: .01em;
+        word-spacing: .01em;
+    
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+    
+        opacity: .75;
+        color: #fff;
+    }
+    
+    .image-wrap__alt_type_1
+    {
+        top: 5px;
+        left: 5%;
+    }
+    
+    .image-wrap__alt_type_2
+    {
+        top: 5px;
+        left: 40%;
+    }
+    
+    .image-wrap__alt_type_3
+    {
+        top: 5px;
+        left: 78%;
+    }
+    
+    @media screen and (max-width: 850px)
+    {
+        .image-wrap__alt
+        {
+            font-size: 14px;
+        }
+    }
+    
+/* ./blocks/image-wrap/__alt/image-wrap__alt.css: end */ /**/
+
+/* ./blocks/image-wrap/__alt/_theme/image-wrap__alt_theme_calypso.css: begin */ /**/
+    .image-wrap__alt_theme_calypso
+    {
+        top: 45px;
+        left: 50px;
+    
+        padding-bottom: 50px;
+    
+        font-size: 13px;
+        font-weight: 600;
+    
+        opacity: .5;
+        color: #000;
+        background: url(./blocks/image-wrap/__alt/_theme/protect.png) bottom left no-repeat;
+    }
+    
+/* ./blocks/image-wrap/__alt/_theme/image-wrap__alt_theme_calypso.css: end */ /**/
+
+/* ./blocks/image-wrap/__alt/_theme/image-wrap__alt_theme_done.css: begin */ /**/
+    .image-wrap__alt_theme_done
+    {
+        opacity: .5;
+        color: #000;
+    }
+    
+    .image-wrap_type_done .image-wrap__alt_type_2
+    {
+        top: 5px;
+        left: 38%;
+    }
+    .image-wrap_type_done .image-wrap__alt_type_3
+    {
+        left: 68%;
+    }
+    .image-wrap_type_done .image-wrap__alt_type_2 a,
+    .image-wrap_type_done .image-wrap__alt_type_2 a:visited
+    {
+        text-decoration: underline;
+    
+        opacity: .5;
+        color: #000!important;
+    }
+    
+/* ./blocks/image-wrap/__alt/_theme/image-wrap__alt_theme_done.css: end */ /**/
+
+/* ../../desktop.blocks/video/video.css: begin */ /**/
+    .video
+    {
+        position: relative;
+        z-index: 10;
+    
+        width: 100%;
+        height: 375px;
+        margin: 0 auto;
+    }
+    
+/* ../../desktop.blocks/video/video.css: end */ /**/
+
+/* ./blocks/video/video.css: begin */ /**/
+    .video
+    {
+        position: absolute;
+    
+        width: auto;
+        min-width: 100%;
+        height: auto;
+        min-height: 100%;
+    }
+    
+/* ./blocks/video/video.css: end */ /**/
+
+/* ../../desktop.blocks/video/__control/video__control.css: begin */ /**/
+    .video__control
+    {
+        display: none;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+/* ../../desktop.blocks/video/__control/video__control.css: end */ /**/
+
+/* ../../desktop.blocks/video/__play/video__play.css: begin */ /**/
+    .video__play
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 100%;
+    
+        cursor: pointer;
+    
+        background: #fff 50% 50% no-repeat;
+    }
+    
+    .video__play:hover
+    {
+        opacity: .9;
+    }
+    
+    
+    .video_type_default.video_lang_ru .video__play
+    {
+        background-image: url(../../desktop.blocks/video/__play/video__play_lang_ru.png);
+    }
+    
+    .video_type_default.video_lang_en .video__play,
+    .video_type_default.video_lang_tr .video__play
+    {
+        background-image: url(../../desktop.blocks/video/__play/video__play_lang_en.png);
+    }
+    
+/* ../../desktop.blocks/video/__play/video__play.css: end */ /**/

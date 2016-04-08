@@ -1,0 +1,356 @@
+/* ../../vendors/islands-romochka/desktop.blocks/i-global/_type/i-global_type_simple.css: begin */ /**/
+    /* ../__body/i-global__body.css: begin */ /**/
+        /* Global definitions (begin) */ /**/
+        body
+        {
+                /* Чтобы в FF2- заработал z-index: -1 */ /**/
+            position: relative;
+            z-index: 0;
+        
+            margin: 0;
+            padding: 0 0 1em 0;
+        
+            font: .8em Arial, Helvetica, sans-serif;
+        
+            color: #000;
+            background: #fff;
+        }
+        /* Global definitions (end) */ /**/
+        
+    /* ../__body/i-global__body.css: end */ /**/
+    
+    /* ../__wbr/i-global__wbr.css: begin */ /**/
+        /* Поддержка wbr в Opera и Safari 2/3 (begin) */ /**/
+            /* См. http://harisov.livejournal.com/97666.html */ /**/
+        wbr
+        {
+            display: inline-block;
+        }
+        /* Поддержка wbr в Opera и Safari 2/3 (end) */ /**/
+        
+    /* ../__wbr/i-global__wbr.css: end */ /**/
+    
+    /* ../__hover/i-global__hover.css: begin */ /**/
+        /* Global definitions: Links hover (begin) */ /**/
+        :link:hover,
+            :visited:hover
+        {
+            color: #f00 !important; /*!head*/
+        }
+        /* Global definitions: Links hover (end) */ /**/
+        
+    /* ../__hover/i-global__hover.css: end */ /**/
+    
+    
+/* ../../vendors/islands-romochka/desktop.blocks/i-global/_type/i-global_type_simple.css: end */ /**/
+
+/* ../../vendors/islands-romochka/common.blocks/b-statcounter/b-statcounter.css: begin */ /**/
+    .b-statcounter
+    {
+        position: absolute;
+        left: -9999px;
+    }
+    
+/* ../../vendors/islands-romochka/common.blocks/b-statcounter/b-statcounter.css: end */ /**/
+
+/* ../../vendors/islands-specific/specific.blocks/yanalytics/yanalytics.css: begin */ /**/
+    .yanalytics
+    {
+        display: none;
+    }
+/* ../../vendors/islands-specific/specific.blocks/yanalytics/yanalytics.css: end */ /**/
+
+/* ../../desktop.blocks/b-page/b-page.css: begin */ /**/
+    .b-page__body
+    {
+        min-width: 1000px;
+    
+        letter-spacing: -.02em;
+    
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+    
+        font-kerning: normal;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    .yashare-auto-init
+    {
+        text-align: center;
+    }
+    
+/* ../../desktop.blocks/b-page/b-page.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/image/image.css: begin */ /**/
+    .image
+    {
+        font: 0/0 a;
+    
+        border: 0;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/image/image.css: end */ /**/
+
+/* ../../desktop.blocks/image/image.css: begin */ /**/
+    .b-link_inner_yes .image
+    {
+        margin-right: 5px;
+    
+        vertical-align: middle;
+    }
+    
+/* ../../desktop.blocks/image/image.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_protection.css: begin */ /**/
+    .image_type_protection
+    {
+        margin: 0 0 60px 0;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_protection.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_settings.css: begin */ /**/
+    .image_type_settings
+    {
+        margin: 0 0 60px 0;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_settings.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_turbo.css: begin */ /**/
+    .image_type_turbo
+    {
+        margin: 60px 0 0 0;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_turbo.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_turbo-icon.css: begin */ /**/
+    .image_type_turbo-icon
+    {
+        position: relative;
+    
+        float: right;
+    
+        margin: -63px 7px -20px -10px;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_turbo-icon.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_type/b-link_type_global.css: begin */ /**/
+    :link
+    {
+        color: #1a3dc1;
+    }
+    
+    :link:hover,
+    :visited:hover
+    {
+        color: #f00 !important;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_type/b-link_type_global.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_pseudo/b-link_pseudo_yes.css: begin */ /**/
+    .b-link_pseudo_yes
+    {
+        color: #1a3dc1;
+    }
+    
+    .i-ua_js_yes .b-link_pseudo_yes
+    {
+        text-decoration: none;
+    
+        cursor: pointer;
+    }
+    
+    .i-ua_js_yes .b-link_pseudo_yes .b-link__inner
+    {
+        text-decoration: none;
+    
+        color: inherit;
+        border-bottom: 1px dotted;
+    }
+    
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_pseudo/b-link_pseudo_yes.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_pseudo/b-link_pseudo_yes.css: begin */ /**/
+    .b-link_pseudo_yes:hover
+    {
+        color: #f00;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_pseudo/b-link_pseudo_yes.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_inner/b-link_inner_yes.css: begin */ /**/
+    .b-link_inner_yes:link,
+    .b-link_inner_yes:hover,
+    .b-link_inner_yes:visited
+    {
+        text-decoration: none;
+    }
+    
+    .b-link_inner_yes .b-link__inner
+    {
+        text-decoration: underline;
+    
+        color: inherit;
+    }
+    
+    .b-link_inner_yes .b-icon
+    {
+        vertical-align: middle;
+    
+        margin-right: 5px;
+    }
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_inner/b-link_inner_yes.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-icon/b-icon.css: begin */ /**/
+    .b-icon
+    {
+        font: 0/0 a;
+    
+        border: 0;
+    
+    }
+    
+/* ../../vendors/bem-bl/blocks-desktop/b-icon/b-icon.css: end */ /**/
+
+/* ../../desktop.blocks/i-clearfix/i-clearfix.css: begin */ /**/
+    .i-clearfix:before,
+    .i-clearfix:after
+    {
+        display: table; /* 2 */
+    
+        content: ' '; /* 1 */
+    }
+    
+    .i-clearfix:after
+    {
+        clear: both;
+    }
+    
+    /*
+    .i-clearfix {
+        *zoom: 1;
+    }
+    */
+    
+/* ../../desktop.blocks/i-clearfix/i-clearfix.css: end */ /**/
+
+/* ../../desktop.blocks/b-page/_type/b-page_type_goodbye-survey-end.css: begin */ /**/
+    .b-page_type_goodbye-survey-end
+    {
+        width: 400px;
+        min-width: 400px;
+    
+        background: transparent;
+    }
+    
+    .b-page_type_goodbye-survey-end .b-page__wrap
+    {
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    
+/* ../../desktop.blocks/b-page/_type/b-page_type_goodbye-survey-end.css: end */ /**/
+
+/* ../../desktop.blocks/b-welcome/b-welcome.css: begin */ /**/
+    .b-welcome
+    {
+        position: relative;
+    
+        width: 550px;
+        margin: 0 auto 30px;
+        padding: 20px 0 20px 155px;
+    
+        color: #313131;
+    }
+    
+/* ../../desktop.blocks/b-welcome/b-welcome.css: end */ /**/
+
+/* ../../desktop.blocks/b-welcome/_mode/b-welcome_mode_goodbye-survey-end.css: begin */ /**/
+    .b-welcome_mode_goodbye-survey-end
+    {
+        width: 386px;
+        margin-bottom: 230px;
+        margin-left: 0;
+        padding: 0;
+    }
+    
+    .b-welcome_mode_goodbye-survey-end .b-welcome__title
+    {
+        margin-top: 20px;
+        margin-bottom: 12px;
+        margin-left: 0;
+    
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    
+    .b-welcome_mode_goodbye-survey-end .b-welcome__desc
+    {
+        padding-top: 9px;
+    
+        font-size: 15px;
+        line-height: 26px;
+    
+        color: #666;
+    }
+    
+    .b-welcome_mode_goodbye-survey-end .b-welcome__desc .b-link
+    {
+        text-decoration: underline;
+    
+        color: #666;
+    }
+    
+/* ../../desktop.blocks/b-welcome/_mode/b-welcome_mode_goodbye-survey-end.css: end */ /**/
+
+/* ../../desktop.blocks/b-welcome/__title/b-welcome__title.css: begin */ /**/
+    .b-welcome__title
+    {
+        margin-left: -2px;
+    
+        font-size: 36px;
+        line-height: 42px;
+    
+        color: #515151;
+    }
+    
+/* ../../desktop.blocks/b-welcome/__title/b-welcome__title.css: end */ /**/
+
+/* ../../desktop.blocks/b-welcome/__desc/b-welcome__desc.css: begin */ /**/
+    .b-welcome__desc
+    {
+        padding: 15px 0 0 0;
+    
+        font-size: 13px;
+    }
+    
+    .b-welcome__desc_type_big
+    {
+        padding: 10px 0 0 0;
+    
+        font-size: 18px;
+        line-height: 25px;
+    
+        color: #515151;
+    }
+    
+    .b-welcome__desc_type_big .b-form-button
+    {
+        margin: -3px 0 0 7px;
+    
+        font-size: 13px;
+        line-height: normal;
+    }
+    
+    .b-welcome__desc .b-link
+    {
+        text-decoration: none;
+    
+        color: #1f6ace;
+    }
+    
+/* ../../desktop.blocks/b-welcome/__desc/b-welcome__desc.css: end */ /**/

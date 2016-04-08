@@ -1,0 +1,3493 @@
+/* ../../vendors/islands-romochka/desktop.blocks/i-global/_type/i-global_type_simple.css: begin */ /**/
+    /* ../__body/i-global__body.css: begin */ /**/
+        /* Global definitions (begin) */ /**/
+        body
+        {
+                /* Чтобы в FF2- заработал z-index: -1 */ /**/
+            position: relative;
+            z-index: 0;
+        
+            margin: 0;
+            padding: 0 0 1em 0;
+        
+            font: .8em Arial, Helvetica, sans-serif;
+        
+            color: #000;
+            background: #fff;
+        }
+        /* Global definitions (end) */ /**/
+        
+    /* ../__body/i-global__body.css: end */ /**/
+    
+    /* ../__wbr/i-global__wbr.css: begin */ /**/
+        /* Поддержка wbr в Opera и Safari 2/3 (begin) */ /**/
+            /* См. http://harisov.livejournal.com/97666.html */ /**/
+        wbr
+        {
+            display: inline-block;
+        }
+        /* Поддержка wbr в Opera и Safari 2/3 (end) */ /**/
+        
+    /* ../__wbr/i-global__wbr.css: end */ /**/
+    
+    /* ../__hover/i-global__hover.css: begin */ /**/
+        /* Global definitions: Links hover (begin) */ /**/
+        :link:hover,
+            :visited:hover
+        {
+            color: #f00 !important; /*!head*/
+        }
+        /* Global definitions: Links hover (end) */ /**/
+        
+    /* ../__hover/i-global__hover.css: end */ /**/
+    
+    
+/* ../../vendors/islands-romochka/desktop.blocks/i-global/_type/i-global_type_simple.css: end */ /**/
+
+/* ../../vendors/islands-romochka/common.blocks/b-statcounter/b-statcounter.css: begin */ /**/
+    .b-statcounter
+    {
+        position: absolute;
+        left: -9999px;
+    }
+    
+/* ../../vendors/islands-romochka/common.blocks/b-statcounter/b-statcounter.css: end */ /**/
+
+/* ../../vendors/islands-romochka/common.blocks/b-page/b-page.css: begin */ /**/
+    /*
+    https://st.yandex-team.ru/ISLCOMPONENTS-1653
+    Hack for Ya.Bro on iOS 7-8 for force pointer events listening on BODY.
+    */
+    .i-ua_platform_ios.b-page__body
+    {
+        cursor: pointer;
+    }
+    
+/* ../../vendors/islands-romochka/common.blocks/b-page/b-page.css: end */ /**/
+
+/* ../../desktop.blocks/b-page/b-page.css: begin */ /**/
+    .b-page
+    {
+        min-width: 1000px;
+    
+        -webkit-font-kerning: normal;
+    
+                font-kerning: normal;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+/* ../../desktop.blocks/b-page/b-page.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_type/b-link_type_global.css: begin */ /**/
+    :link
+    {
+        color: #1a3dc1;
+    }
+    
+    :link:hover,
+    :visited:hover
+    {
+        color: #f00 !important;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_type/b-link_type_global.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_pseudo/b-link_pseudo_yes.css: begin */ /**/
+    .b-link_pseudo_yes
+    {
+        color: #1a3dc1;
+    }
+    
+    .i-ua_js_yes .b-link_pseudo_yes
+    {
+        text-decoration: none;
+    
+        cursor: pointer;
+    }
+    
+    .i-ua_js_yes .b-link_pseudo_yes .b-link__inner
+    {
+        text-decoration: none;
+    
+        color: inherit;
+        border-bottom: 1px dotted;
+    }
+    
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_pseudo/b-link_pseudo_yes.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_pseudo/b-link_pseudo_yes.css: begin */ /**/
+    .b-link_pseudo_yes:hover
+    {
+        color: #f00;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_pseudo/b-link_pseudo_yes.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_inner/b-link_inner_yes.css: begin */ /**/
+    .b-link_inner_yes:link,
+    .b-link_inner_yes:hover,
+    .b-link_inner_yes:visited
+    {
+        text-decoration: none;
+    }
+    
+    .b-link_inner_yes .b-link__inner
+    {
+        text-decoration: underline;
+    
+        color: inherit;
+    }
+    
+    .b-link_inner_yes .b-icon
+    {
+        vertical-align: middle;
+    
+        margin-right: 5px;
+    }
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_inner/b-link_inner_yes.css: end */ /**/
+
+/* ../../desktop.blocks/b-page/_show-cap/b-page_show-cap.css: begin */ /**/
+    .b-page_show-cap_phone,
+    .b-page_show-cap_tablet
+    {
+        min-width: 100%;
+        width: 100%;
+    }
+    
+    .b-page_show-cap_phone
+    {
+        background: #000;
+    }
+    
+/* ../../desktop.blocks/b-page/_show-cap/b-page_show-cap.css: end */ /**/
+
+/* ./blocks/b-page/_type/b-page_type.css: begin */ /**/
+    .b-share-btn__gplus
+    {
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+    
+    .b-share-btn__gplus:before
+    {
+        position: absolute;
+        left: 100%;
+    
+        display: block;
+    
+        width: 0;
+        height: 0;
+    
+        content: '';
+    
+        border: solid transparent;
+        border-width: 9px 5px;
+        border-left-color: #c25234;
+    }
+    
+    .b-share-btn__gplus:hover:before
+    {
+        border-left-color: #9b422a;
+    }
+    
+/* ./blocks/b-page/_type/b-page_type.css: end */ /**/
+
+/* ./blocks/download-buttons/download-buttons.css: begin */ /**/
+    .download-buttons
+    {
+        position: relative;
+    
+        display: inline-block;
+    
+        min-height: 120px;
+        margin-bottom: 30px;
+    }
+    
+    .b-page_team_bjk .page-content_type_desktop .download-buttons .popup-wrap__content,
+    .b-page_team_fb .page-content_type_desktop .download-buttons .popup-wrap__content
+    {
+        color: #fff;
+    }
+    
+    .b-page_team_gs .page-content_type_desktop .download-buttons .popup-wrap__content
+    {
+        color: #fbb900;
+    }
+    
+/* ./blocks/download-buttons/download-buttons.css: end */ /**/
+
+/* ../../desktop.blocks/button-wrap/button-wrap.css: begin */ /**/
+    .button-wrap
+    {
+        position: relative;
+    
+        display: inline-block;
+    }
+    
+    .button-wrap .goto-full-link
+    {
+        text-align: center;
+    }
+    
+/* ../../desktop.blocks/button-wrap/button-wrap.css: end */ /**/
+
+/* ../../desktop.blocks/button-wrap/__note/button-wrap__note.css: begin */ /**/
+    .button-wrap__note
+    {
+        font-size: 14px;
+        line-height: 20px;
+    
+        margin-top: 7px;
+    
+        text-align: center;
+        white-space: nowrap;
+    
+        color: #333;
+    }
+    
+    .button-wrap__note .popup-wrap__content
+    {
+        position: relative;
+    
+        color: #addadc;
+        border-bottom: 1px dashed;
+    }
+    
+/* ../../desktop.blocks/button-wrap/__note/button-wrap__note.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/i-font/_face/i-font_face_textbook.css: begin */ /**/
+    @font-face {
+        font-family: 'textbook';
+    
+        src: local('textbook');
+        src: url('../../vendors/islands-romochka/desktop.blocks/i-font/_face/i-font_face_textbook.woff'),
+             url('../../vendors/islands-romochka/desktop.blocks/i-font/_face/i-font_face_textbook.ttf');
+    }
+    
+    .i-font_face_textbook
+    {
+        font-family: 'textbook';
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/i-font/_face/i-font_face_textbook.css: end */ /**/
+
+/* ../../desktop.blocks/button-wrap/__free/button-wrap__free.css: begin */ /**/
+    .button-wrap__free
+    {
+        position: absolute;
+        top: 50%;
+        left: 100%;
+    
+        margin-top: -2px;
+        margin-left: 10px;
+        padding: 11px 0 0 47px;
+    
+        color: #fff;
+        background: url(../../desktop.blocks/button-wrap/__free/button-wrap__free.png) 0 0 no-repeat;
+    }
+    
+    .button-wrap__free-text
+    {
+        font-size: 18px;
+    
+        -webkit-transform: rotate(-20deg) translate3d(5px, -20px, 0);
+             -o-transform: rotate(-20deg) translateY(-20px) translateX(5px);
+                transform: rotate(-20deg) translate3d(5px, -20px, 0);
+        white-space: nowrap;
+    }
+    
+/* ../../desktop.blocks/button-wrap/__free/button-wrap__free.css: end */ /**/
+
+/* ../../desktop.blocks/button-wrap/__wrap/button-wrap__wrap.css: begin */ /**/
+    .button-wrap__wrap
+    {
+        position: relative;
+    }
+    
+/* ../../desktop.blocks/button-wrap/__wrap/button-wrap__wrap.css: end */ /**/
+
+/* ./blocks/button-wrap/__wrap/button-wrap__wrap.css: begin */ /**/
+    .button-wrap__wrap
+    {
+        text-align: center;
+    }
+    
+/* ./blocks/button-wrap/__wrap/button-wrap__wrap.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/promo-button.css: begin */ /**/
+    .promo-button
+    {
+        font-family: 'Arial', sans-serif;
+    
+        position: relative;
+    
+        display: inline-block;
+    
+        cursor: pointer;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+        text-align: center;
+        text-decoration: none !important;
+    
+        border: none;
+        outline: 0;
+        background: -webkit-linear-gradient(top, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background:      -o-linear-gradient(top, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background:         linear-gradient(to bottom, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background-color: #f9c400;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, .36);
+    }
+    
+    .promo-button::-moz-focus-inner
+    {
+        padding: 0;
+    
+        border: 0;
+    }
+    
+    @media all and (min-width: 0)
+    {
+        .promo-button:before
+        {
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            bottom: 1px;
+            left: 1px;
+    
+            content: '';
+            background: -webkit-linear-gradient(top, #ffe34a 0%, #ffdb03 100%);
+            background:      -o-linear-gradient(top, #ffe34a 0%, #ffdb03 100%);
+            background:         linear-gradient(to bottom, #ffe34a 0%, #ffdb03 100%);
+            box-shadow: inset 0 -.085em 0 0 rgba(102, 52, 0, .20), inset 0 0 3px 0 rgba(254, 255, 187, .5);
+        }
+    
+        .promo-button_hovered_yes:before
+        {
+            background: -webkit-linear-gradient(top, #ffe86a 0%, #ffe130 100%);
+            background:      -o-linear-gradient(top, #ffe86a 0%, #ffdb03 100%);
+            background:         -o-linear-gradient(top, #ffe86a 0%, #ffe130 100%);
+            background:         linear-gradient(to bottom, #ffe86a 0%, #ffe130 100%);
+        }
+    }
+    
+/* ../../vendors/islands-promo/common.blocks/promo-button/promo-button.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/__text/promo-button__text.css: begin */ /**/
+    .promo-button__text
+    {
+        position: relative;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/__text/promo-button__text.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_open/promo-button_open_button.css: begin */ /**/
+    .install-slide__button_type_mobile .promo-button_open_button
+    {
+        position: absolute;
+    
+        margin-top: -33px;
+        padding-right: 44px;
+    
+        outline: 0;
+    }
+    
+    .promo-button_open_button .promo-button__text:after,
+    .promo-button_open_button .promo-button__arrow
+    {
+        position: absolute;
+        top: 0;
+        right: -27px;
+    
+        width: 17px;
+        height: 100%;
+    
+        content: '';
+    
+        background: url(../../desktop.blocks/promo-button/_open/button_arrow_up.png) 50% 50% no-repeat;
+    }
+    
+/* ../../desktop.blocks/promo-button/_open/promo-button_open_button.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_unsupported/promo-button_unsupported.css: begin */ /**/
+    .promo-button_unsupported:before
+    {
+        background: #fcf9d1 !important;
+    }
+    
+    .promo-button_unsupported
+    {
+        opacity: 1;
+        background: #fcf9d1 !important;
+    }
+    
+    .promo-button_unsupported .promo-button__text
+    {
+        opacity: 0.33;
+        color: #000;
+    }
+    
+/* ../../desktop.blocks/promo-button/_unsupported/promo-button_unsupported.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/_size/promo-button_size_l.css: begin */ /**/
+    .promo-button_size_l
+    {
+        font-size: 30px;
+        line-height: 58px;
+    
+        height: 60px;
+        padding: 0 36px;
+    }
+    
+    .promo-button_size_l,
+    a.promo-button_size_l.promo-button_hovered_yes
+    {
+        color: #473e09 !important;
+    }
+    
+    .promo-button_size_l,
+    .promo-button_size_l:before
+    {
+        border-radius: 6px;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/_size/promo-button_size_l.css: end */ /**/
+
+/* ./blocks/promo-button/_size/promo-button_size_l.css: begin */ /**/
+    .promo-page_team_bjk .promo-button_size_l,
+    .promo-page_team_fb .promo-button_size_l,
+    .promo-page_team_gs .promo-button_size_l
+    {
+        padding: 0 61px;
+    }
+/* ./blocks/promo-button/_size/promo-button_size_l.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/_size/promo-button_size_m.css: begin */ /**/
+    .promo-button_size_m
+    {
+        font-size: 24px;
+        line-height: 48px;
+    
+        height: 50px;
+        padding: 0 27px;
+    }
+    
+    .promo-button_size_m,
+    a.promo-button_size_m.promo-button_hovered_yes
+    {
+        color: #473e09 !important;
+    }
+    
+    .promo-button_size_m,
+    .promo-button_size_m:before
+    {
+        border-radius: 4px;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/_size/promo-button_size_m.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/_theme/promo-button_theme_flying.css: begin */ /**/
+    .promo-button_theme_flying
+    {
+        box-shadow: 0 0 1px 0 #ffffff, 0 9px 18px 0 rgba(153, 120, 46, 0.36);
+    }
+    
+    .promo-button_theme_flying.promo-button_pressed_yes
+    {
+        box-shadow: 0 0 1px 0 #ffffff, 0 3px 9px 0 rgba(153, 120, 46, 0.36);
+    }
+    
+    .promo-button_theme_flying.promo-button_pressed_yes .promo-button__text
+    {
+        top: 3px;
+    }
+    
+    @media all and (min-width: 0)
+    {
+        .promo-button_theme_flying.promo-button_pressed_yes .promo-button__text
+        {
+            top: auto;
+        }
+    
+        .promo-button_theme_flying.promo-button_pressed_yes
+        {
+            -webkit-transform: translateY(2px);
+            -ms-transform: translateY(2px);
+            -o-transform: translateY(2px);
+            transform: translateY(2px);
+        }
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/_theme/promo-button_theme_flying.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_welcome/promo-button_welcome_true.css: begin */ /**/
+    .promo-button_welcome_true
+    {
+        margin: 28px 0;
+    }
+    
+/* ../../desktop.blocks/promo-button/_welcome/promo-button_welcome_true.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_update/promo-button_update_yes.css: begin */ /**/
+    .promo-button_update_yes
+    {
+        font-size: 18px;
+    
+        padding: 0 16px;
+    }
+    
+/* ../../desktop.blocks/promo-button/_update/promo-button_update_yes.css: end */ /**/
+
+/* ../../desktop.blocks/popup-wrap/popup-wrap.css: begin */ /**/
+    .popup-wrap
+    {
+        display: inline-block;
+    }
+    
+/* ../../desktop.blocks/popup-wrap/popup-wrap.css: end */ /**/
+
+/* ../../desktop.blocks/popup-wrap/__type/popup-wrap__type.css: begin */ /**/
+    .popup-wrap__type
+    {
+        font-size: 17px;
+    
+        position: relative;
+    
+        display: inline-block;
+    
+        cursor: pointer;
+    
+        color: #fff;
+        border-bottom: 1px dashed;
+    }
+    
+/* ../../desktop.blocks/popup-wrap/__type/popup-wrap__type.css: end */ /**/
+
+/* ../../desktop.blocks/popup-wrap/__content/popup-wrap__content.css: begin */ /**/
+    .popup-wrap__content
+    {
+        position: relative;
+    
+        margin: 2px 0;
+    
+        cursor: pointer;
+    }
+    
+/* ../../desktop.blocks/popup-wrap/__content/popup-wrap__content.css: end */ /**/
+
+/* ../../desktop.blocks/popup-wrap/__arrow/popup-wrap__arrow.css: begin */ /**/
+    .popup-wrap__arrow
+    {
+        position: absolute;
+        top: 50%;
+        left: 100%;
+    
+        display: inline-block;
+    
+        width: 7px;
+        height: 5px;
+        margin-top: -2px;
+        margin-left: 5px;
+    
+        background: url(../../desktop.blocks/popup-wrap/__arrow/popup-wrap__arrow.png) 0 50% no-repeat;
+    }
+    
+    .button-wrap__note_color_black .popup-wrap__arrow,
+    .popup-wrap_color_black .popup-wrap__arrow
+    {
+        background: url(../../desktop.blocks/popup-wrap/__arrow/popup-wrap__arrow_black.png) 0 50% no-repeat;
+    }
+    
+    .b-page_type_com .popup-wrap_color_black .popup-wrap__arrow
+    {
+        background: url(../../desktop.blocks/popup-wrap/__arrow/popup-wrap__arrow.png) 0 50% no-repeat;
+    }
+    
+/* ../../desktop.blocks/popup-wrap/__arrow/popup-wrap__arrow.css: end */ /**/
+
+/* ./blocks/popup-wrap/__arrow/popup-wrap__arrow.css: begin */ /**/
+    .promo-page_team_gs .popup-wrap__arrow
+    {
+        background: url(./blocks/popup-wrap/__arrow/popup-wrap__arrow.png) 0 50% no-repeat;
+    }
+    
+/* ./blocks/popup-wrap/__arrow/popup-wrap__arrow.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/popup.css: begin */ /**/
+    .popup
+    {
+        position: absolute;
+        z-index: 32700;
+    
+        display: none;
+        box-sizing: border-box;
+    
+        border: 1px solid transparent;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/popup.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__content/popup__content.css: begin */ /**/
+    .popup__content
+    {
+        position: relative;
+        z-index: 10;
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 4px 8px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__content/popup__content.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_theme/popup_theme_ffffff.css: begin */ /**/
+    .popup_theme_ffffff
+    {
+        border-color: rgba(0,0,0,.1);
+    }
+    
+    .popup_theme_ffffff:before
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    
+        content: '';
+        box-shadow: 0 10px 20px -4px rgba(0,0,0,.4);
+    }
+    
+    .popup_theme_ffffff:before,
+    .popup_theme_ffffff .popup__tail:after
+    {
+        background: #fff;
+    }
+    
+    .popup_theme_ffffff .popup__tail
+    {
+        background: rgba(0,0,0,.1);
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, rgba(0,0,0,.1)), color-stop(50%, rgba(0,0,0,0)));
+        background: -webkit-linear-gradient(bottom left, rgba(0,0,0,.1) 50%, rgba(0,0,0,0) 50%);
+        background:         -o-linear-gradient(bottom left, rgba(0,0,0,.1) 50%, rgba(0,0,0,0) 50%);
+        background:         linear-gradient(to top right, rgba(0,0,0,.1) 50%, rgba(0,0,0,0) 50%);
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_theme/popup_theme_ffffff.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_visible.css: begin */ /**/
+    .popup_visibility_visible
+    {
+        display: block;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_visible.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_outside.css: begin */ /**/
+    .popup_visibility_outside
+    {
+        top: -99999px;
+        left: -99999px;
+    
+        display: block;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_outside.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__under/popup__under.css: begin */ /**/
+    .popup__under
+    {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    
+        border: 0;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__under/popup__under.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__under/_color/popup__under_color_white.css: begin */ /**/
+    .popup__under_color_white
+    {
+        opacity: .8;
+        background: #fff;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__under/_color/popup__under_color_white.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__under/_type/popup__under_type_paranja.css: begin */ /**/
+    .popup__under_type_paranja
+    {
+        position: fixed;
+        z-index: 32000;
+        top: 0;
+        left: 0;
+    
+        padding: 0;
+    
+        opacity: .3;
+        background: #000;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__under/_type/popup__under_type_paranja.css: end */ /**/
+
+/* ../../vendors/islands-specific/specific.blocks/popup/__wrapper/popup__wrapper.css: begin */ /**/
+    .popup__wrapper
+    {
+        display: block;
+    }
+/* ../../vendors/islands-specific/specific.blocks/popup/__wrapper/popup__wrapper.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__tail/popup__tail.css: begin */ /**/
+    .popup__tail
+    {
+        position: absolute;
+        z-index: 9;
+    
+        display: block;
+    
+        width: 17px;
+        height: 17px;
+    
+        font: 0/0 a;
+    }
+    
+    .popup__tail:after
+    {
+        position: absolute;
+        bottom: 1px;
+        left: 1px;
+    
+        width: 17px;
+        height: 17px;
+    
+        content: '';
+    }
+    
+    .popup_to_top .popup__tail
+    {
+        bottom: -18px; /* ширина хвостика + 1px бордер */
+    
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                -o-transform: rotate(-45deg);
+           transform: rotate(-45deg);
+        -webkit-transform-origin: top left;
+            -ms-transform-origin: top left;
+                -o-transform-origin: top left;
+           transform-origin: top left;
+    }
+    
+    .popup_to_left .popup__tail
+    {
+        right: -18px;
+    
+        margin-top: 24.04px; /* 17 * sqrt(2)*/
+    
+        -webkit-transform: rotate(-135deg);
+            -ms-transform: rotate(-135deg);
+                -o-transform: rotate(-135deg);
+           transform: rotate(-135deg);
+        -webkit-transform-origin: top left;
+            -ms-transform-origin: top left;
+                -o-transform-origin: top left;
+           transform-origin: top left;
+    }
+    
+    .popup_to_bottom .popup__tail
+    {
+        top: -18px;
+    
+        margin-left: -17px;
+    
+        -webkit-transform: rotate(135deg);
+            -ms-transform: rotate(135deg);
+                -o-transform: rotate(135deg);
+           transform: rotate(135deg);
+        -webkit-transform-origin: 100% 100%;
+            -ms-transform-origin: 100% 100%;
+                -o-transform-origin: 100% 100%;
+           transform-origin: 100% 100%;
+    }
+    
+    .popup_to_right .popup__tail
+    {
+        left: -18px;
+    
+        margin-top: 7.04px; /* ( 17*sqrt(2) - 17) */
+    
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                -o-transform: rotate(45deg);
+           transform: rotate(45deg);
+        -webkit-transform-origin: 100% 100%;
+            -ms-transform-origin: 100% 100%;
+                -o-transform-origin: 100% 100%;
+           transform-origin: 100% 100%;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__tail/popup__tail.css: end */ /**/
+
+/* ../../desktop.blocks/popup/__license/popup__license.css: begin */ /**/
+    .popup__license
+    {
+        width: 200px;
+        margin: 10px 0 3px;
+    }
+    
+    .popup__license,
+    .popup__license .b-link
+    {
+        font-size: 12px !important;
+        line-height: 14px !important;
+    
+        color: #666;
+    }
+    
+/* ../../desktop.blocks/popup/__license/popup__license.css: end */ /**/
+
+/* ../../desktop.blocks/popup/_name/popup_name_alternate-os.css: begin */ /**/
+    .popup_name_alternate-os
+    {
+        padding: 4px 8px;
+    }
+    
+    .popup_name_alternate-os .b-link
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+/* ../../desktop.blocks/popup/_name/popup_name_alternate-os.css: end */ /**/
+
+/* ../../desktop.blocks/popup/_name/popup_name_alternate-linux-versions.css: begin */ /**/
+    .popup_name_alternate-linux-versions
+    {
+        border-radius: 6px;
+    }
+    
+    .popup_name_alternate-linux-versions .popup__content
+    {
+        font-size: 14px;
+        line-height: 18px;
+    
+        width: 256px;
+        min-width: 256px !important;
+        max-width: 256px !important;
+        padding: 18px;
+    
+        color: #666;
+        border-radius: 5px;
+    }
+    
+    .popup_name_alternate-linux-versions .popup__content .b-link:link,
+    .popup_name_alternate-linux-versions .popup__content .b-link:visited
+    {
+        text-decoration: none;
+    
+        color: #719bd9;
+    }
+    
+    .popup_name_alternate-linux-versions .popup__content .b-link:hover,
+    .popup_name_alternate-linux-versions .popup__content .b-link:active
+    {
+        color: #f00;
+    }
+    
+    .popup_name_alternate-linux-versions .license-agreement
+    {
+        margin-top: 10px;
+    }
+    
+/* ../../desktop.blocks/popup/_name/popup_name_alternate-linux-versions.css: end */ /**/
+
+/* ./blocks/button-wrap/__note/_unsupported/button-wrap__note_unsupported.css: begin */ /**/
+    .button-wrap__note_unsupported
+    {
+        color: #bbeff1;
+    }
+    
+/* ./blocks/button-wrap/__note/_unsupported/button-wrap__note_unsupported.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/_disabled/promo-button_disabled_yes.css: begin */ /**/
+    .promo-button_disabled_yes
+    {
+        cursor: default;
+    
+        color: #838383 !important;
+        /*background: #d9d9d9;*/
+        background: rgb(217,217,217);
+        /*background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q5ZDlkOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjkyJSIgc3RvcC1jb2xvcj0iI2Q5ZDlkOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkN2Q3ZDciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);*/
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(217,217,217,1)), color-stop(92%,rgba(217,217,217,1)), color-stop(100%,rgba(215,215,215,1)));
+        background: -webkit-linear-gradient(top,  rgba(217,217,217,1) 0%,rgba(217,217,217,1) 92%,rgba(215,215,215,1) 100%);
+        background:      -o-linear-gradient(top,  rgba(217,217,217,1) 0%,rgba(217,217,217,1) 92%,rgba(215,215,215,1) 100%);
+        background:         -webkit-linear-gradient(top, rgba(217,217,217,1) 0%, rgba(217,217,217,1) 92%, rgba(215,215,215,1) 100%);
+        background:         -o-linear-gradient(top, rgba(217,217,217,1) 0%, rgba(217,217,217,1) 92%, rgba(215,215,215,1) 100%);
+        background:         linear-gradient(to bottom,  rgba(217,217,217,1) 0%,rgba(217,217,217,1) 92%,rgba(215,215,215,1) 100%);
+    }
+    
+    .promo-button_disabled_yes:before
+    {
+        background: none;
+        box-shadow: inset 0 -.085em 0 0 rgba(72, 62, 142, .20), inset 0 0 3px 0 rgba(215, 215, 215, .5);
+    }
+    
+    .promo-button_disabled_yes.promo-button_theme_flying
+    {
+        box-shadow: 0 9px 18px 0 rgba(153, 153, 153, .36);
+    }
+    
+/* ../../vendors/islands-promo/common.blocks/promo-button/_disabled/promo-button_disabled_yes.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_disabled/promo-button_disabled_yes.css: begin */ /**/
+    .promo-button_disabled_yes:before
+    {
+        background-image: -webkit-linear-gradient(top, #FFE34A 0%, #FFDB03 100%);
+        background-image: -o-linear-gradient(top, #FFE34A 0%, #FFDB03 100%);
+        background-image: linear-gradient(to bottom, #FFE34A 0%, #FFDB03 100%);
+        box-shadow: 0px -0.085em 0px 0px rgba(102, 52, 0, 0.2) inset,
+                    0px 0px 3px 0px rgba(254, 255, 187, 0.5) inset;
+    }
+    
+    
+    .promo-button_disabled_yes
+    {
+        opacity: .6;
+        background-image: -webkit-linear-gradient(#FFE025 0%, #F9C400 92%, #BE8C05 100%);
+        background-image: -o-linear-gradient(#FFE025 0%, #F9C400 92%, #BE8C05 100%);
+        background-image: linear-gradient(#FFE025 0%, #F9C400 92%, #BE8C05 100%);
+    }
+    
+/* ../../desktop.blocks/promo-button/_disabled/promo-button_disabled_yes.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-icon/b-icon.css: begin */ /**/
+    .b-icon
+    {
+        font: 0/0 a;
+    
+        border: 0;
+    
+    }
+    
+/* ../../vendors/bem-bl/blocks-desktop/b-icon/b-icon.css: end */ /**/
+
+/* ../../desktop.blocks/store-buttons/__item/store-buttons__item.css: begin */ /**/
+    .store-buttons__item
+    {
+        position: relative;
+    
+        display: inline-block;
+    
+        margin: 0 10px 30px 0;
+    }
+    
+/* ../../desktop.blocks/store-buttons/__item/store-buttons__item.css: end */ /**/
+
+/* ../../desktop.blocks/store-buttons/__link/store-buttons__link.css: begin */ /**/
+    .store-buttons__link
+    {
+        text-decoration: none;
+    }
+/* ../../desktop.blocks/store-buttons/__link/store-buttons__link.css: end */ /**/
+
+/* ../../desktop.blocks/store-buttons/__desc/store-buttons__desc.css: begin */ /**/
+    .store-buttons__desc
+    {
+        font-size:  11px;
+        line-height:  14px;
+    
+        position: absolute;
+        top: 100%;
+        left: 3px;
+    
+        width:  160px;
+    
+        text-decoration: none;
+    
+        color:  #fff;
+    }
+    
+/* ../../desktop.blocks/store-buttons/__desc/store-buttons__desc.css: end */ /**/
+
+/* ../../desktop.blocks/store-buttons/__icon/store-buttons__icon.css: begin */ /**/
+    .store-buttons__icon_type_gplay
+    {
+        background-position: 0 0;
+    }
+    
+    .store-buttons__icon_type_astore
+    {
+        background-position: 100% 0;
+    }
+/* ../../desktop.blocks/store-buttons/__icon/store-buttons__icon.css: end */ /**/
+
+/* ./blocks/page-content/page-content.css: begin */ /**/
+    .page-content
+    {}
+/* ./blocks/page-content/page-content.css: end */ /**/
+
+/* ../../desktop.blocks/popup/_name/popup_name_agreement.css: begin */ /**/
+    .popup_name_agreement
+    {
+        border-radius: 6px;
+    }
+    
+    .popup_name_agreement .popup__content
+    {
+        font-size:  14px;
+        line-height:  18px;
+    
+        max-width: 306px;
+        padding:  18px;
+    
+        color:  #666;
+        border-radius: 5px;
+    }
+    
+    .popup_name_agreement .popup__content .b-link:link,
+    .popup_name_agreement .popup__content .b-link:visited
+    {
+        color:  #666;
+    }
+    
+    .popup_name_agreement .popup__content .b-link:hover,
+    .popup_name_agreement .popup__content .b-link:active
+    {
+        color:  #f00;
+    }
+    
+/* ../../desktop.blocks/popup/_name/popup_name_agreement.css: end */ /**/
+
+/* ../../desktop.blocks/popup/_theme/popup_theme_ededed.css: begin */ /**/
+    .popup_theme_ededed
+    {
+        box-shadow:
+                    inset 0 0 0 1px rgba(0,0,0, .15),
+                    0 8px 30px -5px rgba(0,0,0, .5);
+    }
+    
+    .popup_theme_ededed .popup__content
+    {
+        background: #ededed;
+    }
+    
+    .popup_theme_ededed .popup__tail
+    {
+        background: rgba(0,0,0, .15);
+        background:
+            -webkit-linear-gradient(45deg, rgba(0,0,0, .15) 50%, rgba(0,0,0, 0) 50%);
+        background:
+                 -o-linear-gradient(45deg, rgba(0,0,0, .15) 50%, rgba(0,0,0, 0) 50%);
+    }
+    
+    .popup_theme_ededed .popup__tail:after
+    {
+        background-color: #ededed;
+    }
+    
+/* ../../desktop.blocks/popup/_theme/popup_theme_ededed.css: end */ /**/
+
+/* ../../desktop.blocks/popup/_theme/popup_theme_black.css: begin */ /**/
+    .popup_theme_black
+    {
+        border: none;
+        border-radius: 0;
+        background: rgba(51, 51, 51, .9);
+    }
+    
+    .popup_theme_black .popup__tail
+    {
+        -webkit-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+             -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    
+    .popup_theme_black .popup__tail:after
+    {
+        width: 0;
+        height: 0;
+    
+        border-style: solid;
+    }
+    
+    .popup_theme_black.popup_to_right .popup__tail:after
+    {
+        left: 6px;
+    
+        border-width: 12px 12px 12px 0;
+        border-color: transparent;
+        border-right-color: rgba(51, 51, 51, .9);
+    }
+    
+    .popup_theme_black.popup_to_top .popup__tail:after
+    {
+        bottom: 6px;
+    
+        border-width: 12px 12px 0 12px;
+        border-top-color: rgba(51,51,51, .9);
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    
+    .popup_theme_black.popup_to_bottom .popup__tail:after
+    {
+        top: 6px;
+    
+        border-width: 0 12px 12px 12px;
+        border-color: transparent;
+        border-bottom-color: rgba(51,51,51, .9);
+    }
+    
+    .popup_theme_black.popup_to_left .popup__tail:after
+    {
+        right: 6px;
+    
+        border-width: 12px 0 12px 12px;
+        border-color: transparent;
+        border-left-color: rgba(51,51,51, .9);
+    }
+    
+    .popup_theme_black .popup__content
+    {
+        max-width: 230px;
+        padding: 22px 18px;
+    
+        color: #fff;
+    }
+    
+    .popup_name_agreement.popup_theme_black .popup__content .b-link:link,
+    .popup_name_agreement.popup_theme_black .popup__content .b-link:visited
+    {
+        text-decoration: none;
+    
+        color: #719bd9;
+    }
+    
+/* ../../desktop.blocks/popup/_theme/popup_theme_black.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__close/popup__close.css: begin */ /**/
+    .popup__close
+    {
+        position: absolute;
+        z-index: 12;
+        top: 5px;
+        right: 5px;
+    
+        width: 16px;
+        height: 16px;
+    
+        cursor: pointer;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    
+        font: 0/0 a;
+    
+        opacity: .2;
+    }
+    
+    .i-ua_inlinesvg_yes .popup__close
+    {
+        background: url(../../vendors/islands-components/common.blocks/popup/__close/popup__close.svg) no-repeat;
+    }
+    
+    .i-ua_svg_no .popup__close,
+    .i-ua_inlinesvg_no .popup__close
+    {
+        background: url(../../vendors/islands-components/common.blocks/popup/__close/popup__close.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__close/popup__close.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/popup/__close/popup__close.css: begin */ /**/
+    .popup__close:hover
+    {
+        opacity: 1;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/popup/__close/popup__close.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_has-close/popup_has-close_yes.css: begin */ /**/
+    .popup_has-close_yes > .popup__content
+    {
+        padding: 20px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_has-close/popup_has-close_yes.css: end */ /**/
+
+/* ../../desktop.blocks/thankyou/thankyou.css: begin */ /**/
+    .thankyou
+    {
+        z-index: -1;
+    
+        display: block;
+    
+        width: 770px;
+    
+        background: #fff;
+        box-shadow: 0 1px 4px rgba(0,0,0,.2);
+        top: -9999px;
+    }
+    
+    .thankyou .popup__close
+    {
+        top: 20px;
+        right: 20px;
+    
+        width: 20px;
+        height: 21px;
+    
+        opacity: 0.7;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAMAAABxCz6aAAAAFVBMVEVmZmZmZmZmZmZmZmZmZmZmZmZmZmZIywHTAAAAB3RSTlMAAS0uWFl9wOae0QAAAEZJREFUeNqtz7ENADEMw0BFdrL/yI80T0Buw/I6amm01JVWWz4VdiyhGIqhWKivhWIohhpDr02saXaq/7cwFAv14zf1fOsPUaoBk7ijI1AAAAAASUVORK5CYII=);
+        background-repeat: no-repeat;
+        background-size: 20px auto;
+    }
+    
+    .thankyou .popup__content
+    {
+        padding: 35px 32px;
+    }
+    
+/* ../../desktop.blocks/thankyou/thankyou.css: end */ /**/
+
+/* ../../desktop.blocks/thankyou-direct-link/thankyou-direct-link.css: begin */ /**/
+    .thankyou-direct-link
+    {
+        font-size:  15px;
+        line-height:  20px;
+    
+        margin:  7px 0 0 0;
+    
+        letter-spacing: 0.01em;
+    
+        color:  #666;
+    }
+    
+    .thankyou-direct-link .b-link
+    {
+        text-decoration: none;
+    
+        color: #1d80d6;
+    }
+    
+/* ../../desktop.blocks/thankyou-direct-link/thankyou-direct-link.css: end */ /**/
+
+/* ../../desktop.blocks/thankyou-steps-wrap/thankyou-steps-wrap.css: begin */ /**/
+    .thankyou-steps-wrap
+    {
+        position: relative;
+    
+        padding:  26px 0 0;
+    }
+    
+    .thankyou-steps-wrap .b-link
+    {
+        font-size: 15px;
+    
+        text-decoration: none;
+    
+        color: #1d80d6;
+    }
+/* ../../desktop.blocks/thankyou-steps-wrap/thankyou-steps-wrap.css: end */ /**/
+
+/* ../../desktop.blocks/thankyou-steps/thankyou-steps.css: begin */ /**/
+    .thankyou-steps
+    {
+        margin-bottom: 9px;
+    }
+    
+/* ../../desktop.blocks/thankyou-steps/thankyou-steps.css: end */ /**/
+
+/* ../../desktop.blocks/thankyou-steps/__title/thankyou-steps__title.css: begin */ /**/
+    .thankyou-steps__title
+    {
+        font-size:  21px;
+    
+        margin:  0 0 18px;
+    
+        color:  #323232;
+    }
+    
+/* ../../desktop.blocks/thankyou-steps/__title/thankyou-steps__title.css: end */ /**/
+
+/* ../../desktop.blocks/thankyou-steps/__step/thankyou-steps__step.css: begin */ /**/
+    .thankyou-steps__step
+    {
+        font-size:  20px;
+        line-height:  37px;
+    
+        position: relative;
+    
+        display: inline-block;
+    
+        width:  37px;
+        height:  37px;
+        padding-right: 16px;
+    
+        text-align: center;
+        vertical-align: middle;
+    
+        color:  #333;
+        background-image:  url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAMAAADyQNAxAAAByFBMVEX/Ghz/////Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/Ghz/HB7/KzD/Qkj/REn/R07/SVD/VVv/V13/WF3/WV7/Wl//XWP/YWb/Ymf/Zm3/aG//aXD/b3b/cnj/dnz/eH7/eoD/foP/f4T/j5T/lJj/lZn/o6f/pan/qKv/qa7/rbH/rrL/u77/vsL/v8P/wcT/w8b/xsn/yMv/ycz/y87/zM//z9H/0tT/0tX/1tj/19n/2Nr/3N3/3N7/3uD/4OL/4eP/5OX/5eb/6er/8PD/8PH/8fL/8vP///+rWqR8AAAAWXRSTlMAAAECAwcJCgsMEBQVGx0eJS4vMTU2ODlHSExNTl5gZWlwc3V2eHl9f4GEh4mPkJGSlpeYnZ+goaWnqqu5vcXHyMvY2tvc3t/h4uPl6Ozu7/Dx8vP0+fr8/o7o+Q8AAAGxSURBVHjahdT3UxNBHIbxb2gqkSIWRLCXKE1FFBQQFAmCgCWUe6woEFE8FaxICVhBAkEU998VwjB3iZfd5+fPzM3u7L3ibltJRUP7bW621pcXZcpGvvVcpuB8CKeuqnwPlVdnweDbyK9V9Ts2OdYPfdX+ZHUgBPaicpofgc7iBJVxDp6vqMSiYaxTLpVxibvv1f/ZUOmos9z7qbyKwPFNtR/mlHcTWPs2VG6IdypVNh3ZcVXHM5W6IU6vqx0WKxr1nZ6cNVWDrXQNU+aTrd0sadUs7elSzIDS95BdUsEbg3rNMWkgYlCfuChtLBvUN67IHf4aVJRmAWVometyiz8GtcBVCRIzqK80ST2TBjVOrZQzZlAvOSxF9BvUfQoks4t5LZqiJU2kihGtChPwieT3EdWgGUL+NSXVPNWoJ5TGX/T2Ts07fEFwS1xJicV0yrvqLdz8H0/ClCf6CIecBagE2/NznHCvScBi6Efy6R7TezBxc/Z2wPCs+zLD0Loneb+yz/TAo9HxL4ux6OcPrx5Ad2mWxxbmlN3AqSXgd22hu/TdR2sbrwWbL184sjPNvav/AAVcPp/FcJeRAAAAAElFTkSuQmCC);
+        background-size: 37px auto;
+        background-repeat: no-repeat;
+    }
+    
+    .thankyou-steps__step_first_yes
+    {
+        text-indent: -2px;
+    }
+    
+/* ../../desktop.blocks/thankyou-steps/__step/thankyou-steps__step.css: end */ /**/
+
+/* ../../desktop.blocks/thankyou-steps/__text/thankyou-steps__text.css: begin */ /**/
+    .thankyou-steps__text
+    {
+        font-size:  15px;
+        line-height:  20px;
+    
+        display: inline-block;
+    
+        width: 270px;
+    
+        vertical-align: middle;
+    
+        color:  #666;
+    }
+/* ../../desktop.blocks/thankyou-steps/__text/thankyou-steps__text.css: end */ /**/
+
+/* ../../desktop.blocks/thankyou-steps/__img/thankyou-steps__img.css: begin */ /**/
+    .thankyou-steps__img
+    {
+        margin-top:  10px;
+        margin-bottom: 32px;
+    }
+/* ../../desktop.blocks/thankyou-steps/__img/thankyou-steps__img.css: end */ /**/
+
+/* ../../desktop.blocks/thankyou-steps/_step-type/thankyou-steps_step-type.css: begin */ /**/
+    [class*='thankyou-steps_football_'],
+    [class*='title_football_'],
+    .image_mobile-devices_yes
+    {
+        display: none;
+    }
+    
+    .popup_step-type_ya .thankyou-steps_football_ya,
+    .popup_step-type_ya .title_football_ya,
+    .popup_step-type_ya .thankyou-steps__title_football_ya,
+    .popup_step-type_ya .image_mobile-devices_yes,
+    .popup_step-type_fb .thankyou-steps_football_fb,
+    .popup_step-type_fb .title_football_fb,
+    .popup_step-type_fb .thankyou-steps__title_football_fb,
+    .popup_step-type_bjk .thankyou-steps_football_bjk,
+    .popup_step-type_bjk .title_football_bjk,
+    .popup_step-type_bjk .thankyou-steps__title_football_bjk,
+    .popup_step-type_gs .thankyou-steps_football_gs,
+    .popup_step-type_gs .title_football_gs,
+    .popup_step-type_gs .thankyou-steps__title_football_gs
+    {
+        display: block;
+    }
+    
+/* ../../desktop.blocks/thankyou-steps/_step-type/thankyou-steps_step-type.css: end */ /**/
+
+/* ../../desktop.blocks/thankyou-bottombar/thankyou-bottombar.css: begin */ /**/
+    .thankyou-bottombar
+    {
+        font-size: 15px;
+    
+        position: relative;
+    
+        margin: 33px -33px -36px;
+        padding: 32px 188px 36px 49px;
+    
+        background: #f3f3f3;
+    }
+    
+    .thankyou-bottombar .b-link,
+    .thankyou-bottombar a
+    {
+        color: #1d80d6;
+    }
+    
+    .thankyou-bottombar .image
+    {
+        position: absolute;
+        top: -10px;
+        right: 65px;
+    }
+    
+/* ../../desktop.blocks/thankyou-bottombar/thankyou-bottombar.css: end */ /**/
+
+/* ../../desktop.blocks/i-clearfix/i-clearfix.css: begin */ /**/
+    .i-clearfix:before,
+    .i-clearfix:after
+    {
+        display: table; /* 2 */
+    
+        content: " "; /* 1 */
+    }
+    
+    .i-clearfix:after
+    {
+        clear: both;
+    }
+    
+    /*
+    .i-clearfix {
+        *zoom: 1;
+    }
+    */
+    
+/* ../../desktop.blocks/i-clearfix/i-clearfix.css: end */ /**/
+
+/* ../../vendors/islands-promo/desktop.blocks/grid/grid.css: begin */ /**/
+    .grid
+    {
+        position: relative;
+    
+        margin:  0 -9px;
+    }
+/* ../../vendors/islands-promo/desktop.blocks/grid/grid.css: end */ /**/
+
+/* ../../desktop.blocks/grid/grid.css: begin */ /**/
+    .grid
+    {
+        margin: 0;
+        padding: 0 8px;
+    }
+    
+/* ../../desktop.blocks/grid/grid.css: end */ /**/
+
+/* ../../vendors/islands-promo/desktop.blocks/grid/__row/grid__row.css: begin */ /**/
+    .grid__row
+    {
+        padding-right: 58.33%;
+        box-sizing: border-box;
+    }
+/* ../../vendors/islands-promo/desktop.blocks/grid/__row/grid__row.css: end */ /**/
+
+/* ../../vendors/islands-promo/desktop.blocks/grid/__cell/grid__cell.css: begin */ /**/
+    .grid__cell
+    {
+        float: left;
+        position: relative;
+    }
+    
+    .grid__cell-inner
+    {
+        padding: 0 9px;
+    }
+/* ../../vendors/islands-promo/desktop.blocks/grid/__cell/grid__cell.css: end */ /**/
+
+/* ../../desktop.blocks/grid/__cell/grid__cell.css: begin */ /**/
+    .grid__cell-inner
+    {
+        padding: 0 8px;
+    }
+/* ../../desktop.blocks/grid/__cell/grid__cell.css: end */ /**/
+
+/* ../../vendors/islands-promo/desktop.blocks/grid/__cell/_size/grid__cell_size.css: begin */ /**/
+    .grid__cell_size_1
+    {
+        margin-right: -20%;
+        width: 20%;
+    }
+    
+    .grid__cell_size_2
+    {
+        margin-right: -40%;
+        width: 40%;
+    }
+    
+    .grid__cell_size_3
+    {
+        margin-right: -60%;
+        width: 60%;
+    }
+    
+    .grid__cell_size_4
+    {
+        margin-right: -80%;
+        width: 80%;
+    }
+    
+    .grid__cell_size_5
+    {
+        margin-right: -100%;
+        width: 100%;
+    }
+    
+    .grid__cell_size_6
+    {
+        margin-right: -120%;
+        width: 120%;
+    }
+    
+    .grid__cell_size_7
+    {
+        margin-right: -140%;
+        width: 140%;
+    }
+    
+    .grid__cell_size_8
+    {
+        margin-right: -160%;
+        width: 160%;
+    }
+    
+    .grid__cell_size_9
+    {
+        margin-right: -180%;
+        width: 180%;
+    }
+    
+    .grid__cell_size_10
+    {
+        margin-right: -200%;
+        width: 200%;
+    }
+    
+    .grid__cell_size_11
+    {
+        margin-right: -220%;
+        width: 220%;
+    }
+    
+    .grid__cell_size_12
+    {
+        margin-right: -240%;
+        width: 240%;
+    }
+/* ../../vendors/islands-promo/desktop.blocks/grid/__cell/_size/grid__cell_size.css: end */ /**/
+
+/* ../../vendors/islands-promo/desktop.blocks/grid/__cell/_pos/grid__cell_pos.css: begin */ /**/
+    .grid__cell_pos_1
+    {
+        left: 0;
+    }
+    
+    .grid__cell_pos_2
+    {
+        left: 20%;
+    }
+    
+    .grid__cell_pos_3
+    {
+        left: 40%;
+    }
+    
+    .grid__cell_pos_4
+    {
+        left: 60%;
+    }
+    
+    .grid__cell_pos_5
+    {
+        left: 80%;
+    }
+    
+    .grid__cell_pos_6
+    {
+        left: 100%;
+    }
+    
+    .grid__cell_pos_7
+    {
+        left: 120%;
+    }
+    
+    .grid__cell_pos_8
+    {
+        left: 140%;
+    }
+    
+    .grid__cell_pos_9
+    {
+        left: 160%;
+    }
+    
+    .grid__cell_pos_10
+    {
+        left: 180%;
+    }
+    
+    .grid__cell_pos_11
+    {
+        left: 200%;
+    }
+    
+    .grid__cell_pos_12
+    {
+        left: 220%;
+    }
+/* ../../vendors/islands-promo/desktop.blocks/grid/__cell/_pos/grid__cell_pos.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/image/image.css: begin */ /**/
+    .image
+    {
+        font: 0/0 a;
+    
+        border: 0;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/image/image.css: end */ /**/
+
+/* ../../desktop.blocks/image/image.css: begin */ /**/
+    .image
+    {}
+/* ../../desktop.blocks/image/image.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_protection.css: begin */ /**/
+    .image_type_protection
+    {
+        margin:  0 0 60px 0;
+    }
+/* ../../desktop.blocks/image/_type/image_type_protection.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_settings.css: begin */ /**/
+    .image_type_settings
+    {
+        margin:  0 0 60px 0;
+    }
+/* ../../desktop.blocks/image/_type/image_type_settings.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_turbo.css: begin */ /**/
+    .image_type_turbo
+    {
+        margin:  60px 0 0 0;
+    }
+/* ../../desktop.blocks/image/_type/image_type_turbo.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_turbo-icon.css: begin */ /**/
+    .image_type_turbo-icon
+    {
+        position: relative;
+    
+        float: right;
+    
+        margin:  -63px 7px -20px -10px;
+    }
+/* ../../desktop.blocks/image/_type/image_type_turbo-icon.css: end */ /**/
+
+/* ../../desktop.blocks/title/title.css: begin */ /**/
+    .title
+    {
+        margin: 71px 0 4px 0;
+    }
+    
+    .title__inner
+    {
+        font-size: 30px;
+        font-weight: 400;
+    
+        margin: 0;
+    
+        color: #333;
+    }
+/* ../../desktop.blocks/title/title.css: end */ /**/
+
+/* ../../desktop.blocks/title/_type/title_type_thankyou.css: begin */ /**/
+    .title_type_thankyou
+    {
+        margin: 0 16px 4px;
+    }
+/* ../../desktop.blocks/title/_type/title_type_thankyou.css: end */ /**/
+
+/* ../../desktop.blocks/title/_color/title_color_ffffff.css: begin */ /**/
+    .title_color_ffffff .title__inner
+    {
+        color:  #fff;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.36);
+    }
+/* ../../desktop.blocks/title/_color/title_color_ffffff.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_position/popup_position_fixed.css: begin */ /**/
+    .popup_position_fixed
+    {
+        position: fixed;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_position/popup_position_fixed.css: end */ /**/
+
+/* ./blocks/page-content/__item/page-content__item.css: begin */ /**/
+    .page-content__item
+    {
+        display: none;
+    }
+    
+    .page-content_type_desktop .page-content__item_type_desktop
+    {
+        display: block;
+    }
+    
+    .page-content_type_mobile .page-content__item_type_mobile
+    {
+        display: block;
+    }
+    
+    .page-content_type_tablet .page-content__item_type_tablet
+    {
+        display: block;
+    }
+/* ./blocks/page-content/__item/page-content__item.css: end */ /**/
+
+/* ./blocks/page-content/__slides/page-content__slides.css: begin */ /**/
+    .page-content__slides
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: -70px;
+        left: 0;
+    
+        overflow: hidden;
+    }
+/* ./blocks/page-content/__slides/page-content__slides.css: end */ /**/
+
+/* ./blocks/page-content/__slide/page-content__slide.css: begin */ /**/
+    .page-content__slide
+    {
+        position: absolute;
+        top: 0;
+        bottom: 70px;
+        left: 0;
+    
+        display: none;
+    
+        width: 100%;
+    }
+    
+    .page-content_type_desktop .page-content__slide_type_desktop
+    {
+        display: block;
+    }
+    
+    .page-content_type_mobile .page-content__slide_type_mobile
+    {
+        display: block;
+    }
+    
+    .page-content_type_tablet .page-content__slide_type_tablet
+    {
+        display: block;
+    }
+    
+    
+/* ./blocks/page-content/__slide/page-content__slide.css: end */ /**/
+
+/* ./blocks/page-content/__directional-switch/page-content__directional-switch.css: begin */ /**/
+    .page-content__directional-switch
+    {
+        position: absolute;
+        z-index:  500;
+        top: 50%;
+    
+        width:  44px;
+        height:  44px;
+        margin-top:  -22px;
+    
+        cursor: pointer;
+        -webkit-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+           transition: all .4s ease-in-out;
+    
+        opacity: 0.6;
+        background:  url(./blocks/page-content/__directional-switch/page-content__directional-switch.png) no-repeat;
+    }
+    
+    .page-content__directional-switch:hover
+    {
+        opacity:  1;
+    }
+    
+    .page-content__directional-switch_direction_forward
+    {
+        right:  55px;
+    
+        background-position:  0 -44px;
+    }
+    
+    .page-content__directional-switch_direction_backward
+    {
+        left:  55px;
+    
+        background-position:  0 0;
+    }
+    
+    @media screen and (max-width: 1185px) {
+        .page-content__directional-switch_direction_forward
+        {
+            right:  20px;
+        }
+    
+        .page-content__directional-switch_direction_backward
+        {
+            left:  20px;
+        }
+    }
+    
+    @media screen and (max-width: 1112px) {
+        .page-content__directional-switch_direction_forward
+        {
+            right: 5px;
+    
+            margin-top: 95px;
+        }
+    
+        .page-content__directional-switch_direction_backward
+        {
+            left:  5px;
+    
+            margin-top: 95px;
+        }
+    }
+/* ./blocks/page-content/__directional-switch/page-content__directional-switch.css: end */ /**/
+
+/* ./blocks/page-content/__border/_type/page-content__border_type_left.css: begin */ /**/
+    .page-content__border_type_left
+    {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 100%;
+    
+        width: 18px;
+        height: 100%;
+    
+        background: #fff;
+    }
+/* ./blocks/page-content/__border/_type/page-content__border_type_left.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-page/promo-page.css: begin */ /**/
+    html, body
+    {
+        height: 100%;
+        padding: 0;
+    }
+    
+    .promo-page
+    {
+        position: relative;
+    
+        min-width: 954px; /* 918 + 18 * 2 */
+        min-height: 100%;
+    
+        border: solid #ffffff;
+        border-width: 0 18px;
+        background-color: #f6f5f3;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-page/promo-page.css: end */ /**/
+
+/* ./blocks/promo-page/promo-page.css: begin */ /**/
+    .promo-page
+    {
+        min-height: 100%;
+    
+        background: #e6e7e8;
+    }
+    
+/* ./blocks/promo-page/promo-page.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-page/__padder/promo-page__padder.css: begin */ /**/
+    .promo-page__padder
+    {
+        height: 18px;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-page/__padder/promo-page__padder.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-page/__border/promo-page__border.css: begin */ /**/
+    .promo-page__border
+    {
+        position: absolute;
+    
+        background-color: #ffffff;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-page/__border/promo-page__border.css: end */ /**/
+
+/* ./blocks/promo-page/__border/promo-page__border.css: begin */ /**/
+    .promo-page__border
+    {
+        z-index: 1;
+    }
+/* ./blocks/promo-page/__border/promo-page__border.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-page/__border/_position/promo-page__border_position_top.css: begin */ /**/
+    .promo-page__border_position_top
+    {
+        top: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 18px;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-page/__border/_position/promo-page__border_position_top.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-page/__border/_position/promo-page__border_position_bottom.css: begin */ /**/
+    .promo-page__border_position_bottom
+    {
+        bottom: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 18px;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-page/__border/_position/promo-page__border_position_bottom.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-page/__section/promo-page__section.css: begin */ /**/
+    .promo-page__section
+    {
+        position: relative;
+    
+        max-width: 918px;
+        margin: 0 auto;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-page/__section/promo-page__section.css: end */ /**/
+
+/* ./blocks/promo-page/__section/promo-page__section.css: begin */ /**/
+    .promo-page__section
+    {
+        position: relative;
+    }
+    
+/* ./blocks/promo-page/__section/promo-page__section.css: end */ /**/
+
+/* ./blocks/promo-page/__section/_type/promo-page__section_type_footer.css: begin */ /**/
+    .promo-page__section_type_footer
+    {
+        font-size: 14px;
+    
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+    
+        width: 954px;
+        margin: 0 0 0 -477px;
+    }
+    
+/* ./blocks/promo-page/__section/_type/promo-page__section_type_footer.css: end */ /**/
+
+/* ./blocks/promo-page/__section/_type/promo-page__section_type_top.css: begin */ /**/
+    .promo-page__section_type_top
+    {
+        font-size: 14px;
+    
+        position: absolute;
+        z-index: 2;
+        top: 20px;
+        left: 50%;
+    
+        width: 954px;
+        margin: 12px 0 0 -477px;
+    }
+    
+/* ./blocks/promo-page/__section/_type/promo-page__section_type_top.css: end */ /**/
+
+/* ./blocks/promo-page/__section/_type/promo-page__section_type_info.css: begin */ /**/
+    .promo-page__section_type_info
+    {
+        font-size: 14px;
+    
+        position: relative;
+        z-index: 1;
+    
+        max-width: 954px;
+        margin: 22px auto 70px;
+    }
+    
+/* ./blocks/promo-page/__section/_type/promo-page__section_type_info.css: end */ /**/
+
+/* ./blocks/promo-page/__section/_type/promo-page__section_type_simple.css: begin */ /**/
+    .promo-page__section_type_simple
+    {
+        z-index: 1;
+    
+        max-width: 100%;
+        height: 548px;
+        margin: 0;
+    }
+    
+/* ./blocks/promo-page/__section/_type/promo-page__section_type_simple.css: end */ /**/
+
+/* ./blocks/grid/_fixed/grid_fixed_yes.css: begin */ /**/
+    .grid_fixed_yes
+    {
+        width: 954px;
+        margin: 0 auto;
+    }
+    
+/* ./blocks/grid/_fixed/grid_fixed_yes.css: end */ /**/
+
+/* ../../desktop.blocks/wrap/wrap.css: begin */ /**/
+    .wrap__inner
+    {
+        position: relative;
+    
+        max-width: 956px;
+        margin: 0 auto;
+        padding-top: 1px;
+    }
+/* ../../desktop.blocks/wrap/wrap.css: end */ /**/
+
+/* ../../desktop.blocks/wrap/_type/wrap_type_orbit.css: begin */ /**/
+    .wrap_type_orbit
+    {
+        position: absolute;
+        z-index:  40;
+    
+        width:  100%;
+        padding: 102px 0 40px 0;
+    }
+    
+/* ../../desktop.blocks/wrap/_type/wrap_type_orbit.css: end */ /**/
+
+/* ../../desktop.blocks/wrap/_disable/wrap_disable_yes.css: begin */ /**/
+    .wrap_disable_yes
+    {
+        pointer-events: none;
+    }
+/* ../../desktop.blocks/wrap/_disable/wrap_disable_yes.css: end */ /**/
+
+/* ../../desktop.blocks/football/football.css: begin */ /**/
+    .wrap_type_football .b-link,
+    .football .b-link
+    {
+        text-decoration: none;
+    }
+    
+    .wrap_type_football .b-link:hover .football__title,
+    .football .b-link:hover .football__title
+    {
+        text-decoration: underline;
+    }
+    
+/* ../../desktop.blocks/football/football.css: end */ /**/
+
+/* ../../desktop.blocks/football/__desc/football__desc.css: begin */ /**/
+    .football__desc
+    {
+        font-size: 12px;
+        line-height: 1.5;
+    
+        color: #999;
+    }
+    
+/* ../../desktop.blocks/football/__desc/football__desc.css: end */ /**/
+
+/* ../../desktop.blocks/football/__item/football__item.css: begin */ /**/
+    .football__item
+    {
+        position: relative;
+    
+        display: block;
+    
+        min-height: 61px;
+        padding-top: 13px;
+    }
+    
+/* ../../desktop.blocks/football/__item/football__item.css: end */ /**/
+
+/* ../../desktop.blocks/football/__icon-wrap/football__icon-wrap.css: begin */ /**/
+    .football__icon-wrap
+    {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 100%;
+    
+        width: 60px;
+        height: 60px;
+        margin-right: 18px;
+    }
+    
+    .football__icon-wrap:after
+    {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+    
+        display: block;
+    
+        width: 18px;
+    
+        content: '';
+    }
+    
+/* ../../desktop.blocks/football/__icon-wrap/football__icon-wrap.css: end */ /**/
+
+/* ../../desktop.blocks/football/__icon/football__icon.css: begin */ /**/
+    .football__icon
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    
+        height: 70px;
+        margin-top: -35px;
+    
+        background: url(../../desktop.blocks/football/__icon/football__icon.png);
+    }
+    
+    .football__icon_type_ya
+    {
+        width: 68px;
+        margin-left: -34px;
+    
+        background-position: 0 0;
+    }
+    
+    .football__icon_type_bjk
+    {
+        width: 54px;
+        margin-left: -29px;
+    
+        background-position: -68px 0;
+    }
+    
+    .football__icon_type_fb
+    {
+        width: 70px;
+        margin-left: -35px;
+    
+        background-position: -122px 0;
+    }
+    
+    .football__icon_type_gs
+    {
+        width: 55px;
+        margin-left: -27px;
+    
+        background-position: -192px 0;
+    }
+    
+/* ../../desktop.blocks/football/__icon/football__icon.css: end */ /**/
+
+/* ../../desktop.blocks/football/__title/football__title.css: begin */ /**/
+    .football__title
+    {
+        font-size: 15px;
+        line-height: 1.5;
+    
+        color: #333;
+    }
+    
+/* ../../desktop.blocks/football/__title/football__title.css: end */ /**/
+
+/* ../../desktop.blocks/popup/_name/popup_name_football-agreement.css: begin */ /**/
+    .popup_name_football-agreement
+    {
+        z-index: 100;
+    
+        border-radius: 6px;
+    }
+    
+    .popup_name_football-agreement .popup__content
+    {
+        font-size:  14px;
+        line-height:  18px;
+    
+        width:  250px;
+        padding:  18px;
+    
+        color:  #666;
+        border-radius: 5px;
+    }
+    
+    .popup_name_football-agreement .popup__content .b-link:link,
+    .popup_name_football-agreement .popup__content .b-link:visited
+    {
+        text-decoration: underline;
+    
+        color:  #666;
+    }
+    
+    .popup_name_football-agreement .popup__content .b-link:hover,
+    .popup_name_football-agreement .popup__content .b-link:active
+    {
+        color:  #f00;
+    }
+/* ../../desktop.blocks/popup/_name/popup_name_football-agreement.css: end */ /**/
+
+/* ../../desktop.blocks/wrap/_type/wrap_type_football.css: begin */ /**/
+    .wrap_type_football
+    {
+        position: relative;
+        z-index: 3;
+    
+        padding: 22px 0;
+    }
+    
+/* ../../desktop.blocks/wrap/_type/wrap_type_football.css: end */ /**/
+
+/* ./blocks/wrap/_type/wrap_type_football.css: begin */ /**/
+    .wrap_type_football
+    {
+        margin: -35px 0 70px 0;
+    
+        border-top: 1px solid #d8d8df;
+        border-bottom: 1px solid #d8d8df;
+        background: #e6e7e8;
+    }
+/* ./blocks/wrap/_type/wrap_type_football.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-dropdowna/b-dropdowna.css: begin */ /**/
+    .b-dropdowna
+    {
+        display: inline;
+    }
+    
+    .b-dropdowna__menu .b-menu__layout-vert-separator
+    {
+        margin: 0 0 4px;
+    
+        font: 0/0 a;
+    }
+    
+    body .b-dropdowna__menu .b-menu__separator
+    {
+        margin: 0 -4px;
+    
+        border-top-style: solid;
+        border-top-color: #ddd;
+    }
+    
+    .b-dropdowna__menu .b-menu__layout-vert-cell
+    {
+        margin-bottom: .5em;
+    
+        line-height: 1.35em;
+    }
+    
+    .b-dropdowna__menu .b-menu__layout-vert-cell_position_last
+    {
+        margin-bottom: .2em;
+    }
+    
+    .b-dropdowna__menu .b-link:visited
+    {
+        color: #1a3dc1;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-dropdowna/b-dropdowna.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-popupa/b-popupa.css: begin */ /**/
+    .b-popupa,
+    .i-popup .b-popupa .b-popupa
+    {
+        display: none;
+    }
+    
+    .i-popup .b-popupa
+    {
+        display: block;
+    }
+    
+    .b-popupa__under
+    {
+        top: -7px;
+        left: -7px;
+    
+        padding: 7px 7px 6px;
+    }
+    
+    .b-popupa__wrap
+    {
+        border-collapse: collapse;
+    
+        font-size: 100%;
+    }
+    
+    .b-popupa__wrap-cell
+    {
+        padding: 0;
+    }
+    
+    .b-popupa__content
+    {
+        position: relative;
+        z-index: 10;
+    
+        margin: 0;
+        padding: 4px 8px;
+    }
+    
+    /* Адская смесь для всех браузеров кроме IE и FF2.
+       Если первый элемент в body имеет margin-top,
+       то body с position: relative сдвигается на этот оступ.
+       Поэтому добавляем элемент с нулевым верхним отступом и еще с кучей свойств (ради любимой Оперы),
+       используя псевдо-классы.
+    
+    body:before
+    {
+        font: 1px/1px a;
+    
+        display: block;
+        visibility: hidden;
+        overflow: hidden;
+    
+        width: 1px;
+        height: 1px;
+        margin: 0 0 -1px -10px;
+    
+        content: '&#160';
+    }*/ /**/
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-popupa/b-popupa.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-popupa/__shadow/b-popupa__shadow.css: begin */ /**/
+    .b-popupa__shadow
+    {
+        position: absolute;
+        z-index: 8;
+        top: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 100%;
+    
+        font: 0/0 a;
+        box-shadow: -1px 3px 7px rgba(0, 0, 0, .2), 1px 0 7px rgba(0, 0, 0, .2), 0 3px 4px rgba(0, 0, 0, .25);
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-popupa/__shadow/b-popupa__shadow.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-popupa/_theme/b-popupa_theme_ffffff.css: begin */ /**/
+    .b-popupa_theme_ffffff .b-popupa__content
+    {
+        background: #fff;
+    }
+    
+    .b-popupa_theme_ffffff .b-popupa__tail
+    {
+        background-image: url(../../vendors/islands-romochka/desktop.blocks/b-popupa/_theme/b-popupa_theme_ffffff.png);
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-popupa/_theme/b-popupa_theme_ffffff.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/i-popup/i-popup.css: begin */ /**/
+    .i-popup
+    {
+        position: absolute;
+        z-index: 32700;
+    
+        display: none;
+    }
+    
+    .i-popup__content
+    {
+        height: 100%; /*LEGO-7733*/
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/i-popup/i-popup.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/i-popup/__under/i-popup__under.css: begin */ /**/
+    .i-popup__under
+    {
+        position: absolute;
+        z-index: -1;
+    
+        width: 100%;
+        height: 100%;
+    
+        border: 0;
+    }
+    
+    /* LEGO-7661 */
+    .i-popup div.i-popup__under
+    {
+        display: none;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/i-popup/__under/i-popup__under.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/i-popup/_visibility/i-popup_visibility_visible.css: begin */ /**/
+    .i-popup_visibility_visible
+    {
+        display: block;
+    
+        -webkit-animation: show .2s;
+           -moz-animation: show .2s;
+            -ms-animation: show .2s;
+             -o-animation: show .2s;
+    }
+    
+    @-webkit-keyframes show
+    {
+        0%
+        {
+            opacity: 0;
+        }
+        100%
+        {
+            opacity: 1;
+        }
+    }
+    
+    /* Fix: ROMOCHKA-43 - init reflow */
+    .i-popup_visibility_visible:after
+    {
+        content: '';
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/i-popup/_visibility/i-popup_visibility_visible.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/i-popup/__under/_color/i-popup__under_color_white.css: begin */ /**/
+    .i-popup__under_color_white
+    {
+        background: #fff !important;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/i-popup/__under/_color/i-popup__under_color_white.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/i-popup/__under/_type/i-popup__under_type_paranja.css: begin */ /**/
+    .i-popup__under_type_paranja
+    {
+        position: fixed;
+        z-index: 32000;
+        top: 0;
+        left: 0;
+    
+        padding: 0;
+    
+        opacity: .9;
+        background: #333;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/i-popup/__under/_type/i-popup__under_type_paranja.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-popupa/__tail/b-popupa__tail.css: begin */ /**/
+    .b-popupa__tail
+    {
+        position: absolute;
+        z-index: 9;
+        top: 0;
+    
+        font: 0/0 a;
+    
+        background-repeat: no-repeat;
+    }
+    
+    /* Попап открывается вниз */ /**/
+    .b-popupa_direction_down .b-popupa__tail
+    {
+        width: 19px;
+        height: 10px;
+        margin: -19px 0 0 19px;
+    
+        background-position: 0 0;
+    }
+    
+    /* Попап открывается вверх */ /**/
+    .b-popupa_direction_up .b-popupa__tail
+    {
+        top: 100%;
+    
+        width: 19px;
+        height: 10px;
+        margin: 0 0 0 19px;
+    
+        background-position: 0 -10px;
+    }
+    
+    /* Попап открывается влево */ /**/
+    .b-popupa_direction_left .b-popupa__tail
+    {
+        left: 100%;
+    
+        width: 9px;
+        height: 19px;
+        margin: 19px 0 0;
+    
+        background-position: -32px 0;
+    }
+    
+    /* Попап открывается вправо */ /**/
+    .b-popupa_direction_right .b-popupa__tail
+    {
+        width: 9px;
+        height: 19px;
+        margin: 19px 0 0 -10px;
+    
+        background-position: -23px 0;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-popupa/__tail/b-popupa__tail.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-dropdowna/__switcher/b-dropdowna__switcher.css: begin */ /**/
+    .b-dropdowna__switcher
+    {
+        display: inline-block;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-dropdowna/__switcher/b-dropdowna__switcher.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-dropdowna/_disabled/b-dropdowna_disabled_yes.css: begin */ /**/
+    .b-dropdowna_disabled_yes .b-dropdowna__switcher,
+    .b-dropdowna_disabled_yes .b-dropdowna__switcher .b-link_pseudo_yes,
+    .b-dropdowna_disabled_yes .b-dropdowna__switcher a.b-link_pseudo_yes:link,
+    .b-dropdowna_disabled_yes .b-dropdowna__switcher a.b-link_pseudo_yes:hover,
+    .b-dropdowna_disabled_yes .b-dropdowna__switcher a.b-link_pseudo_yes:visited
+    {
+        cursor: default !important;
+    
+        color: #bebebe !important;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-dropdowna/_disabled/b-dropdowna_disabled_yes.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-lang-switcher/b-lang-switcher.css: begin */ /**/
+    .i-ua_js_yes .b-lang-switcher__lang:link,
+    .i-ua_js_yes .b-lang-switcher__lang:visited
+    {
+        text-decoration: none;
+    
+        color: #1a3dc1;
+        outline: 0;
+    }
+    
+    .i-ua_js_yes .b-lang-switcher__lang
+    {
+        color: #5d5d5d;
+    }
+    
+    .i-ua_js_yes .b-lang-switcher__popup-content .b-lang-switcher__lang-name,
+    .i-ua_js_yes .b-lang-switcher__lang .b-link__inner
+    {
+        border: 0;
+    }
+    
+    .i-ua_js_yes .b-lang-switcher__lang-name
+    {
+        border-bottom: 1px dotted;
+    }
+    
+    .b-lang-switcher__flag
+    {
+        position: relative;
+    
+        margin: 0 5px -1px 0;
+    }
+    
+    .b-link .b-lang-switcher__flag,
+    .b-link_pseudo_yes .b-lang-switcher__flag
+    {
+        cursor: pointer;
+    }
+    
+    .b-lang-switcher__menu .b-lang-switcher__lang:link,
+    .b-lang-switcher__menu .b-lang-switcher__lang:visited
+    {
+        text-decoration: none;
+    }
+    
+    .b-lang-switcher__menu :link .b-lang-switcher__lang-name
+    {
+        text-decoration: underline;
+    }
+    
+    .b-lang-switcher__popup-content
+    {
+        padding: 8px 12px;
+    }
+    
+    .b-lang-switcher__switcher
+    {
+        display: inline-block; /*Необходимо по задаче LEGO-4946. convert2xml убирает пустые текстовые ноды и сводит весь код к одной строчке. В ИЕ9 из-за этого не правильно высчитывается высота свитчера*/ /**/
+    }
+    
+    .b-foot .b-lang-switcher__flag
+    {
+        margin-bottom: -2px;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-lang-switcher/b-lang-switcher.css: end */ /**/
+
+/* ../../desktop.blocks/b-lang-switcher/b-lang-switcher.css: begin */ /**/
+    .b-lang-switcher
+    {
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+    
+    .b-lang-switcher__lang
+    {
+        white-space: nowrap;
+    }
+    
+    .b-lang-switcher__flag
+    {
+        vertical-align: middle;
+    }
+    
+    .b-lang-switcher__lang-name
+    {
+        cursor: pointer;
+    }
+    
+    .b-lang-switcher__menu :visited .b-lang-switcher__lang-name
+    {
+        text-decoration: underline;
+    }
+    
+    .b-dropdowna__menu .b-menu__layout-vert-cell,
+    .b-lang-switcher__menu .b-menu__item_layout_vert
+    {
+        line-height: 1.35;
+    
+        margin-bottom: 6px;
+    }
+    
+/* ../../desktop.blocks/b-lang-switcher/b-lang-switcher.css: end */ /**/
+
+/* ./blocks/b-lang-switcher/b-lang-switcher.css: begin */ /**/
+    .b-lang-switcher
+    {
+        font-size: 13px;
+    
+        position: relative;
+        top: auto;
+        right: auto;
+        left: auto;
+    }
+    
+    .b-lang-switcher .b-dropdowna__switcher .b-link
+    {
+        color:  #fff;
+        text-shadow:  0 1px 2px rgba(0, 0, 0, 0.36);
+    }
+    
+/* ./blocks/b-lang-switcher/b-lang-switcher.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-menu/b-menu.css: begin */ /**/
+    
+    
+    .b-menu__item-content
+    {
+        display: none;
+    }
+    
+    .b-menu__item-content_visibility_visible
+    {
+        display: block;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-menu/b-menu.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-menu/__title/b-menu__title.css: begin */ /**/
+    .b-menu__title
+    {
+        margin: 0;
+        padding: 0;
+    
+        font-size: 100%;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-menu/__title/b-menu__title.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-menu/__separator/b-menu__separator.css: begin */ /**/
+    .b-menu__separator
+    {
+        display: block;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-menu/__separator/b-menu__separator.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-menu/_layout/b-menu_layout_vert.css: begin */ /**/
+    .b-menu__layout-vert,
+    .b-menu__layout-vert-gap,
+    .b-menu__layout-vert-cell,
+    .b-menu__layout-vert-separator
+    {
+        margin: 0;
+        padding: 0;
+    
+        list-style: none;
+    }
+    
+    .b-menu_layout_vert .b-menu__separator
+    {
+        margin: 1em 0 0;
+    
+        border-top: 1px dotted #666;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-menu/_layout/b-menu_layout_vert.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-menu/_preset/b-menu_preset_vmenu.css: begin */ /**/
+    .b-menu_preset_vmenu .b-menu__layout-vert-cell,
+    .b-menu_preset_vmenu .b-menu__layout-vert-separator
+    {
+        margin-bottom: .5em;
+    }
+    
+    .b-menu_preset_vmenu .b-menu
+    {
+        margin: .5em 0 0 1.5em;
+    }
+    
+    .b-menu_preset_vmenu .b-menu__title
+    {
+        margin-bottom: .5em;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-menu/_preset/b-menu_preset_vmenu.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_ua.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_ua
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/QaG3XxXylZ5KP1AZC_bZ0nO3u5M.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_ua.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_en.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_en
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/8xIpQUvi-n0DQWKWlzcZchJuekg.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_en.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_tr.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_tr
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/WEqF7-mdxlQe_LncWQpTHfzqEeE.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_tr.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_kz.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_kz
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/uzZ71PWcVXtsIkeTuwAakheaPOY.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_kz.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_by.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_by
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/O-tmndNZfQ0UH_3x69kKVSzOLpY.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_by.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_fr.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_fr
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/4hSso-SnfJQ8R5dZ2jKRQyqGpYw.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_fr.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_it.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_it
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/GPBNa_1IxkMRXZbKyX39wa_kGFs.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_it.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_jp.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_jp
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/3CGy4Tzlp5OQ4TBJGzWjKX1E1FM.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_jp.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_pt.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_pt
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/b9JgyIMRKQbRglzW-ezV-yZHB-c.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_pt.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_br.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_br
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/BXLF1WFLANd-2EkJLYiDq87eRUo.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_br.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_es.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_es
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/TIeO7cVI6ouA6iGBIhOdhzflTNw.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_es.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_de.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_de
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/lP2loHscDZSVweC6Oq7jc77dhXc.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_de.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_cn.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_cn
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/RzmTsbmdAk6MoQWSpfdBrwHItjc.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_cn.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_cz.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_cz
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/VYEru0mQq_DEtBtq2r7fPRrLZ40.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_cz.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_ru.css: begin */ /**/
+    /* This file was generated by script. Don't edit it here.*/
+    .b-country-flag_size-16_ru
+    {
+        padding: 11px 0 0 16px;
+    
+        background: url(//yastatic.net/lego/_/Spb22l3caaD3xN3g-_nuzdnS2FA.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-country-flag/_size-16/b-country-flag_size-16_ru.css: end */ /**/
+
+/* ./blocks/b-lang-switcher-wrapper/b-lang-switcher-wrapper.css: begin */ /**/
+    .b-lang-switcher-wrapper
+    {
+        font-size: 14px;
+        line-height: 20px;
+    
+        margin: 0 0 4px 2px;
+    
+        color: #addadc;
+    }
+    
+    .b-lang-switcher-wrapper .b-lang-switcher
+    {
+        margin-left: 4px;
+    }
+    
+/* ./blocks/b-lang-switcher-wrapper/b-lang-switcher-wrapper.css: end */ /**/
+
+/* ../../desktop.blocks/b-background-image/b-background-image.css: begin */ /**/
+    .b-background-image
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        overflow: hidden;
+    
+        width: 100%;
+        height: 100%;
+    
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+    
+/* ../../desktop.blocks/b-background-image/b-background-image.css: end */ /**/
+
+/* ./blocks/b-background-image/b-background-image.css: begin */ /**/
+    .b-background-image
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        overflow: hidden;
+    
+        width: 100%;
+        height: 100%;
+    
+        background-color: #568786;
+    }
+    
+    .b-page_team_bjk .page-content_type_desktop .b-background-image
+    {
+        background-color: #ACACAC;
+    }
+    
+    .b-page_team_fb .page-content_type_desktop .b-background-image
+    {
+        background-color: #435C9F;
+    }
+    
+    .b-page_team_gs .page-content_type_desktop .b-background-image
+    {
+        background-color: #7F1019;
+    }
+/* ./blocks/b-background-image/b-background-image.css: end */ /**/
+
+/* ../../desktop.blocks/b-background-image/_ie/b-background-image_ie_yes.css: begin */ /**/
+    .b-background_ie_yes
+    {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: -1px;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .promo-page
+    {
+        z-index: 1;
+    }
+    
+/* ../../desktop.blocks/b-background-image/_ie/b-background-image_ie_yes.css: end */ /**/
+
+/* ./blocks/b-background-image/__image/b-background-image__image.css: begin */ /**/
+    .b-background-image__image
+    {
+        min-width: 100%;
+        min-height: 100%;
+    }
+    
+    .b-background-image__image_background_green
+    {
+        display: block;
+    }
+    
+    .b-background-image__image_football_yes
+    {
+        display: none;
+    
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+    }
+    
+    .page-content_type_desktop .b-background-image__image_football_yes
+    {
+        display: block;
+    }
+    
+/* ./blocks/b-background-image/__image/b-background-image__image.css: end */ /**/
+
+/* ./blocks/project-name/project-name.css: begin */ /**/
+    .project-name
+    {
+        margin-top: 60px;
+    }
+    
+    .project-name__inner
+    {
+        font-size: 36px;
+        font-weight: 400;
+    
+        margin: 0;
+        padding: 0;
+    
+        color: #fff;
+    }
+    
+    
+/* ./blocks/project-name/project-name.css: end */ /**/
+
+/* ./blocks/project-name/__img/project-name__img.css: begin */ /**/
+    .project-name__img
+    {
+        font-size:  36px;
+    
+        padding: 67px 220px 0 0;
+    
+        vertical-align: middle;
+    
+        color:  #fff;
+        background-repeat: no-repeat;
+    }
+    
+    .project-name_lang_ru .project-name__img,
+    .project-name_lang_be .project-name__img,
+    .project-name_lang_kk .project-name__img,
+    .project-name_lang_uk .project-name__img
+    {
+        background-image: url(./blocks/project-name/__img/project-name_lang_ru.png);
+    }
+    
+    .project-name_lang_en .project-name__img,
+    .project-name_lang_tr .project-name__img
+    {
+        background-image: url(./blocks/project-name/__img/project-name_lang_en.png);
+    }
+/* ./blocks/project-name/__img/project-name__img.css: end */ /**/
+
+/* ./blocks/project-name/__img/_team/project-name__img_team_bjk.css: begin */ /**/
+    .page-content_type_desktop .project-name_lang_tr .project-name__img_team_bjk
+    {
+        padding: 82px 216px 0 0;
+    
+        background: url(./blocks/project-name/__img/_team/project-name__img_team_bjk.png) 50% 0 no-repeat;
+    }
+/* ./blocks/project-name/__img/_team/project-name__img_team_bjk.css: end */ /**/
+
+/* ./blocks/project-name/__img/_team/project-name__img_team_fb.css: begin */ /**/
+    .page-content_type_desktop .project-name_lang_tr .project-name__img_team_fb
+    {
+        padding: 82px 216px 0 0;
+    
+        background: url(./blocks/project-name/__img/_team/project-name__img_team_fb.png) 50% 0 no-repeat;
+    }
+/* ./blocks/project-name/__img/_team/project-name__img_team_fb.css: end */ /**/
+
+/* ./blocks/project-name/__img/_team/project-name__img_team_gs.css: begin */ /**/
+    .page-content_type_desktop .project-name_lang_tr .project-name__img_team_gs
+    {
+        padding: 82px 216px 0 0;
+    
+        background: url(./blocks/project-name/__img/_team/project-name__img_team_gs.png) 50% 0 no-repeat;
+    }
+/* ./blocks/project-name/__img/_team/project-name__img_team_gs.css: end */ /**/
+
+/* ./blocks/project-logo/project-logo.css: begin */ /**/
+    .project-logo
+    {
+        font-size:  36px;
+    
+        margin-left: -14px;
+        padding: 67px 67px 0 0;
+    
+        vertical-align: middle;
+    
+        color:  #fff;
+        background: url(./blocks/project-logo/project-logo.png) no-repeat;
+    }
+    
+/* ./blocks/project-logo/project-logo.css: end */ /**/
+
+/* ./blocks/project-logo/_team/project-logo_team_bjk.css: begin */ /**/
+    .page-content_type_desktop .project-logo_team_bjk
+    {
+        margin: 0 20px 0 0;
+        padding: 86px 72px 0 0;
+    
+        vertical-align: top;
+    
+        background: url(./blocks/project-logo/_team/project-logo_team_bjk.png) 50% 3px no-repeat;
+    }
+/* ./blocks/project-logo/_team/project-logo_team_bjk.css: end */ /**/
+
+/* ./blocks/project-logo/_team/project-logo_team_fb.css: begin */ /**/
+    .page-content_type_desktop .project-logo_team_fb
+    {
+        margin: 0 20px 0 0;
+        padding: 86px 72px 0 0;
+    
+        vertical-align: top;
+    
+        background: url(./blocks/project-logo/_team/project-logo_team_fb.png) 50% 3px no-repeat;
+    }
+/* ./blocks/project-logo/_team/project-logo_team_fb.css: end */ /**/
+
+/* ./blocks/project-logo/_team/project-logo_team_gs.css: begin */ /**/
+    .page-content_type_desktop .project-logo_team_gs
+    {
+        margin: 0 20px 0 0;
+        padding: 86px 72px 0 0;
+    
+        vertical-align: top;
+    
+        background: url(./blocks/project-logo/_team/project-logo_team_gs.png) 50% 3px no-repeat;
+    }
+/* ./blocks/project-logo/_team/project-logo_team_gs.css: end */ /**/
+
+/* ../../desktop.blocks/slogan/slogan.css: begin */ /**/
+    .slogan
+    {
+        font-size: 47px;
+        font-weight: normal;
+    
+        width: 450px;
+        min-height: 240px;
+        margin: 20px 0 15px;
+        padding: 0;
+    
+        color: #fff;
+    }
+    
+    .b-page_theme_white .slogan
+    {
+        color: #000;
+        text-shadow: none;
+    }
+    
+/* ../../desktop.blocks/slogan/slogan.css: end */ /**/
+
+/* ./blocks/slogan/slogan.css: begin */ /**/
+    .b-page_team_bjk .page-content_type_desktop .slogan,
+    .b-page_team_fb .page-content_type_desktop .slogan,
+    .b-page_team_gs .page-content_type_desktop .slogan
+    {
+        min-height: 221px;
+    }
+/* ./blocks/slogan/slogan.css: end */ /**/
+
+/* ./blocks/promo-image/promo-image.css: begin */ /**/
+    .promo-image
+    {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+    
+        pointer-events: none;
+    
+        background-position: 0 100%;
+    }
+    
+    .promo-image_type_desktop
+    {
+        width: 540px;
+        height: 500px;
+        margin: 0 0 -63px -30px;
+    }
+    
+    .promo-image_type_mobile
+    {
+        width: 388px;
+        height: 557px;
+        margin: 0 0 0 67px;
+    }
+    
+    .promo-image_type_tablet
+    {
+        width: 691px;
+        height: 484px;
+        margin: 0 0 0 24px;
+    }
+    
+    .promo-image__vml
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+/* ./blocks/promo-image/promo-image.css: end */ /**/
+
+/* ./blocks/promo-image/__icon/promo-image__icon.css: begin */ /**/
+    .promo-image__icon
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    
+        pointer-events: none;
+    
+        background-repeat: no-repeat;
+    }
+    
+    .promo-image__icon_type_desktop
+    {
+        width: 540px;
+        height: 500px;
+        margin: 0 0 -83px -32px;
+    }
+    
+    .promo-image__icon_type_mobile
+    {
+        width: 388px;
+        height: 557px;
+        margin: 0 0 0 67px;
+    }
+    
+    .promo-image__icon_type_tablet
+    {
+        width: 691px;
+        height: 484px;
+        margin: 0 0 0 24px;
+    }
+/* ./blocks/promo-image/__icon/promo-image__icon.css: end */ /**/
+
+/* ../../desktop.blocks/versions/__link/versions__link.css: begin */ /**/
+    .b-page_adaptive_yes .versions__link
+    {
+        display: none;
+    }
+    
+    .b-page_adaptive_yes .page-content_type_mobile .versions__link_type_desktop,
+    .b-page_adaptive_yes .page-content_type_desktop .versions__link_type_mobile
+    {
+        display: inline-block;
+    }
+    
+    .versions__link:hover .versions__icon
+    {
+        background-position: 0 -88px;
+    }
+    
+    .versions__link,
+    .versions__link:visited
+    {
+        margin-right: 40px;
+    
+        text-decoration: none;
+    
+        color: #1e78cd;
+    }
+    
+    /* Desktop */
+    .page-content_type_desktop .versions__link_type_desktop .versions__icon
+    {
+        background-position: 0 -44px;
+    }
+    
+    .page-content_type_desktop .versions__link_type_desktop,
+    .page-content_type_desktop .versions__link_type_desktop:visited,
+    .page-content_type_desktop .versions__link_type_desktop:hover
+    {
+        cursor: default;
+    
+        color: #999 !important;
+    }
+    
+    /* Tablet */
+    .page-content_type_tablet .versions__link_type_tablet .versions__icon
+    {
+        background-position: 0 -44px;
+    }
+    
+    .page-content_type_tablet .versions__link_type_tablet,
+    .page-content_type_tablet .versions__link_type_tablet:visited,
+    .page-content_type_tablet .versions__link_type_tablet:hover
+    {
+        cursor: default;
+    
+        color: #999 !important;
+    }
+    
+    /* Mobile */
+    .page-content_type_mobile .versions__link_type_mobile .versions__icon
+    {
+        background-position: 0 -44px;
+    }
+    
+    .page-content_type_mobile .versions__link_type_mobile,
+    .page-content_type_mobile .versions__link_type_mobile:visited,
+    .page-content_type_mobile .versions__link_type_mobile:hover
+    {
+        cursor: default;
+    
+        color: #999 !important;
+    }
+    
+    
+/* ../../desktop.blocks/versions/__link/versions__link.css: end */ /**/
+
+/* ./blocks/versions/__link/versions__link.css: begin */ /**/
+    .b-page_football_yes .page-content_type_desktop .versions__link:link,
+    .b-page_football_yes .page-content_type_desktop .versions__link:visited
+    {
+        color: #000;
+    }
+/* ./blocks/versions/__link/versions__link.css: end */ /**/
+
+/* ../../desktop.blocks/versions/__icon/versions__icon.css: begin */ /**/
+    .versions__icon
+    {
+        margin-right: 7px;
+        padding-top: 43px;
+    
+        vertical-align: middle;
+    
+        background-position: 0 0;
+    }
+/* ../../desktop.blocks/versions/__icon/versions__icon.css: end */ /**/
+
+/* ../../desktop.blocks/versions/__icon/_type/versions__icon_type_desktop.css: begin */ /**/
+    .versions__icon_type_desktop{    padding-left: 48px;    background-image: url(../../desktop.blocks/versions/__icon/_type/versions__icon_type_desktop.png);}
+/* ../../desktop.blocks/versions/__icon/_type/versions__icon_type_desktop.css: end */ /**/
+
+/* ../../desktop.blocks/versions/__icon/_type/versions__icon_type_mobile.css: begin */ /**/
+    .versions__icon_type_mobile
+    {
+        padding-left: 27px;
+    
+        background-image: url(../../desktop.blocks/versions/__icon/_type/versions__icon_type_mobile.png);
+    }
+/* ../../desktop.blocks/versions/__icon/_type/versions__icon_type_mobile.css: end */ /**/
+
+/* ../../desktop.blocks/versions/__icon/_type/versions__icon_type_tablet.css: begin */ /**/
+    .versions__icon_type_tablet
+    {
+        padding-left: 48px;
+    
+        background-image: url(../../desktop.blocks/versions/__icon/_type/versions__icon_type_tablet.png);
+    }
+/* ../../desktop.blocks/versions/__icon/_type/versions__icon_type_tablet.css: end */ /**/
+
+/* ./blocks/versions/__icon/_team/versions__icon_team_bjk.css: begin */ /**/
+    .b-page_team_bjk .page-content_type_desktop .versions__icon_type_desktop{    padding-left: 48px;    background-image: url(./blocks/versions/__icon/_team/versions__icon_team_bjk-desktop.png);}.b-page_team_bjk .page-content_type_desktop .versions__icon_type_mobile{    padding-left: 27px;    background-image: url(./blocks/versions/__icon/_team/versions__icon_team_bjk-mobile.png);}.b-page_team_bjk .page-content_type_desktop .versions__icon_type_tablet{    padding-left: 48px;    background-image: url(./blocks/versions/__icon/_team/versions__icon_team_bjk-tablet.png);}
+/* ./blocks/versions/__icon/_team/versions__icon_team_bjk.css: end */ /**/
+
+/* ./blocks/versions/__icon/_team/versions__icon_team_fb.css: begin */ /**/
+    .b-page_team_fb .page-content_type_desktop .versions__icon_type_desktop{    padding-left: 48px;    background-image: url(./blocks/versions/__icon/_team/versions__icon_team_fb-desktop.png);}.b-page_team_fb .page-content_type_desktop .versions__icon_type_mobile{    padding-left: 27px;    background-image: url(./blocks/versions/__icon/_team/versions__icon_team_fb-mobile.png);}.b-page_team_fb .page-content_type_desktop .versions__icon_type_tablet{    padding-left: 48px;    background-image: url(./blocks/versions/__icon/_team/versions__icon_team_fb-tablet.png);}
+/* ./blocks/versions/__icon/_team/versions__icon_team_fb.css: end */ /**/
+
+/* ./blocks/versions/__icon/_team/versions__icon_team_gs.css: begin */ /**/
+    .b-page_team_gs .page-content_type_desktop .versions__icon_type_desktop{    padding-left: 48px;    background-image: url(./blocks/versions/__icon/_team/versions__icon_team_gs-desktop.png);}.b-page_team_gs .page-content_type_desktop .versions__icon_type_mobile{    padding-left: 27px;    background-image: url(./blocks/versions/__icon/_team/versions__icon_team_gs-mobile.png);}.b-page_team_gs .page-content_type_desktop .versions__icon_type_tablet{    padding-left: 48px;    background-image: url(./blocks/versions/__icon/_team/versions__icon_team_gs-tablet.png);}
+/* ./blocks/versions/__icon/_team/versions__icon_team_gs.css: end */ /**/
+
+/* ./blocks/goto-full-link/goto-full-link.css: begin */ /**/
+    .goto-full-link
+    {
+        font-size: 15px;
+        line-height: 24px;
+    
+        margin-top: 4px;
+    }
+    
+    .goto-full-link,
+    .goto-full-link .b-link:link,
+    .goto-full-link .b-link:visited
+    {
+        color: #fff;
+    }
+    
+    .b-page_team_gs .page-content_type_desktop .goto-full-link .b-link:link,
+    .b-page_team_gs .page-content_type_desktop .goto-full-link .b-link:visited
+    {
+        color: #fbb900;
+    }
+    
+/* ./blocks/goto-full-link/goto-full-link.css: end */ /**/
+
+/* ../../vendors/islands-page/common.blocks/copyright/copyright.css: begin */ /**/
+    .copyright
+    {
+        white-space: nowrap;
+    }
+    
+/* ../../vendors/islands-page/common.blocks/copyright/copyright.css: end */ /**/
+
+/* ./blocks/copyright/copyright.css: begin */ /**/
+    .copyright
+    {
+        display: inline;
+    
+        color: #999;
+    }
+    
+    .copyright__link
+    {
+        text-decoration: none;
+    
+        color: #999;
+    }
+    
+/* ./blocks/copyright/copyright.css: end */ /**/
+
+/* ./blocks/footer-content/__links/footer-content__links.css: begin */ /**/
+    .footer-content__links
+    {
+        float: right;
+    }
+    
+    .footer-content__links,
+    .footer-content__links .b-link,
+    .footer-content__links .b-link:visited
+    {
+        line-height: 20px;
+    
+        text-decoration: none;
+    
+        color: #1e78cd;
+    }
+    
+    .footer-content__links .b-link
+    {
+        margin-right: 30px;
+    }
+    
+/* ./blocks/footer-content/__links/footer-content__links.css: end */ /**/
+
+/* ../../desktop.blocks/share/share.css: begin */ /**/
+    .share
+    {
+        display: inline;
+    
+        margin-left:  -6px;
+    
+        text-align: left;
+    
+        -webkit-font-kerning: initial;
+    
+                font-kerning: initial;
+    }
+    
+/* ../../desktop.blocks/share/share.css: end */ /**/
+
+/* ../../desktop.blocks/share/_type/share_type_carousel.css: begin */ /**/
+    .share_type_carousel
+    {
+        position: absolute;
+        bottom: 100%;
+    
+        margin-bottom: 68px;
+    }
+    
+/* ../../desktop.blocks/share/_type/share_type_carousel.css: end */ /**/

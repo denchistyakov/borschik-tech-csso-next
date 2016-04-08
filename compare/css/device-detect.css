@@ -1,0 +1,2121 @@
+/* ../../vendors/islands-romochka/desktop.blocks/i-global/_type/i-global_type_simple.css: begin */ /**/
+    /* ../__body/i-global__body.css: begin */ /**/
+        /* Global definitions (begin) */ /**/
+        body
+        {
+                /* Чтобы в FF2- заработал z-index: -1 */ /**/
+            position: relative;
+            z-index: 0;
+        
+            margin: 0;
+            padding: 0 0 1em 0;
+        
+            font: .8em Arial, Helvetica, sans-serif;
+        
+            color: #000;
+            background: #fff;
+        }
+        /* Global definitions (end) */ /**/
+        
+    /* ../__body/i-global__body.css: end */ /**/
+    
+    /* ../__wbr/i-global__wbr.css: begin */ /**/
+        /* Поддержка wbr в Opera и Safari 2/3 (begin) */ /**/
+            /* См. http://harisov.livejournal.com/97666.html */ /**/
+        wbr
+        {
+            display: inline-block;
+        }
+        /* Поддержка wbr в Opera и Safari 2/3 (end) */ /**/
+        
+    /* ../__wbr/i-global__wbr.css: end */ /**/
+    
+    /* ../__hover/i-global__hover.css: begin */ /**/
+        /* Global definitions: Links hover (begin) */ /**/
+        :link:hover,
+            :visited:hover
+        {
+            color: #f00 !important; /*!head*/
+        }
+        /* Global definitions: Links hover (end) */ /**/
+        
+    /* ../__hover/i-global__hover.css: end */ /**/
+    
+    
+/* ../../vendors/islands-romochka/desktop.blocks/i-global/_type/i-global_type_simple.css: end */ /**/
+
+/* ../../vendors/islands-romochka/common.blocks/b-statcounter/b-statcounter.css: begin */ /**/
+    .b-statcounter
+    {
+        position: absolute;
+        left: -9999px;
+    }
+    
+/* ../../vendors/islands-romochka/common.blocks/b-statcounter/b-statcounter.css: end */ /**/
+
+/* ../../vendors/islands-specific/specific.blocks/yanalytics/yanalytics.css: begin */ /**/
+    .yanalytics
+    {
+        display: none;
+    }
+/* ../../vendors/islands-specific/specific.blocks/yanalytics/yanalytics.css: end */ /**/
+
+/* ../../desktop.blocks/b-page/b-page.css: begin */ /**/
+    .b-page__body
+    {
+        min-width: 1000px;
+    
+        letter-spacing: -.02em;
+    
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+    
+        font-kerning: normal;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    .yashare-auto-init
+    {
+        text-align: center;
+    }
+    
+/* ../../desktop.blocks/b-page/b-page.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/image/image.css: begin */ /**/
+    .image
+    {
+        font: 0/0 a;
+    
+        border: 0;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/image/image.css: end */ /**/
+
+/* ../../desktop.blocks/image/image.css: begin */ /**/
+    .b-link_inner_yes .image
+    {
+        margin-right: 5px;
+    
+        vertical-align: middle;
+    }
+    
+/* ../../desktop.blocks/image/image.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_protection.css: begin */ /**/
+    .image_type_protection
+    {
+        margin: 0 0 60px 0;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_protection.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_settings.css: begin */ /**/
+    .image_type_settings
+    {
+        margin: 0 0 60px 0;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_settings.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_turbo.css: begin */ /**/
+    .image_type_turbo
+    {
+        margin: 60px 0 0 0;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_turbo.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_turbo-icon.css: begin */ /**/
+    .image_type_turbo-icon
+    {
+        position: relative;
+    
+        float: right;
+    
+        margin: -63px 7px -20px -10px;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_turbo-icon.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_type/b-link_type_global.css: begin */ /**/
+    :link
+    {
+        color: #1a3dc1;
+    }
+    
+    :link:hover,
+    :visited:hover
+    {
+        color: #f00 !important;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_type/b-link_type_global.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_pseudo/b-link_pseudo_yes.css: begin */ /**/
+    .b-link_pseudo_yes
+    {
+        color: #1a3dc1;
+    }
+    
+    .i-ua_js_yes .b-link_pseudo_yes
+    {
+        text-decoration: none;
+    
+        cursor: pointer;
+    }
+    
+    .i-ua_js_yes .b-link_pseudo_yes .b-link__inner
+    {
+        text-decoration: none;
+    
+        color: inherit;
+        border-bottom: 1px dotted;
+    }
+    
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_pseudo/b-link_pseudo_yes.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_pseudo/b-link_pseudo_yes.css: begin */ /**/
+    .b-link_pseudo_yes:hover
+    {
+        color: #f00;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_pseudo/b-link_pseudo_yes.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_inner/b-link_inner_yes.css: begin */ /**/
+    .b-link_inner_yes:link,
+    .b-link_inner_yes:hover,
+    .b-link_inner_yes:visited
+    {
+        text-decoration: none;
+    }
+    
+    .b-link_inner_yes .b-link__inner
+    {
+        text-decoration: underline;
+    
+        color: inherit;
+    }
+    
+    .b-link_inner_yes .b-icon
+    {
+        vertical-align: middle;
+    
+        margin-right: 5px;
+    }
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_inner/b-link_inner_yes.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-icon/b-icon.css: begin */ /**/
+    .b-icon
+    {
+        font: 0/0 a;
+    
+        border: 0;
+    
+    }
+    
+/* ../../vendors/bem-bl/blocks-desktop/b-icon/b-icon.css: end */ /**/
+
+/* ../../desktop.blocks/i-clearfix/i-clearfix.css: begin */ /**/
+    .i-clearfix:before,
+    .i-clearfix:after
+    {
+        display: table; /* 2 */
+    
+        content: ' '; /* 1 */
+    }
+    
+    .i-clearfix:after
+    {
+        clear: both;
+    }
+    
+    /*
+    .i-clearfix {
+        *zoom: 1;
+    }
+    */
+    
+/* ../../desktop.blocks/i-clearfix/i-clearfix.css: end */ /**/
+
+/* ./blocks/b-page/_type/b-page_type_device-detect.css: begin */ /**/
+    html,
+    body
+    {
+        overflow: hidden;
+    
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .b-page_type_device-detect
+    {
+        overflow: hidden;
+    
+        min-width: 595px;
+        min-height: 411px;
+    
+        background: linear-gradient( 53deg, rgba(0,0,0,.23) 0%, rgba(255,255,255,.23) 100% ), #ededed;
+        background-color: #ededed;
+    }
+    
+/* ./blocks/b-page/_type/b-page_type_device-detect.css: end */ /**/
+
+/* ./blocks/layout/layout.css: begin */ /**/
+    .layout
+    {
+        position: relative;
+    
+        display: flex;
+    
+        height: 100%;
+    
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+/* ./blocks/layout/layout.css: end */ /**/
+
+/* ./blocks/layout/__devices-list/layout__devices-list.css: begin */ /**/
+    .layout__devices-list
+    {
+        z-index: 1;
+    }
+    
+/* ./blocks/layout/__devices-list/layout__devices-list.css: end */ /**/
+
+/* ./blocks/layout/__grass/layout__grass.css: begin */ /**/
+    .layout__grass
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    
+/* ./blocks/layout/__grass/layout__grass.css: end */ /**/
+
+/* ./blocks/layout/__text/layout__text.css: begin */ /**/
+    .layout__text
+    {
+        position: relative;
+    
+        width: 53%;
+        max-width: 283px;
+        height: 345px;
+        margin-top: -10px;
+    
+        flex: 0 1 auto;
+    }
+    
+    .layout_theme_black .layout__text
+    {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+    
+        max-width: 340px;
+        height: 346px;
+        margin-top: -173px;
+    }
+    
+    .layout_theme_white .layout__text
+    {
+        margin-left: 210px;
+    }
+    
+/* ./blocks/layout/__text/layout__text.css: end */ /**/
+
+/* ./blocks/layout/_theme/layout_theme_black.css: begin */ /**/
+    .layout_theme_black
+    {
+        background: url(./blocks/layout/_theme/layout_theme_black.jpg) no-repeat 0 0;
+        background-size: cover;
+    }
+    
+    
+    .layout_theme_black:after
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 10px;
+    
+        content: '';
+    
+        background: linear-gradient(135deg,
+        #a169a4 0%, #a169a4 14.286%,
+        #3dc1f2 14.286%, #3dc1f2 28.572%,
+        #ffe242 28.572%, #ffe242 42.858%,
+        #ff7309 42.858%, #ff7309 57.144%,
+        #466aa0 57.144%, #466aa0 71.429%,
+        #a169a4 71.429%, #a169a4 85.716%,
+        #3dc1f2 85.716%, #3dc1f2 100%);
+    }
+    
+/* ./blocks/layout/_theme/layout_theme_black.css: end */ /**/
+
+/* ./blocks/layout/_theme/layout_theme_white.css: begin */ /**/
+    .layout_theme_white
+    {
+        background: #fff;
+    }
+    
+/* ./blocks/layout/_theme/layout_theme_white.css: end */ /**/
+
+/* ./blocks/device/device.css: begin */ /**/
+    .device
+    {
+        position: relative;
+    }
+    
+/* ./blocks/device/device.css: end */ /**/
+
+/* ./blocks/device/__screen/device__screen.css: begin */ /**/
+    .device__screen
+    {
+        position: absolute;
+    }
+    
+/* ./blocks/device/__screen/device__screen.css: end */ /**/
+
+/* ./blocks/device/_type/device_type_iphone.css: begin */ /**/
+    .device_type_iphone
+    {
+        width: 212px;
+        height: 347px;
+    
+        flex: 0 1 212px;
+    }
+    
+    .device_type_iphone .device__screen
+    {
+        top: 51px;
+        left: 38px;
+    
+        width: 139px;
+        height: 246px;
+    }
+    
+    
+    .layout_theme_black .device_type_iphone,
+    .layout_theme_white .device_type_iphone
+    {
+        position: absolute;
+        top: 50%;
+        left: 50px;
+    
+        width: 164px;
+        height: 344px;
+        margin-top: -178px;
+    }
+    
+    .layout_theme_black .device_type_iphone .device__screen,
+    .layout_theme_white .device_type_iphone .device__screen
+    {
+        top: 51px;
+        left: 14px;
+    
+        width: 138px;
+        height: 246px;
+    }
+    
+/* ./blocks/device/_type/device_type_iphone.css: end */ /**/
+
+/* ./blocks/device/_type/device_type_ipad.css: begin */ /**/
+    .device_type_ipad
+    {
+        position: absolute;
+        top: 50%;
+        left: 0;
+    
+        width: 221px;
+        height: 309px;
+        margin-top: -136px;
+    
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .device_type_ipad .device__screen
+    {
+        right: 44px;
+        bottom: 34px;
+    
+        width: 326px;
+        height: 244px;
+    }
+    
+    .layout_theme_black .device_type_ipad,
+    .layout_theme_white .device_type_ipad
+    {
+        width: 235px;
+        height: 370px;
+        margin-top: -185px;
+    }
+    
+    .layout_theme_black .device_type_ipad .device__screen,
+    .layout_theme_white .device_type_ipad .device__screen
+    {
+        top: 35px;
+        right: auto;
+        left: 0;
+    
+        width: 217px;
+        height: 292px;
+    }
+    
+/* ./blocks/device/_type/device_type_ipad.css: end */ /**/
+
+/* ./blocks/device/_type/device_type_android-mobile.css: begin */ /**/
+    .device_type_android-mobile
+    {
+        width: 168px;
+        height: 347px;
+    
+        flex: 0 1 168px;
+    }
+    
+    .device_type_android-mobile .device__screen
+    {
+        right: 26px;
+        bottom: 40px;
+    
+        width: 115px;
+        height: 205px;
+    }
+    
+    .layout_theme_black .device_type_android-mobile,
+    .layout_theme_white .device_type_android-mobile
+    {
+        position: absolute;
+        top: 70px;
+        left: 112px;
+    
+        width: 143px;
+        height: 280px;
+    }
+    
+    .layout_theme_white .device_type_android-mobile
+    {
+        top: 80px;
+    }
+    
+    .layout_theme_black .device_type_android-mobile .device__screen,
+    .layout_theme_white .device_type_android-mobile .device__screen
+    {
+        top: 33px;
+        right: auto;
+        left: 8px;
+    
+        width: 118px;
+        height: 199px;
+    }
+    
+/* ./blocks/device/_type/device_type_android-mobile.css: end */ /**/
+
+/* ./blocks/device/_type/device_type_android-tablet.css: begin */ /**/
+    .device_type_android-tablet
+    {
+        position: absolute;
+        top: 50%;
+        left: 0;
+    
+        width: 174px;
+        height: 322px;
+        margin-top: -149px;
+    
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .device_type_android-tablet .device__screen
+    {
+        right: 46px;
+        bottom: 35px;
+    
+        width: 341px;
+        height: 256px;
+    }
+    
+    .layout_theme_black .device_type_android-tablet,
+    .layout_theme_white .device_type_android-tablet
+    {
+        position: absolute;
+        top: auto;
+        bottom: 0;
+        left: 0;
+    
+        width: 245px;
+        height: 370px;
+    }
+    
+    .layout_theme_black .device_type_android-tablet .device__screen,
+    .layout_theme_white .device_type_android-tablet .device__screen
+    {
+        top: 36px;
+        right: auto;
+        bottom: auto;
+        left: 0;
+    
+        width: 209px;
+        height: 335px;
+    }
+    
+/* ./blocks/device/_type/device_type_android-tablet.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/popup.css: begin */ /**/
+    .popup
+    {
+        position: absolute;
+        z-index: 32700;
+    
+        display: none;
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    
+        border: 1px solid transparent;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/popup.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__content/popup__content.css: begin */ /**/
+    .popup__content
+    {
+        position: relative;
+        z-index: 10;
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 4px 8px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__content/popup__content.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_theme/popup_theme_ffffff.css: begin */ /**/
+    .popup_theme_ffffff
+    {
+        border-color: rgba(0,0,0,.1);
+    }
+    
+    .popup_theme_ffffff:before
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    
+        content: '';
+    
+        -webkit-box-shadow: 0 10px 20px -4px rgba(0,0,0,.4);
+                box-shadow: 0 10px 20px -4px rgba(0,0,0,.4);
+    }
+    
+    .popup_theme_ffffff:before,
+    .popup_theme_ffffff .popup__tail:after
+    {
+        background: #fff;
+    }
+    
+    .popup_theme_ffffff .popup__tail
+    {
+        background: rgba(0,0,0,.1);
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, rgba(0,0,0,.1)), color-stop(50%, rgba(0,0,0,0)));
+        background: -webkit-linear-gradient(bottom left, rgba(0,0,0,.1) 50%, rgba(0,0,0,0) 50%);
+        background:         linear-gradient(to top right, rgba(0,0,0,.1) 50%, rgba(0,0,0,0) 50%);
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_theme/popup_theme_ffffff.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_visible.css: begin */ /**/
+    .popup_visibility_visible
+    {
+        display: block;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_visible.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_outside.css: begin */ /**/
+    .popup_visibility_outside
+    {
+        top: -99999px;
+        left: -99999px;
+    
+        display: block;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_outside.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__under/popup__under.css: begin */ /**/
+    .popup__under
+    {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    
+        border: 0;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__under/popup__under.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__under/_color/popup__under_color_white.css: begin */ /**/
+    .popup__under_color_white
+    {
+        opacity: .8;
+        background: #fff;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__under/_color/popup__under_color_white.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__under/_type/popup__under_type_paranja.css: begin */ /**/
+    .popup__under_type_paranja
+    {
+        position: fixed;
+        z-index: 32000;
+        top: 0;
+        left: 0;
+    
+        padding: 0;
+    
+        opacity: .3;
+        background: #000;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__under/_type/popup__under_type_paranja.css: end */ /**/
+
+/* ../../vendors/islands-specific/specific.blocks/popup/__wrapper/popup__wrapper.css: begin */ /**/
+    .popup__wrapper
+    {
+        display: block;
+    }
+/* ../../vendors/islands-specific/specific.blocks/popup/__wrapper/popup__wrapper.css: end */ /**/
+
+/* ../../desktop.blocks/popup/_name/popup_name_sms-form-popup.css: begin */ /**/
+    .popup_name_sms-form-popup
+    {
+        width: 500px;
+    }
+    .popup_name_sms-form-popup .popup__content
+    {
+        padding: 10px 20px;
+        line-height: 20px;
+    }
+    .popup_name_sms-form-popup .popup__content h1
+    {
+        line-height: 30px;
+    }
+    
+/* ../../desktop.blocks/popup/_name/popup_name_sms-form-popup.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__tail/popup__tail.css: begin */ /**/
+    .popup__tail
+    {
+        position: absolute;
+        z-index: 9;
+    
+        display: block;
+    
+        width: 17px;
+        height: 17px;
+    
+        font: 0/0 a;
+    }
+    
+    .popup__tail:after
+    {
+        position: absolute;
+        bottom: 1px;
+        left: 1px;
+    
+        width: 17px;
+        height: 17px;
+    
+        content: '';
+    }
+    
+    .popup_to_top .popup__tail
+    {
+        bottom: -18px; /* ширина хвостика + 1px бордер */
+    
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        -webkit-transform-origin: top left;
+            -ms-transform-origin: top left;
+                transform-origin: top left;
+    }
+    
+    .popup_to_left .popup__tail
+    {
+        right: -18px;
+    
+        margin-top: 24.04px; /* 17 * sqrt(2)*/
+    
+        -webkit-transform: rotate(-135deg);
+            -ms-transform: rotate(-135deg);
+                transform: rotate(-135deg);
+        -webkit-transform-origin: top left;
+            -ms-transform-origin: top left;
+                transform-origin: top left;
+    }
+    
+    .popup_to_bottom .popup__tail
+    {
+        top: -18px;
+    
+        margin-left: -17px;
+    
+        -webkit-transform: rotate(135deg);
+            -ms-transform: rotate(135deg);
+                transform: rotate(135deg);
+        -webkit-transform-origin: 100% 100%;
+            -ms-transform-origin: 100% 100%;
+                transform-origin: 100% 100%;
+    }
+    
+    .popup_to_right .popup__tail
+    {
+        left: -18px;
+    
+        margin-top: 7.04px; /* ( 17*sqrt(2) - 17) */
+    
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+        -webkit-transform-origin: 100% 100%;
+            -ms-transform-origin: 100% 100%;
+                transform-origin: 100% 100%;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__tail/popup__tail.css: end */ /**/
+
+/* ../../desktop.blocks/popup/__license/popup__license.css: begin */ /**/
+    .popup__license
+    {
+        width: 200px;
+        margin: 10px 0 3px;
+    }
+    
+    .popup__license,
+    .popup__license .b-link
+    {
+        font-size: 12px !important;
+        line-height: 14px !important;
+    
+        color: #666;
+    }
+    
+/* ../../desktop.blocks/popup/__license/popup__license.css: end */ /**/
+
+/* ./blocks/popup/_name/popup_name_send-sms.css: begin */ /**/
+    .popup_name_send-sms .popup__content
+    {
+        padding: 0;
+    }
+    
+    .popup__under_type_paranja
+    {
+        opacity: .5;
+    }
+    
+/* ./blocks/popup/_name/popup_name_send-sms.css: end */ /**/
+
+/* ./blocks/marketing-text/marketing-text.css: begin */ /**/
+    .marketing-text .promo-button
+    {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .layout_theme_black .marketing-text .promo-button
+    {
+        position: relative;
+    
+        height: 34px;
+    
+        line-height: 32px;
+    }
+    
+/* ./blocks/marketing-text/marketing-text.css: end */ /**/
+
+/* ./blocks/marketing-text/__desc/marketing-text__desc.css: begin */ /**/
+    .marketing-text__desc
+    {
+        margin: 0 0 17px;
+    
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 1.2;
+    
+        color: #717171;
+    }
+    
+    .layout_theme_black .marketing-text__desc
+    {
+        padding-right: 50px;
+    
+        opacity: .5;
+        color: #fff;
+    }
+    
+/* ./blocks/marketing-text/__desc/marketing-text__desc.css: end */ /**/
+
+/* ./blocks/marketing-text/__tagline/marketing-text__tagline.css: begin */ /**/
+    .marketing-text__tagline
+    {
+        margin: 0 0 17px;
+    
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.2;
+    
+        color: #010101;
+    }
+    
+    .layout_theme_black .marketing-text__tagline
+    {
+        padding-right: 50px;
+    
+        color: #fff;
+    }
+    
+/* ./blocks/marketing-text/__tagline/marketing-text__tagline.css: end */ /**/
+
+/* ./blocks/marketing-text/__send-sms-title/marketing-text__send-sms-title.css: begin */ /**/
+    .marketing-text__send-sms-title
+    {
+        position: relative;
+    
+        display: inline-block;
+    
+        margin-top: 20px;
+        padding-bottom: 2px;
+    
+        cursor: pointer;
+    
+        font-weight: bold;
+    
+        color: #9e9e9e !important;
+        border-bottom: 1px dotted;
+    
+        transition: color .3s ease, margin .1s ease;
+    }
+    
+    .marketing-text__send-sms-title:hover
+    {
+        color: #3dc1f2 !important;
+    }
+    
+    .marketing-text__send-sms-title:active
+    {
+        margin: 22px 0 8px 1px;
+    }
+    
+/* ./blocks/marketing-text/__send-sms-title/marketing-text__send-sms-title.css: end */ /**/
+
+/* ./blocks/marketing-text/__send-sms-title/_only/marketing-text__send-sms-title_only_email.css: begin */ /**/
+    .marketing-text__send-sms-title_only_email
+    {
+        padding: 0;
+    
+        cursor: default;
+    
+        font-weight: normal;
+    
+        border-bottom: 0;
+    }
+    
+    .marketing-text__send-sms-title_only_email:hover
+    {
+        color: #9e9e9e !important;
+    }
+    .marketing-text__send-sms-title_only_email:active
+    {
+        margin: 20px 0 8px;
+    }
+    
+/* ./blocks/marketing-text/__send-sms-title/_only/marketing-text__send-sms-title_only_email.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/promo-button.css: begin */ /**/
+    .promo-button
+    {
+        font-family: 'Arial', sans-serif;
+    
+        position: relative;
+    
+        display: inline-block;
+    
+        cursor: pointer;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+        text-align: center;
+        text-decoration: none !important;
+    
+        border: none;
+        outline: 0;
+        background: -webkit-linear-gradient(top, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background:    -moz-linear-gradient(top, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background:      -o-linear-gradient(top, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background:         linear-gradient(to bottom, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background-color: #f9c400;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, .36);
+    }
+    
+    .promo-button::-moz-focus-inner
+    {
+        padding: 0;
+    
+        border: 0;
+    }
+    
+    @media all and (min-width: 0)
+    {
+        .promo-button:before
+        {
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            bottom: 1px;
+            left: 1px;
+    
+            content: '';
+    
+            background:    -moz-linear-gradient(top, #ffe34a 0%, #ffdb03 100%);
+            background: -webkit-linear-gradient(top, #ffe34a 0%, #ffdb03 100%);
+            background:      -o-linear-gradient(top, #ffe34a 0%, #ffdb03 100%);
+            background:         linear-gradient(to bottom, #ffe34a 0%, #ffdb03 100%);
+            -webkit-box-shadow: inset 0 -.085em 0 0 rgba(102, 52, 0, .20), inset 0 0 3px 0 rgba(254, 255, 187, .5);
+                    box-shadow: inset 0 -.085em 0 0 rgba(102, 52, 0, .20), inset 0 0 3px 0 rgba(254, 255, 187, .5);
+        }
+    
+        .promo-button_hovered_yes:before
+        {
+            background:    -moz-linear-gradient(top, #ffe86a 0%, #ffe130 100%);
+            background: -webkit-linear-gradient(top, #ffe86a 0%, #ffe130 100%);
+            background:      -o-linear-gradient(top, #ffe86a 0%, #ffdb03 100%);
+            background:         linear-gradient(to bottom, #ffe86a 0%, #ffe130 100%);
+        }
+    }
+    
+/* ../../vendors/islands-promo/common.blocks/promo-button/promo-button.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/promo-button.css: begin */ /**/
+    .promo-button
+    {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+    }
+    
+/* ../../desktop.blocks/promo-button/promo-button.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/__text/promo-button__text.css: begin */ /**/
+    .promo-button__text
+    {
+        position: relative;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/__text/promo-button__text.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_unsupported/promo-button_unsupported.css: begin */ /**/
+    .promo-button_unsupported:before
+    {
+        background: #fcf9d1 !important;
+    }
+    
+    .promo-button_unsupported
+    {
+        opacity: 1;
+        background: #fcf9d1 !important;
+    }
+    
+    .promo-button_unsupported .promo-button__text
+    {
+        opacity: .33;
+        color: #000;
+    }
+    
+/* ../../desktop.blocks/promo-button/_unsupported/promo-button_unsupported.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/_size/promo-button_size_m.css: begin */ /**/
+    .promo-button_size_m
+    {
+        font-size: 24px;
+        line-height: 48px;
+    
+        height: 50px;
+        padding: 0 27px;
+    }
+    
+    .promo-button_size_m,
+    a.promo-button_size_m.promo-button_hovered_yes
+    {
+        color: #473e09 !important;
+    }
+    
+    .promo-button_size_m,
+    .promo-button_size_m:before
+    {
+        border-radius: 4px;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/_size/promo-button_size_m.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_size/promo-button_size_m.css: begin */ /**/
+    .promo-button_size_m
+    {
+        line-height: 47px;
+    }
+    
+/* ../../desktop.blocks/promo-button/_size/promo-button_size_m.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/_theme/promo-button_theme_flying.css: begin */ /**/
+    .promo-button_theme_flying
+    {
+        -webkit-box-shadow: 0 0 1px 0 #ffffff, 0 9px 18px 0 rgba(153, 120, 46, 0.36);
+        box-shadow: 0 0 1px 0 #ffffff, 0 9px 18px 0 rgba(153, 120, 46, 0.36);
+    }
+    
+    .promo-button_theme_flying.promo-button_pressed_yes
+    {
+        -webkit-box-shadow: 0 0 1px 0 #ffffff, 0 3px 9px 0 rgba(153, 120, 46, 0.36);
+        box-shadow: 0 0 1px 0 #ffffff, 0 3px 9px 0 rgba(153, 120, 46, 0.36);
+    }
+    
+    .promo-button_theme_flying.promo-button_pressed_yes .promo-button__text
+    {
+        top: 3px;
+    }
+    
+    @media all and (min-width: 0)
+    {
+        .promo-button_theme_flying.promo-button_pressed_yes .promo-button__text
+        {
+            top: auto;
+        }
+    
+        .promo-button_theme_flying.promo-button_pressed_yes
+        {
+            -webkit-transform: translateY(2px);
+            -moz-transform: translateY(2px);
+            -ms-transform: translateY(2px);
+            -o-transform: translateY(2px);
+            transform: translateY(2px);
+        }
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/_theme/promo-button_theme_flying.css: end */ /**/
+
+/* ../../desktop.blocks/project-logo-new/__logo/project-logo-new__logo.css: begin */ /**/
+    .project-logo-new__logo
+    {
+        margin-left: -14px;
+        padding: 67px 67px 0 0;
+    
+        vertical-align: middle;
+    
+        font-size: 36px;
+    
+        color: #fff;
+        background: url(data:image/png;base64,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) no-repeat;
+    }
+    
+/* ../../desktop.blocks/project-logo-new/__logo/project-logo-new__logo.css: end */ /**/
+
+/* ../../desktop.blocks/project-logo-new/__name/project-logo-new__name.css: begin */ /**/
+    .project-logo-new__name
+    {
+        padding: 67px 220px 0 0;
+    
+        vertical-align: middle;
+    
+        font-size: 36px;
+    
+        background-repeat: no-repeat;
+    }
+    
+    .project-logo-new__name_type_ru-white
+    {
+        color: #fff;
+        background-image: url('../../desktop.blocks/project-logo-new/__name/project-logo-new__name_type_ru-white.png');
+    }
+    
+    .project-logo-new__name_type_ru-black
+    {
+        color: #000;
+        background-image: url('../../desktop.blocks/project-logo-new/__name/project-logo-new__name_type_ru-black.png');
+    }
+    
+    .project-logo-new__name_type_en-white
+    {
+        color: #fff;
+        background-image: url('../../desktop.blocks/project-logo-new/__name/project-logo-new__name_type_en-white.png');
+    }
+    
+    .project-logo-new__name_type_en-black
+    {
+        color: #000;
+        background-image: url('../../desktop.blocks/project-logo-new/__name/project-logo-new__name_type_en-black.png');
+    }
+    
+/* ../../desktop.blocks/project-logo-new/__name/project-logo-new__name.css: end */ /**/
+
+/* ../../desktop.blocks/project-logo-new/__logo/_shadow/project-logo-new__logo_shadow_no.css: begin */ /**/
+    .project-logo-new__logo_shadow_no
+    {
+        margin: 0;
+        padding: 69px 44px 0 0;
+    
+        vertical-align: top;
+    
+        background: url(data:image/png;base64,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) 50% no-repeat;
+    }
+    
+/* ../../desktop.blocks/project-logo-new/__logo/_shadow/project-logo-new__logo_shadow_no.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/input.css: begin */ /**/
+    .input
+    {
+        position: relative;
+    
+        display: inline-block;
+    
+        width: 100%;
+    }
+    
+    .i-ua_js_no .input__hint_fallback_yes,
+    .i-ua_placeholder_yes .input__hint_fallback_yes
+    {
+        display: none;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/input.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/_disabled/input_disabled_yes.css: begin */ /**/
+    .input_disabled_yes.input_type_textarea .input__control
+    {
+        resize: none;
+    }
+    
+    .input_disabled_yes .input__clear
+    {
+        display: none;
+    }
+    
+    .input_disabled_yes,
+    .input_disabled_yes .input__control
+    {
+        color: #aaa !important;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .input_disabled_yes.input .input__box
+        {
+            background: rgba(0,0,0,.08);
+        }
+    
+        .input_disabled_yes.input .input__box:before
+        {
+            border-color: transparent;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/_disabled/input_disabled_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/input/_disabled/input_disabled_yes.css: begin */ /**/
+    .input_disabled_yes .input__box,
+    .input_disabled_yes .input__control
+    {
+        cursor: default;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/input/_disabled/input_disabled_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/_theme/input_theme_normal.css: begin */ /**/
+    .input_theme_normal,
+    .input_theme_normal .input__control
+    {
+        font-family: Arial, sans-serif;
+    
+        color: #000;
+    }
+    
+    .input_theme_normal .input__control::-webkit-input-placeholder
+    {
+        color: #999;
+    }
+    
+    .input_theme_normal .input__control::-moz-placeholder
+    {
+        opacity: 1; /*В firefox полупрозрачный по умолчанию*/
+        color: #999;
+    }
+    
+    .input_theme_normal .input__control:-ms-input-placeholder
+    {
+        color: #999;
+    }
+    
+    .input_theme_normal .input__hint
+    {
+        color: #999;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .input_theme_normal .input__box
+        {
+            background: #fff;
+        }
+    
+        .input_theme_normal .input__box:before
+        {
+            border: 1px solid #cbcbcb;
+        }
+    
+        .input_theme_normal.input_focused_yes .input__box:before
+        {
+            border-color: #d0ba65;
+            -webkit-box-shadow: 0 0 10px #fc0;
+                    box-shadow: 0 0 10px #fc0;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/_theme/input_theme_normal.css: end */ /**/
+
+/* ../../desktop.blocks/input/_theme/input_theme_normal.css: begin */ /**/
+    .input_theme_normal,
+    .input_theme_normal .input__control
+    {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+    }
+    
+/* ../../desktop.blocks/input/_theme/input_theme_normal.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/__box/input__box.css: begin */ /**/
+    /* Обертка для нативного инпута (__control) и очищающего крестика (__clear). */
+    .input__box
+    {
+        position: relative;
+    
+        display: block;
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    
+        cursor: text;
+    }
+    
+    .input__box:before
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    
+        padding: 0;
+    
+        content: '';
+    
+        -webkit-background-clip: padding-box;
+                background-clip: padding-box;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/__box/input__box.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/__control/input__control.css: begin */ /**/
+    .input__control
+    {
+        position: relative;
+        z-index: 3;
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+    
+        text-overflow: ellipsis;
+    
+        font-size: 100%;
+    
+        color: #000;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    
+        -webkit-appearance: none;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .input__control
+        {
+            padding: .4em 0;
+    
+            border: 0;
+            outline: 0;
+            background: none;
+        }
+    }
+    
+    /* Лишние отступы у текста */
+    .input__control::-webkit-search-decoration
+    {
+        -webkit-appearance: none;
+    }
+    
+    /* Нативный крестик */
+    .input__control::-webkit-search-cancel-button
+    {
+        display: none;
+    }
+    
+    /* Сбрасываем желтый бг у инпутов при автозаполнении */
+    .input__control:-webkit-autofill
+    {
+        top: 1px;
+        left: 1px;
+    
+        height: 1.9em;
+    
+        -webkit-box-shadow: inset 0 0 0 50px #fff;
+        -webkit-text-fill-color: #000;
+    }
+    
+    /* Скрываем нативный крестик в IE10 */
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+    {
+        .input__control::-ms-clear
+        {
+            display: none;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/__control/input__control.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/input/__control/input__control.css: begin */ /**/
+    .input__control:-webkit-autofill
+    {
+        top: .1em;
+        left: .2em;
+    
+        height: 1.6em;
+    
+        -webkit-box-shadow: inset 0 0 0 50px #fff;
+        -webkit-text-fill-color: #000;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/input/__control/input__control.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/__clear/input__clear.css: begin */ /**/
+    /* Позиционируется относительно input__box.
+     * Важно, чтобы правая граница элемента с очищающим крестиком
+     * совпадала с правой границей input__box, иначе появляется
+     * возможность кликнуть по правому бордеру input__box. */
+    .input__clear
+    {
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    
+        visibility: hidden;
+    
+        margin: 0;
+        padding: 0;
+    
+        opacity: 0;
+        background: url(../../vendors/islands-components/common.blocks/input/__clear/input__clear.svg) 50% 50% no-repeat;
+    
+        -webkit-transition: visibility 0s linear .1s, opacity .1s ease-out;
+                transition: visibility 0s linear .1s, opacity .1s ease-out;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/__clear/input__clear.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/__clear/_visibility/input__clear_visibility_visible.css: begin */ /**/
+    .input__clear_visibility_visible
+    {
+        visibility: visible;
+    
+        cursor: pointer;
+    
+        opacity: .3;
+    
+        -webkit-transition: opacity .1s ease-out;
+                transition: opacity .1s ease-out;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/__clear/_visibility/input__clear_visibility_visible.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/input/__clear/_visibility/input__clear_visibility_visible.css: begin */ /**/
+    .input__clear_visibility_visible:hover
+    {
+        opacity: .8;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/input/__clear/_visibility/input__clear_visibility_visible.css: end */ /**/
+
+/* ../../desktop.blocks/input/_has-clear/input_has-clear_no.css: begin */ /**/
+    .input_has-clear_no .input__clear
+    {
+        display: none !important;
+        visibility: hidden !important;
+        overflow: hidden;
+    
+        width: 0 !important;
+    }
+    
+    .input_has-clear_no .input__box
+    {
+        padding-right: 0 !important;
+    }
+    
+    .input_has-clear_no .input__box::after
+    {
+        display: none !important;
+    }
+    
+/* ../../desktop.blocks/input/_has-clear/input_has-clear_no.css: end */ /**/
+
+/* ./blocks/input/_has-clear/input_has-clear_no.css: begin */ /**/
+    .input_has-clear_no .input__clear
+    {
+        display: none !important;
+        visibility: hidden !important;
+        overflow: hidden;
+    
+        width: 0 !important;
+    }
+    
+    .input_has-clear_no .input__box
+    {
+        padding-right: 0 !important;
+    }
+    
+    .input_has-clear_no .input__box::after
+    {
+        display: none !important;
+    }
+    
+/* ./blocks/input/_has-clear/input_has-clear_no.css: end */ /**/
+
+/* ../../desktop.blocks/input/__system/input__system.css: begin */ /**/
+    .input__system
+    {
+        position: absolute;
+        z-index: 100;
+        top: 5px;
+        right: 30px;
+    
+        height: 25px;
+        padding: 0 0 0 10px;
+    
+        font-size: 11px;
+        line-height: 23px;
+    
+        color: #c00;
+        background: #fff;
+    }
+    
+/* ../../desktop.blocks/input/__system/input__system.css: end */ /**/
+
+/* ../../desktop.blocks/input/__control/_type/input__control_type_phone-number.css: begin */ /**/
+    .input__control_type_phone-number
+    {
+        padding-left: 16px !important;
+    
+        border-width: 0 !important;
+    }
+    
+/* ../../desktop.blocks/input/__control/_type/input__control_type_phone-number.css: end */ /**/
+
+/* ./blocks/input/__control/_type/input__control_type_phone-number.css: begin */ /**/
+    .input__control_type_phone-number
+    {
+        padding-left: 16px !important;
+    
+        border-width: 0 !important;
+    }
+    
+/* ./blocks/input/__control/_type/input__control_type_phone-number.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/__hint/input__hint.css: begin */ /**/
+    .input__hint
+    {
+        position: absolute;
+        z-index: 5;
+    
+        display: block;
+        visibility: hidden;
+        overflow: hidden;
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        max-width: 100%;
+        padding: 0 1em 0 8px;
+    
+        cursor: text;
+        white-space: nowrap;
+        -o-text-overflow: ellipsis;
+           text-overflow: ellipsis;
+        pointer-events: none;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/__hint/input__hint.css: end */ /**/
+
+/* ../../desktop.blocks/input/__hint/input__hint.css: begin */ /**/
+    .input__hint
+    {
+        left: 0;
+    
+        width: 100%;
+    
+        text-align: left;
+    }
+    
+/* ../../desktop.blocks/input/__hint/input__hint.css: end */ /**/
+
+/* ./blocks/input/__hint/input__hint.css: begin */ /**/
+    .input__hint
+    {
+        left: 0;
+    
+        text-align: left;
+    }
+    
+/* ./blocks/input/__hint/input__hint.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/__hint/_visibility/input__hint_visibility_visible.css: begin */ /**/
+    .i-ua_placeholder_no .input__hint_fallback_yes.input__hint_visibility_visible,
+    .input__hint_visibility_visible
+    {
+        visibility: visible;
+    }
+    
+    .i-ua_js_no.i-ua_placeholder_no .input__hint_fallback_yes.input__hint_visibility_visible,
+    .i-ua_js_no .input__hint_visibility_visible
+    {
+        position: static;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/__hint/_visibility/input__hint_visibility_visible.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/_size/input_size_m.css: begin */ /**/
+    .input_size_m
+    {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    
+    .input_size_m .input__clear
+    {
+        width: 32px;
+    }
+    
+    .input_size_m .input__control
+    {
+        padding-left: 10px;
+    }
+    
+    .input_size_m .input__box
+    {
+        padding-right: 30px;
+    }
+    
+    .input_size_m .input__hint
+    {
+        padding-left: 11px;
+    }
+    
+    /* Для ИЕ10+ делаем отступ слева с помощью border, т.к. при длинном тексте в инпуте padding игнорируется
+       https://st.yandex-team.ru/ISLCOMPONENTS-865
+    */
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+    {
+        .input_size_m .input__control
+        {
+            padding-left: 0;
+    
+            border-left: 10px solid transparent;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/_size/input_size_m.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/_theme/promo-button_theme_normal.css: begin */ /**/
+    .promo-button_theme_normal
+    {
+        -webkit-box-shadow: 0 0 1px 0 #ffffff;
+        box-shadow: 0 0 1px 0 #ffffff;
+    }
+    
+    .promo-button_theme_normal.promo-button_pressed_yes
+    {
+        background-color: #ffe652;
+        background: -webkit-linear-gradient(top, #c69007 0%, #f8c106 8%, #dec35e 100%);
+        background: -moz-linear-gradient(top, #c69007 0%, #f8c106 8%, #dec35e 100%);
+        background: -o-linear-gradient(top, #c69007 0%, #f8c106 8%, #dec35e 100%);
+        background: linear-gradient(to bottom, #c69007 0%, #f8c106 8%, #dec35e 100%);
+    }
+    
+    .promo-button_theme_normal.promo-button_pressed_yes:before
+    {
+        -webkit-box-shadow: inset 0 2px 4px 0 rgba(102, 52, 0, 0.20);
+        box-shadow: inset 0 2px 4px 0 rgba(102, 52, 0, 0.20);
+    }
+    
+    .promo-button_theme_normal.promo-button_pressed_yes .promo-button__text
+    {
+        top: 3px;
+    }
+    
+    @media all and (min-width: 0)
+    {
+        .promo-button_theme_normal.promo-button_pressed_yes:before
+        {
+            background: -moz-linear-gradient(top, #ffe349 0%, #ffdb01 100%);
+            background: -webkit-linear-gradient(top, #ffe349 0%, #ffdb01 100%);
+            background: -o-linear-gradient(top, #ffe349 0%, #ffdb01 100%);
+            background: linear-gradient(to bottom, #ffe349 0%, #ffdb01 100%);
+        }
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/_theme/promo-button_theme_normal.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/_disabled/promo-button_disabled_yes.css: begin */ /**/
+    .promo-button_disabled_yes
+    {
+        cursor: default;
+    
+        color: #838383 !important;
+        /*background: #d9d9d9;*/
+        background: rgb(217,217,217);
+        /*background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q5ZDlkOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjkyJSIgc3RvcC1jb2xvcj0iI2Q5ZDlkOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkN2Q3ZDciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);*/
+        background:    -moz-linear-gradient(top,  rgba(217,217,217,1) 0%, rgba(217,217,217,1) 92%, rgba(215,215,215,1) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(217,217,217,1)), color-stop(92%,rgba(217,217,217,1)), color-stop(100%,rgba(215,215,215,1)));
+        background: -webkit-linear-gradient(top,  rgba(217,217,217,1) 0%,rgba(217,217,217,1) 92%,rgba(215,215,215,1) 100%);
+        background:      -o-linear-gradient(top,  rgba(217,217,217,1) 0%,rgba(217,217,217,1) 92%,rgba(215,215,215,1) 100%);
+        background:     -ms-linear-gradient(top,  rgba(217,217,217,1) 0%,rgba(217,217,217,1) 92%,rgba(215,215,215,1) 100%);
+        background:         linear-gradient(to bottom,  rgba(217,217,217,1) 0%,rgba(217,217,217,1) 92%,rgba(215,215,215,1) 100%);
+    }
+    
+    .promo-button_disabled_yes:before
+    {
+        background: none;
+        -webkit-box-shadow: inset 0 -.085em 0 0 rgba(72, 62, 142, .20), inset 0 0 3px 0 rgba(215, 215, 215, .5);
+                box-shadow: inset 0 -.085em 0 0 rgba(72, 62, 142, .20), inset 0 0 3px 0 rgba(215, 215, 215, .5);
+    }
+    
+    .promo-button_disabled_yes.promo-button_theme_flying
+    {
+        box-shadow: 0 9px 18px 0 rgba(153, 153, 153, .36);
+    }
+    
+/* ../../vendors/islands-promo/common.blocks/promo-button/_disabled/promo-button_disabled_yes.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_disabled/promo-button_disabled_yes.css: begin */ /**/
+    .promo-button_disabled_yes:before
+    {
+        background-image: linear-gradient(to bottom, #ffe34a 0%, #ffdb03 100%);
+        box-shadow: 0 -.085em 0 0 rgba(102, 52, 0, .2) inset,
+        0 0 3px 0 rgba(254, 255, 187, .5) inset;
+    }
+    
+    
+    .promo-button_disabled_yes
+    {
+        opacity: .6;
+        background-image: linear-gradient(#ffe025 0%, #f9c400 92%, #be8c05 100%);
+    }
+    
+/* ../../desktop.blocks/promo-button/_disabled/promo-button_disabled_yes.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/_size/promo-button_size_s.css: begin */ /**/
+    .promo-button_size_s
+    {
+        font-size: 18px;
+        line-height: 38px;
+    
+        height: 40px;
+        padding: 0 18px;
+    }
+    
+    .promo-button_size_s,
+    a.promo-button_size_s.promo-button_hovered_yes
+    {
+        color: #2d2808 !important;
+    }
+    
+    .promo-button_size_s,
+    .promo-button_size_s:before
+    {
+        border-radius: 4px;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/_size/promo-button_size_s.css: end */ /**/
+
+/* ../../desktop.blocks/promo-button/_type/promo-button_type_sms-submit.css: begin */ /**/
+    .promo-button_type_sms-submit
+    {
+        height: 32px;
+    
+        font-size: 16px;
+        line-height: 32px;
+    }
+    
+/* ../../desktop.blocks/promo-button/_type/promo-button_type_sms-submit.css: end */ /**/
+
+/* ./blocks/promo-button/_type/promo-button_type_sms-submit.css: begin */ /**/
+    .promo-button_type_sms-submit
+    {
+        height: 32px;
+    
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+/* ./blocks/promo-button/_type/promo-button_type_sms-submit.css: end */ /**/
+
+/* ./blocks/send-sms/__close/send-sms__close.css: begin */ /**/
+    .send-sms__close
+    {
+        position: absolute;
+        z-index: 10;
+        top: 4px;
+        right: 5px;
+    
+        width: 15px;
+        height: 15px;
+    
+        cursor: pointer;
+    
+        font: 0/0 a;
+    
+        opacity: .3;
+        background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDMyMCAzMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE2IDE2Ij48cGF0aCBkPSJtMTYwIDI0Yy03NSAwLTEzNiA2MC44LTEzNiAxMzYgMCA3NSA2MC44IDEzNiAxMzYgMTM2IDc1IDAgMTM2LTYwLjggMTM2LTEzNiAwLTc1LTYwLjgtMTM2LTEzNi0xMzZtODAgMTg3bC0yOC41IDI4LjUtNTEtNTEtNTEgNTEtMjguNS0yOC41IDUxLTUxLTUxLTUxIDI4LjUtMjguNSA1MSA1MSA1MS01MSAyOC41IDI4LjUtNTEgNTEgNTEgNTEiLz48L3N2Zz4=) 0 0 no-repeat;
+    }
+    
+    .send-sms__close:hover
+    {
+        opacity: .7;
+    }
+    
+/* ./blocks/send-sms/__close/send-sms__close.css: end */ /**/
+
+/* ./blocks/send-sms/__description/send-sms__description.css: begin */ /**/
+    .send-sms__description
+    {
+        margin-bottom: 8px;
+    
+        font-size: 14px;
+        line-height: 14px;
+    
+        color: #fff;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, .36);
+    }
+    
+/* ./blocks/send-sms/__description/send-sms__description.css: end */ /**/
+
+/* ./blocks/send-sms/__form/send-sms__form.css: begin */ /**/
+    .send-sms__form
+    {
+        position: relative;
+    
+        margin-bottom: 4px;
+    }
+    
+/* ./blocks/send-sms/__form/send-sms__form.css: end */ /**/
+
+/* ./blocks/send-sms/__plus/send-sms__plus.css: begin */ /**/
+    .send-sms__plus
+    {
+        position: absolute;
+        top: 11px;
+        left: 5px;
+    
+        font-size: 17px;
+        line-height: 11px;
+    
+        color: #272626;
+    }
+    
+/* ./blocks/send-sms/__plus/send-sms__plus.css: end */ /**/
+
+/* ./blocks/send-sms/__prefix/send-sms__prefix.css: begin */ /**/
+    .send-sms__prefix
+    {
+        position: absolute;
+        top: 10px;
+        left: 16px;
+    
+        font-size: 15px;
+        line-height: 11px;
+    
+        color: #272626;
+    }
+    
+/* ./blocks/send-sms/__prefix/send-sms__prefix.css: end */ /**/
+
+/* ./blocks/send-sms/__captcha/send-sms__captcha.css: begin */ /**/
+    .send-sms__captcha
+    {
+        min-width: 340px;
+    }
+    
+/* ./blocks/send-sms/__captcha/send-sms__captcha.css: end */ /**/
+
+/* ./blocks/send-sms/__captcha-answer/send-sms__captcha-answer.css: begin */ /**/
+    .send-sms__captcha-answer
+    {
+        width: 80px !important;
+        margin: 0 10px 0 0;
+    }
+    
+/* ./blocks/send-sms/__captcha-answer/send-sms__captcha-answer.css: end */ /**/
+
+/* ./blocks/send-sms/__captcha-img/send-sms__captcha-img.css: begin */ /**/
+    .send-sms__captcha-img
+    {
+        float: left;
+    
+        width: 198px;
+        height: 60px;
+        margin: 4px 11px 0 1px;
+    
+        border: 10px solid #fff !important;
+        background: #fff;
+    }
+    
+/* ./blocks/send-sms/__captcha-img/send-sms__captcha-img.css: end */ /**/
+
+/* ./blocks/send-sms/__captcha-refresh/send-sms__captcha-refresh.css: begin */ /**/
+    .send-sms__captcha-refresh
+    {
+        position: absolute;
+        top: 75px;
+        left: -13px;
+    
+        padding: 10px 11px 0 0;
+    
+        cursor: pointer;
+    
+        background: url(./blocks/send-sms/__captcha-refresh/send-sms__captcha-refresh.png) 0 0/cover no-repeat;
+    }
+    
+/* ./blocks/send-sms/__captcha-refresh/send-sms__captcha-refresh.css: end */ /**/
+
+/* ./blocks/send-sms/__captcha-title/send-sms__captcha-title.css: begin */ /**/
+    .send-sms__captcha-title
+    {
+        position: relative;
+    
+        margin: 2px 0 9px;
+    
+        font-size: 12px;
+        line-height: 14px;
+    
+        color: #cecece;
+    }
+    
+/* ./blocks/send-sms/__captcha-title/send-sms__captcha-title.css: end */ /**/
+
+/* ./blocks/send-sms/__captcha-wrap/send-sms__captcha-wrap.css: begin */ /**/
+    .send-sms__captcha-wrap
+    {
+        margin-top: 8px;
+    }
+    
+/* ./blocks/send-sms/__captcha-wrap/send-sms__captcha-wrap.css: end */ /**/
+
+/* ./blocks/send-sms/__cell/send-sms__cell.css: begin */ /**/
+    .send-sms__cell
+    {
+        display: inline-block;
+    
+        margin-right: 10px;
+    
+        vertical-align: top;
+    }
+    
+/* ./blocks/send-sms/__cell/send-sms__cell.css: end */ /**/
+
+/* ./blocks/send-sms/__cell/_type/send-sms__cell_type_input.css: begin */ /**/
+    .send-sms__cell_type_input
+    {
+        width: 219px;
+    }
+    
+    .send-sms__cell_type_input .input__hint
+    {
+        padding-left: 16px;
+    }
+    
+    .send-sms__cell_offset_2 .input__hint
+    {
+        padding-left: 34px;
+    }
+    
+    .send-sms__cell_offset_2 .input__box
+    {
+        padding-left: 18px;
+    }
+    
+/* ./blocks/send-sms/__cell/_type/send-sms__cell_type_input.css: end */ /**/
+
+/* ./blocks/send-sms/__inner/send-sms__inner.css: begin */ /**/
+    .send-sms__inner
+    {
+        padding: 15px 25px 15px 16px;
+    
+        background: #868686;
+    }
+    
+/* ./blocks/send-sms/__inner/send-sms__inner.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_position/popup_position_fixed.css: begin */ /**/
+    .popup_position_fixed
+    {
+        position: fixed;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_position/popup_position_fixed.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_has-close/popup_has-close_yes.css: begin */ /**/
+    .popup_has-close_yes > .popup__content
+    {
+        padding: 20px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_has-close/popup_has-close_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__close/popup__close.css: begin */ /**/
+    .popup__close
+    {
+        position: absolute;
+        z-index: 12;
+        top: 5px;
+        right: 5px;
+    
+        width: 16px;
+        height: 16px;
+    
+        cursor: pointer;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    
+        font: 0/0 a;
+    
+        opacity: .2;
+    }
+    
+    .i-ua_inlinesvg_yes .popup__close
+    {
+        background: url(../../vendors/islands-components/common.blocks/popup/__close/popup__close.svg) no-repeat;
+    }
+    
+    .i-ua_svg_no .popup__close,
+    .i-ua_inlinesvg_no .popup__close
+    {
+        background: url(../../vendors/islands-components/common.blocks/popup/__close/popup__close.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__close/popup__close.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/popup/__close/popup__close.css: begin */ /**/
+    .popup__close:hover
+    {
+        opacity: 1;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/popup/__close/popup__close.css: end */ /**/
+
+/* ./blocks/b-link/_theme/b-link_theme_store.css: begin */ /**/
+    .b-link_theme_store
+    {
+        display: inline-block;
+    
+        width: 180px;
+        height: 52px;
+    
+        cursor: pointer;
+    }
+    
+    .b-link_theme_store .image
+    {
+        width: 100%;
+        height: 100%;
+    
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: cover;
+    }
+    
+/* ./blocks/b-link/_theme/b-link_theme_store.css: end */ /**/
+
+/* ./blocks/send-email/send-email.css: begin */ /**/
+    .send-email
+    {
+        position: relative;
+    
+        margin: 0;
+    }
+    
+/* ./blocks/send-email/send-email.css: end */ /**/
+
+/* ./blocks/send-email/__close/send-email__close.css: begin */ /**/
+    .send-email__close
+    {
+        position: absolute;
+        z-index: 10;
+        top: 6px;
+        right: 12px;
+    
+        width: 15px;
+        height: 15px;
+    
+        cursor: pointer;
+    
+        font: 0/0 a;
+    
+        opacity: .3;
+        background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDMyMCAzMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE2IDE2Ij48cGF0aCBkPSJtMTYwIDI0Yy03NSAwLTEzNiA2MC44LTEzNiAxMzYgMCA3NSA2MC44IDEzNiAxMzYgMTM2IDc1IDAgMTM2LTYwLjggMTM2LTEzNiAwLTc1LTYwLjgtMTM2LTEzNi0xMzZtODAgMTg3bC0yOC41IDI4LjUtNTEtNTEtNTEgNTEtMjguNS0yOC41IDUxLTUxLTUxLTUxIDI4LjUtMjguNSA1MSA1MSA1MS01MSAyOC41IDI4LjUtNTEgNTEgNTEgNTEiLz48L3N2Zz4=) 0 0 no-repeat;
+    }
+    
+    .send-email__close:hover
+    {
+        opacity: .7;
+    }
+    
+/* ./blocks/send-email/__close/send-email__close.css: end */ /**/
+
+/* ./blocks/send-email/__cell/_type/send-email__cell_type_input.css: begin */ /**/
+    .send-email__cell_type_input
+    {
+        width: 180px;
+    }
+    
+/* ./blocks/send-email/__cell/_type/send-email__cell_type_input.css: end */ /**/

@@ -1,0 +1,4181 @@
+/* ../../vendors/islands-romochka/desktop.blocks/i-global/_type/i-global_type_simple.css: begin */ /**/
+    /* ../__body/i-global__body.css: begin */ /**/
+        /* Global definitions (begin) */ /**/
+        body
+        {
+                /* Чтобы в FF2- заработал z-index: -1 */ /**/
+            position: relative;
+            z-index: 0;
+        
+            margin: 0;
+            padding: 0 0 1em 0;
+        
+            font: .8em Arial, Helvetica, sans-serif;
+        
+            color: #000;
+            background: #fff;
+        }
+        /* Global definitions (end) */ /**/
+        
+    /* ../__body/i-global__body.css: end */ /**/
+    
+    /* ../__wbr/i-global__wbr.css: begin */ /**/
+        /* Поддержка wbr в Opera и Safari 2/3 (begin) */ /**/
+            /* См. http://harisov.livejournal.com/97666.html */ /**/
+        wbr
+        {
+            display: inline-block;
+        }
+        /* Поддержка wbr в Opera и Safari 2/3 (end) */ /**/
+        
+    /* ../__wbr/i-global__wbr.css: end */ /**/
+    
+    /* ../__hover/i-global__hover.css: begin */ /**/
+        /* Global definitions: Links hover (begin) */ /**/
+        :link:hover,
+            :visited:hover
+        {
+            color: #f00 !important; /*!head*/
+        }
+        /* Global definitions: Links hover (end) */ /**/
+        
+    /* ../__hover/i-global__hover.css: end */ /**/
+    
+    
+/* ../../vendors/islands-romochka/desktop.blocks/i-global/_type/i-global_type_simple.css: end */ /**/
+
+/* ../../vendors/islands-romochka/common.blocks/b-statcounter/b-statcounter.css: begin */ /**/
+    .b-statcounter
+    {
+        position: absolute;
+        left: -9999px;
+    }
+    
+/* ../../vendors/islands-romochka/common.blocks/b-statcounter/b-statcounter.css: end */ /**/
+
+/* ../../vendors/islands-specific/specific.blocks/yanalytics/yanalytics.css: begin */ /**/
+    .yanalytics
+    {
+        display: none;
+    }
+/* ../../vendors/islands-specific/specific.blocks/yanalytics/yanalytics.css: end */ /**/
+
+/* ../../desktop.blocks/b-page/b-page.css: begin */ /**/
+    .b-page__body
+    {
+        min-width: 1000px;
+    
+        letter-spacing: -.02em;
+    
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+    
+        font-kerning: normal;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    .yashare-auto-init
+    {
+        text-align: center;
+    }
+    
+/* ../../desktop.blocks/b-page/b-page.css: end */ /**/
+
+/* ./blocks/b-page/b-page.css: begin */ /**/
+    html
+    {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .b-page
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    
+        background: #f3f2f0;
+    }
+    
+/* ./blocks/b-page/b-page.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/image/image.css: begin */ /**/
+    .image
+    {
+        font: 0/0 a;
+    
+        border: 0;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/image/image.css: end */ /**/
+
+/* ../../desktop.blocks/image/image.css: begin */ /**/
+    .b-link_inner_yes .image
+    {
+        margin-right: 5px;
+    
+        vertical-align: middle;
+    }
+    
+/* ../../desktop.blocks/image/image.css: end */ /**/
+
+/* ./blocks/image/image.css: begin */ /**/
+    .image
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+        margin: auto;
+    }
+    
+/* ./blocks/image/image.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_protection.css: begin */ /**/
+    .image_type_protection
+    {
+        margin: 0 0 60px 0;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_protection.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_settings.css: begin */ /**/
+    .image_type_settings
+    {
+        margin: 0 0 60px 0;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_settings.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_turbo.css: begin */ /**/
+    .image_type_turbo
+    {
+        margin: 60px 0 0 0;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_turbo.css: end */ /**/
+
+/* ../../desktop.blocks/image/_type/image_type_turbo-icon.css: begin */ /**/
+    .image_type_turbo-icon
+    {
+        position: relative;
+    
+        float: right;
+    
+        margin: -63px 7px -20px -10px;
+    }
+    
+/* ../../desktop.blocks/image/_type/image_type_turbo-icon.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_type/b-link_type_global.css: begin */ /**/
+    :link
+    {
+        color: #1a3dc1;
+    }
+    
+    :link:hover,
+    :visited:hover
+    {
+        color: #f00 !important;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_type/b-link_type_global.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_pseudo/b-link_pseudo_yes.css: begin */ /**/
+    .b-link_pseudo_yes
+    {
+        color: #1a3dc1;
+    }
+    
+    .i-ua_js_yes .b-link_pseudo_yes
+    {
+        text-decoration: none;
+    
+        cursor: pointer;
+    }
+    
+    .i-ua_js_yes .b-link_pseudo_yes .b-link__inner
+    {
+        text-decoration: none;
+    
+        color: inherit;
+        border-bottom: 1px dotted;
+    }
+    
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_pseudo/b-link_pseudo_yes.css: end */ /**/
+
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_pseudo/b-link_pseudo_yes.css: begin */ /**/
+    .b-link_pseudo_yes:hover
+    {
+        color: #f00;
+    }
+    
+/* ../../vendors/islands-romochka/desktop.blocks/b-link/_pseudo/b-link_pseudo_yes.css: end */ /**/
+
+/* ./blocks/b-link/_pseudo/b-link_pseudo_yes.css: begin */ /**/
+    .b-page .b-link_pseudo_yes .b-link__inner
+    {
+        border-bottom: none;
+    }
+    
+/* ./blocks/b-link/_pseudo/b-link_pseudo_yes.css: end */ /**/
+
+/* ./blocks/b-link/_type/b-link_type_question.css: begin */ /**/
+    .b-link_type_question
+    {
+        display: block;
+    
+        margin-left: 120px;
+    
+        user-select: none;
+    
+        font-size: 15px;
+    
+        color: #0670c1;
+    }
+    
+/* ./blocks/b-link/_type/b-link_type_question.css: end */ /**/
+
+/* ./blocks/b-link/_type/b-link_type_answer.css: begin */ /**/
+    .b-link_type_answer
+    {
+        display: block;
+    
+        font-size: 13px;
+        line-height: 35px;
+    
+        color: #0670c1;
+    }
+    
+/* ./blocks/b-link/_type/b-link_type_answer.css: end */ /**/
+
+/* ./blocks/b-link/_show/b-link_show_form.css: begin */ /**/
+    .b-link_show_form
+    {
+        position: absolute;
+        bottom: -30px;
+    
+        display: block;
+    
+        width: 100%;
+        margin-left: -20px;
+        padding: 0;
+    
+        text-align: center;
+    
+        font-size: 12px;
+    
+        color: rgba(0, 0, 0, .5);
+    }
+    
+/* ./blocks/b-link/_show/b-link_show_form.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_inner/b-link_inner_yes.css: begin */ /**/
+    .b-link_inner_yes:link,
+    .b-link_inner_yes:hover,
+    .b-link_inner_yes:visited
+    {
+        text-decoration: none;
+    }
+    
+    .b-link_inner_yes .b-link__inner
+    {
+        text-decoration: underline;
+    
+        color: inherit;
+    }
+    
+    .b-link_inner_yes .b-icon
+    {
+        vertical-align: middle;
+    
+        margin-right: 5px;
+    }
+/* ../../vendors/bem-bl/blocks-desktop/b-link/_inner/b-link_inner_yes.css: end */ /**/
+
+/* ../../vendors/bem-bl/blocks-desktop/b-icon/b-icon.css: begin */ /**/
+    .b-icon
+    {
+        font: 0/0 a;
+    
+        border: 0;
+    
+    }
+    
+/* ../../vendors/bem-bl/blocks-desktop/b-icon/b-icon.css: end */ /**/
+
+/* ../../desktop.blocks/i-clearfix/i-clearfix.css: begin */ /**/
+    .i-clearfix:before,
+    .i-clearfix:after
+    {
+        display: table; /* 2 */
+    
+        content: ' '; /* 1 */
+    }
+    
+    .i-clearfix:after
+    {
+        clear: both;
+    }
+    
+    /*
+    .i-clearfix {
+        *zoom: 1;
+    }
+    */
+    
+/* ../../desktop.blocks/i-clearfix/i-clearfix.css: end */ /**/
+
+/* ./blocks/b-page/_is/b-page_is_mobile.css: begin */ /**/
+    .b-page_is_mobile
+    {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .b-page_is_mobile
+    {
+        display: flex;
+        flex-direction: row;
+    
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        -webkit-text-size-adjust: none;
+    }
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        .b-page_is_mobile
+        {
+            height: auto;
+        }
+    }
+    
+/* ./blocks/b-page/_is/b-page_is_mobile.css: end */ /**/
+
+/* ./blocks/b-page/__body/b-page__body.css: begin */ /**/
+    .b-page__body
+    {
+        min-width: 100%;
+    }
+    
+/* ./blocks/b-page/__body/b-page__body.css: end */ /**/
+
+/* ./blocks/form-wrap/form-wrap.css: begin */ /**/
+    .form-wrap
+    {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+    
+        display: block;
+    
+        width: 550px;
+        margin: 0 0 0 -275px;
+    }
+    
+/* ./blocks/form-wrap/form-wrap.css: end */ /**/
+
+/* ./blocks/form-wrap/_type/form-wrap_type_mobile.css: begin */ /**/
+    .form-wrap_type_mobile
+    {
+        position: static;
+    
+        width: 520px;
+        height: auto;
+        margin: auto;
+        padding: 0;
+    
+        background: #fff;
+    
+        order: 0;
+        flex: 0 1 auto;
+        align-self: center;
+    }
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        .form-wrap_type_mobile
+        {
+            position: static;
+    
+            width: 100%;
+            height: auto;
+    
+            border: 0;
+            background: none;
+        }
+    }
+    
+    
+    .form-wrap_type_mobile .title
+    {
+        display: block;
+    }
+    
+/* ./blocks/form-wrap/_type/form-wrap_type_mobile.css: end */ /**/
+
+/* ./blocks/form-wrap/_custo/form-wrap_custo_yes.css: begin */ /**/
+    .form-wrap_custo_yes
+    {
+        display: none;
+    }
+    
+/* ./blocks/form-wrap/_custo/form-wrap_custo_yes.css: end */ /**/
+
+/* ./blocks/form/form.css: begin */ /**/
+    .form
+    {
+        overflow: hidden;
+    
+        padding: 32px 0 0;
+    
+        vertical-align: top;
+    
+        border: 1px solid rgba(0, 0, 0, .1);
+        background: #fff;
+    }
+    
+    
+    .form-wrap_type_mobile .form
+    {
+        padding: 0;
+    }
+    
+/* ./blocks/form/form.css: end */ /**/
+
+/* ./blocks/form-title/form-title.css: begin */ /**/
+    .form-title
+    {
+        margin: 10px 0 10px 3%;
+        padding-left: 40px;
+    
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+    
+        background: url(./blocks/form-title/form-title.png) 0 0 no-repeat;
+        background-size: contain;
+    }
+    
+    .form-wrap_type_desktop .form-title
+    {
+        display: none;
+    }
+    
+/* ./blocks/form-title/form-title.css: end */ /**/
+
+/* ./blocks/reason/reason.css: begin */ /**/
+    @media only screen and (max-device-width: 650px)
+    {
+        .reason
+        {
+            width: 94%;
+            margin: 0 auto;
+        }
+    }
+    
+/* ./blocks/reason/reason.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/suggest/suggest.css: begin */ /**/
+    /**
+     * 1. Блок suggest всегда растягивается на 100% окна, левого и правого бордеров быть не должно.
+     */
+    .suggest.popup
+    {
+        right: 0;
+        left: 0;
+    
+        padding: 0;
+    
+        border-right-width: 0; /* 1 */
+        border-left-width: 0; /* 1 */
+    }
+    
+    /* Тень должна быть только снизу. */
+    .suggest.popup:before
+    {
+        position: absolute;
+        top: 50%;
+    
+        display: block;
+    
+        width: 100%;
+        height: 50%;
+    
+        content: '';
+    
+        -webkit-box-shadow: 0 8px 25px -5px rgba(0, 0, 0, .25);
+                box-shadow: 0 8px 25px -5px rgba(0, 0, 0, .25);
+    }
+    
+    .suggest .popup__under
+    {
+        padding: 0;
+    }
+    
+    .suggest .popup__content
+    {
+        padding: 0;
+    }
+    
+    .suggest.popup_theme_ffffff .suggest__content
+    {
+        background: #fff;
+    }
+    
+    .suggest__group
+    {
+        position: relative;
+    }
+    
+    /* <span/> */
+    .suggest__title
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        display: block;
+    
+        cursor: pointer;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+        text-align: right;
+    
+        color: #999;
+    }
+    
+    /* <ul/> */
+    .suggest__items
+    {
+        margin: 0;
+        padding: 0;
+    
+        cursor: pointer;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/suggest/suggest.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/suggest/suggest.css: begin */ /**/
+    .suggest .popup__content
+    {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .suggest__title
+    {
+        width: 138px;
+    }
+    
+    .suggest__group + .suggest__group
+    {
+        margin-top: 8px;
+    }
+    
+    .suggest .suggest-item
+    {
+        padding: 0 0 0 152px;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/suggest/suggest.css: end */ /**/
+
+/* ./blocks/suggest/suggest.css: begin */ /**/
+    .suggest.popup
+    {
+        left: 50% !important;
+    
+        width: 550px;
+        margin-left: -275px;
+    }
+    
+/* ./blocks/suggest/suggest.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/suggest-item/suggest-item.css: begin */ /**/
+    .suggest-item
+    {
+        overflow: hidden;
+    
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    
+    .suggest-item_selected_yes
+    {
+        background: #ffeba0;
+    }
+    
+    .suggest-item__hint
+    {
+        color: #070;
+    }
+    
+    .suggest-item__value
+    {
+        color: #070;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/suggest-item/suggest-item.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/suggest-item/_type/suggest-item_type_fact.css: begin */ /**/
+    .suggest-item_type_fact .suggest-item__hint
+    {
+        position: relative;
+    
+        color: #999;
+    }
+    
+    .suggest-item_type_fact .suggest-item__hint:after
+    {
+        position: absolute;
+        left: 7px;
+    
+        width: 10px;
+    
+        content: '■';
+        text-align: center;
+    
+        font-size: 6px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/suggest-item/_type/suggest-item_type_fact.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/suggest-item/_type/suggest-item_type_fact.css: begin */ /**/
+    .suggest-item_type_fact .suggest-item__hint
+    {
+        padding-left: 24px;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/suggest-item/_type/suggest-item_type_fact.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/suggest-item/_type/suggest-item_type_nav.css: begin */ /**/
+    .suggest-item_type_nav
+    {
+        color: #999;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/suggest-item/_type/suggest-item_type_nav.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/link/link.css: begin */ /**/
+    .link,
+    .link:visited
+    {
+        color: #22c;
+    }
+    
+    .link
+    {
+        text-decoration: none;
+    
+        -webkit-transition: color .15s ease-out;
+                transition: color .15s ease-out;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/link/link.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/link/link.css: begin */ /**/
+    .link:hover,
+    .link:visited:hover
+    {
+        color: #d00 !important; /* Оторвать !important после того, как оторвем .i-global__hover */
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/link/link.css: end */ /**/
+
+/* ../../desktop.blocks/link/link.css: begin */ /**/
+    .link
+    {
+        cursor: pointer;
+        text-decoration: none;
+    
+        color: #0f6fb3;
+    
+        transition: color .15s ease-out;
+    }
+    
+    .link_type_attention:link,
+    .link_type_attention:visited
+    {
+        text-decoration: underline;
+    
+        color: #f00 !important;
+    }
+    
+    .link_type_attention:hover:link,
+    .link_type_attention:hover:visited
+    {
+        color: #0f6fb3 !important;
+    }
+    
+/* ../../desktop.blocks/link/link.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/link/_disabled/link_disabled_yes.css: begin */ /**/
+    .link_disabled_yes,
+    .link_disabled_yes:hover,
+    .link_disabled_yes:hover .link__inner,
+    a.link_disabled_yes:link,
+    a.link_disabled_yes:visited
+    {
+        cursor: default !important;
+    
+        color: #ddd !important;
+        outline: 0;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/link/_disabled/link_disabled_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/suggest-item/__link/suggest-item__link.css: begin */ /**/
+    .suggest-item__link
+    {
+        text-decoration: underline;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/suggest-item/__link/suggest-item__link.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/suggest-item/_type/suggest-item_type_traffic.css: begin */ /**/
+    .suggest-item_type_traffic .suggest-item__value
+    {
+        color: #999;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/suggest-item/_type/suggest-item_type_traffic.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/suggest-item/__icon/suggest-item__icon.css: begin */ /**/
+    .suggest-item__icon
+    {
+        display: inline-block;
+    
+        vertical-align: middle;
+    
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/suggest-item/__icon/suggest-item__icon.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/suggest-item/__icon/suggest-item__icon.css: begin */ /**/
+    .suggest-item__icon
+    {
+        width: 32px;
+        height: 28px; /* Иконка растягивается! */
+        margin: 0 0 0 5px;
+    
+        background-size: contain;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/suggest-item/__icon/suggest-item__icon.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/suggest-item/__icon/_traffic/suggest-item__icon_traffic.css: begin */ /**/
+    .suggest-item__icon_traffic_red
+    {
+        background-image: url('../../vendors/islands-components/common.blocks/suggest-item/__icon/_traffic/suggest-item__icon_traffic_red.svg');
+    }
+    
+    .suggest-item__icon_traffic_yellow
+    {
+        background-image: url('../../vendors/islands-components/common.blocks/suggest-item/__icon/_traffic/suggest-item__icon_traffic_yellow.svg');
+    }
+    
+    .suggest-item__icon_traffic_green
+    {
+        background-image: url('../../vendors/islands-components/common.blocks/suggest-item/__icon/_traffic/suggest-item__icon_traffic_green.svg');
+    }
+    
+/* ../../vendors/islands-components/common.blocks/suggest-item/__icon/_traffic/suggest-item__icon_traffic.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/suggest-item/__icon/_traffic/suggest-item__icon_traffic.css: begin */ /**/
+    /* 28x28 */
+    .i-ua_inlinesvg_no .suggest-item__icon_traffic_red
+    {
+        background-image: url('../../vendors/islands-components/desktop.blocks/suggest-item/__icon/_traffic/suggest-item__icon_traffic_red.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_traffic_yellow
+    {
+        background-image: url('../../vendors/islands-components/desktop.blocks/suggest-item/__icon/_traffic/suggest-item__icon_traffic_yellow.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_traffic_green
+    {
+        background-image: url('../../vendors/islands-components/desktop.blocks/suggest-item/__icon/_traffic/suggest-item__icon_traffic_green.png');
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/suggest-item/__icon/_traffic/suggest-item__icon_traffic.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/suggest-item/_type/suggest-item_type_weather.css: begin */ /**/
+    .suggest-item_type_weather .suggest-item__value
+    {
+        color: #999;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/suggest-item/_type/suggest-item_type_weather.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/suggest-item/__icon/_weather/suggest-item__icon_weather.css: begin */ /**/
+    .suggest-item__icon_weather_bkn-plus-ra-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-plus-ra-d.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-plus-ra-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-plus-ra-n.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-plus-sn-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-plus-sn-d.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-plus-sn-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-plus-sn-n.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-minus-ra-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-minus-ra-d.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-minus-ra-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-minus-ra-n.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-minus-sn-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-minus-sn-d.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-minus-sn-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-minus-sn-n.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-d.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-n.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-ra-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-ra-d.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-ra-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-ra-n.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-sn-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-sn-d.svg');
+    }
+    
+    .suggest-item__icon_weather_bkn-sn-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bkn-sn-n.svg');
+    }
+    
+    .suggest-item__icon_weather_bl
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/bl.svg');
+    }
+    
+    .suggest-item__icon_weather_fg-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/fg-d.svg');
+    }
+    
+    .suggest-item__icon_weather_fg-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/fg-n.svg');
+    }
+    
+    .suggest-item__icon_weather_ovc
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/ovc.svg');
+    }
+    
+    .suggest-item__icon_weather_ovc-plus-ra
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/ovc-plus-ra.svg');
+    }
+    
+    .suggest-item__icon_weather_ovc-plus-sn
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/ovc-plus-sn.svg');
+    }
+    
+    .suggest-item__icon_weather_ovc-minus-ra
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/ovc-minus-ra.svg');
+    }
+    
+    .suggest-item__icon_weather_ovc-minus-sn
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/ovc-minus-sn.svg');
+    }
+    
+    .suggest-item__icon_weather_ovc-gr
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/ovc-gr.svg');
+    }
+    
+    .suggest-item__icon_weather_ovc-ra
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/ovc-ra.svg');
+    }
+    
+    .suggest-item__icon_weather_ovc-sn
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/ovc-sn.svg');
+    }
+    
+    .suggest-item__icon_weather_ovc-ts-ra
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/ovc-ts-ra.svg');
+    }
+    
+    .suggest-item__icon_weather_skc-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/skc-d.svg');
+    }
+    
+    .suggest-item__icon_weather_skc-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/svg/skc-n.svg');
+    }
+    
+/* ../../vendors/islands-components/common.blocks/suggest-item/__icon/_weather/suggest-item__icon_weather.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/suggest-item/__icon/_weather/suggest-item__icon_weather.css: begin */ /**/
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-plus-ra-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_+ra_d.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-plus-ra-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_+ra_n.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-plus-sn-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_+sn_d.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-plus-sn-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_+sn_n.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-minus-ra-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_-ra_d.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-minus-ra-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_-ra_n.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-minus-sn-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_-sn_d.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-minus-sn-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_-sn_n.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_d.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_n.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-ra-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_ra_d.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-ra-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_ra_n.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-sn-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_sn_d.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bkn-sn-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bkn_sn_n.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_bl
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/bl.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_fg-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/fg_d.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_fg-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/fg_n.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_ovc
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/ovc.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_ovc-plus-ra
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/ovc_+ra.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_ovc-plus-sn
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/ovc_+sn.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_ovc-minus-ra
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/ovc_-ra.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_ovc-minus-sn
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/ovc_-sn.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_ovc-gr
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/ovc_gr.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_ovc-ra
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/ovc_ra.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_ovc-sn
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/ovc_sn.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_ovc-ts-ra
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/ovc_ts_ra.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_skc-d
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/skc_d.png');
+    }
+    
+    .i-ua_inlinesvg_no .suggest-item__icon_weather_skc-n
+    {
+        background-image: url('//yastatic.net/weather/i/icons/48x48/skc_n.png');
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/suggest-item/__icon/_weather/suggest-item__icon_weather.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/suggest-item/__value/suggest-item__value.css: begin */ /**/
+    .suggest-item__value
+    {
+        margin-left: 9px;
+    }
+    
+    .suggest-item_type_weather .suggest-item__value,
+    .suggest-item_type_traffic .suggest-item__value
+    {
+        margin-left: 5px;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/suggest-item/__value/suggest-item__value.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/suggest-item/__icon/_type/suggest-item__icon_type_favicon.css: begin */ /**/
+    .suggest-item__icon_type_favicon
+    {
+        width: 16px;
+        height: 16px;
+        margin: 0 0 -3px 9px;
+    
+        vertical-align: baseline;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/suggest-item/__icon/_type/suggest-item__icon_type_favicon.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/suggest-item/_type/suggest-item_type_icon.css: begin */ /**/
+    .suggest-item_type_icon .suggest-item__value
+    {
+        color: #999;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/suggest-item/_type/suggest-item_type_icon.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/a11y-hidden/a11y-hidden.css: begin */ /**/
+    .a11y-hidden
+    {
+        position: absolute;
+        left: -32767px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/a11y-hidden/a11y-hidden.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/popup.css: begin */ /**/
+    .popup
+    {
+        position: absolute;
+        z-index: 32700;
+    
+        display: none;
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    
+        border: 1px solid transparent;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/popup.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__content/popup__content.css: begin */ /**/
+    .popup__content
+    {
+        position: relative;
+        z-index: 10;
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 4px 8px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__content/popup__content.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_theme/popup_theme_ffffff.css: begin */ /**/
+    .popup_theme_ffffff
+    {
+        border-color: rgba(0,0,0,.1);
+    }
+    
+    .popup_theme_ffffff:before
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    
+        content: '';
+    
+        -webkit-box-shadow: 0 10px 20px -4px rgba(0,0,0,.4);
+                box-shadow: 0 10px 20px -4px rgba(0,0,0,.4);
+    }
+    
+    .popup_theme_ffffff:before,
+    .popup_theme_ffffff .popup__tail:after
+    {
+        background: #fff;
+    }
+    
+    .popup_theme_ffffff .popup__tail
+    {
+        background: rgba(0,0,0,.1);
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, rgba(0,0,0,.1)), color-stop(50%, rgba(0,0,0,0)));
+        background: -webkit-linear-gradient(bottom left, rgba(0,0,0,.1) 50%, rgba(0,0,0,0) 50%);
+        background:         linear-gradient(to top right, rgba(0,0,0,.1) 50%, rgba(0,0,0,0) 50%);
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_theme/popup_theme_ffffff.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_visible.css: begin */ /**/
+    .popup_visibility_visible
+    {
+        display: block;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_visible.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_outside.css: begin */ /**/
+    .popup_visibility_outside
+    {
+        top: -99999px;
+        left: -99999px;
+    
+        display: block;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_visibility/popup_visibility_outside.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__under/popup__under.css: begin */ /**/
+    .popup__under
+    {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    
+        border: 0;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__under/popup__under.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__under/_color/popup__under_color_white.css: begin */ /**/
+    .popup__under_color_white
+    {
+        opacity: .8;
+        background: #fff;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__under/_color/popup__under_color_white.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__under/_type/popup__under_type_paranja.css: begin */ /**/
+    .popup__under_type_paranja
+    {
+        position: fixed;
+        z-index: 32000;
+        top: 0;
+        left: 0;
+    
+        padding: 0;
+    
+        opacity: .3;
+        background: #000;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__under/_type/popup__under_type_paranja.css: end */ /**/
+
+/* ./blocks/popup/__under/_type/popup__under_type_paranja.css: begin */ /**/
+    .popup__under_type_paranja
+    {
+        background: rgba(0, 0, 0, 0);
+    }
+/* ./blocks/popup/__under/_type/popup__under_type_paranja.css: end */ /**/
+
+/* ../../vendors/islands-specific/specific.blocks/popup/__wrapper/popup__wrapper.css: begin */ /**/
+    .popup__wrapper
+    {
+        display: block;
+    }
+/* ../../vendors/islands-specific/specific.blocks/popup/__wrapper/popup__wrapper.css: end */ /**/
+
+/* ../../desktop.blocks/popup/_name/popup_name_sms-form-popup.css: begin */ /**/
+    .popup_name_sms-form-popup
+    {
+        width: 500px;
+    }
+    .popup_name_sms-form-popup .popup__content
+    {
+        padding: 10px 20px;
+        line-height: 20px;
+    }
+    .popup_name_sms-form-popup .popup__content h1
+    {
+        line-height: 30px;
+    }
+    
+/* ../../desktop.blocks/popup/_name/popup_name_sms-form-popup.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__tail/popup__tail.css: begin */ /**/
+    .popup__tail
+    {
+        position: absolute;
+        z-index: 9;
+    
+        display: block;
+    
+        width: 17px;
+        height: 17px;
+    
+        font: 0/0 a;
+    }
+    
+    .popup__tail:after
+    {
+        position: absolute;
+        bottom: 1px;
+        left: 1px;
+    
+        width: 17px;
+        height: 17px;
+    
+        content: '';
+    }
+    
+    .popup_to_top .popup__tail
+    {
+        bottom: -18px; /* ширина хвостика + 1px бордер */
+    
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        -webkit-transform-origin: top left;
+            -ms-transform-origin: top left;
+                transform-origin: top left;
+    }
+    
+    .popup_to_left .popup__tail
+    {
+        right: -18px;
+    
+        margin-top: 24.04px; /* 17 * sqrt(2)*/
+    
+        -webkit-transform: rotate(-135deg);
+            -ms-transform: rotate(-135deg);
+                transform: rotate(-135deg);
+        -webkit-transform-origin: top left;
+            -ms-transform-origin: top left;
+                transform-origin: top left;
+    }
+    
+    .popup_to_bottom .popup__tail
+    {
+        top: -18px;
+    
+        margin-left: -17px;
+    
+        -webkit-transform: rotate(135deg);
+            -ms-transform: rotate(135deg);
+                transform: rotate(135deg);
+        -webkit-transform-origin: 100% 100%;
+            -ms-transform-origin: 100% 100%;
+                transform-origin: 100% 100%;
+    }
+    
+    .popup_to_right .popup__tail
+    {
+        left: -18px;
+    
+        margin-top: 7.04px; /* ( 17*sqrt(2) - 17) */
+    
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+        -webkit-transform-origin: 100% 100%;
+            -ms-transform-origin: 100% 100%;
+                transform-origin: 100% 100%;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__tail/popup__tail.css: end */ /**/
+
+/* ../../desktop.blocks/popup/__license/popup__license.css: begin */ /**/
+    .popup__license
+    {
+        width: 200px;
+        margin: 10px 0 3px;
+    }
+    
+    .popup__license,
+    .popup__license .b-link
+    {
+        font-size: 12px !important;
+        line-height: 14px !important;
+    
+        color: #666;
+    }
+    
+/* ../../desktop.blocks/popup/__license/popup__license.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_position/popup_position_fixed.css: begin */ /**/
+    .popup_position_fixed
+    {
+        position: fixed;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_position/popup_position_fixed.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/_has-close/popup_has-close_yes.css: begin */ /**/
+    .popup_has-close_yes > .popup__content
+    {
+        padding: 20px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/_has-close/popup_has-close_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/popup/__close/popup__close.css: begin */ /**/
+    .popup__close
+    {
+        position: absolute;
+        z-index: 12;
+        top: 5px;
+        right: 5px;
+    
+        width: 16px;
+        height: 16px;
+    
+        cursor: pointer;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    
+        font: 0/0 a;
+    
+        opacity: .2;
+    }
+    
+    .i-ua_inlinesvg_yes .popup__close
+    {
+        background: url(../../vendors/islands-components/common.blocks/popup/__close/popup__close.svg) no-repeat;
+    }
+    
+    .i-ua_svg_no .popup__close,
+    .i-ua_inlinesvg_no .popup__close
+    {
+        background: url(../../vendors/islands-components/common.blocks/popup/__close/popup__close.png) no-repeat;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/popup/__close/popup__close.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/popup/__close/popup__close.css: begin */ /**/
+    .popup__close:hover
+    {
+        opacity: 1;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/popup/__close/popup__close.css: end */ /**/
+
+/* ./blocks/popup/__close/popup__close.css: begin */ /**/
+    .b-page .popup__close
+    {
+        z-index: 10000;
+        top: 10px;
+        right: 10px;
+    
+        width: 20px;
+        height: 20px;
+    
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUAgMAAADw5/WeAAAADFBMVEUAAAAAAAAAAAAAAAA16TeWAAAAA3RSTlMAP/r/wPXgAAAARElEQVQI1yXNyw3AIAwD0MeFHdiG7sIa3YFT523AShRZ8c9GtzBqFOpT27UHWMal1pE9G+2b8JKbT9go40pC0pKcljT+/gIMx0G5jSAAAAAASUVORK5CYII=') center;
+    }
+    
+    .b-page_is_desktop .popup__close
+    {
+        display: none;
+    }
+    
+/* ./blocks/popup/__close/popup__close.css: end */ /**/
+
+/* ./blocks/popup/_send/popup_send_feedback.css: begin */ /**/
+    .popup_send_feedback
+    {
+        width: 500px;
+        padding: 0;
+    
+        background: #fff;
+        box-shadow: 0 8px 30px -5px rgba(0,0,0, .5);
+    }
+    
+    .b-page_is_desktop .popup_send_feedback
+    {
+        width: 410px;
+    }
+    
+    .popup_send_feedback .popup__content
+    {
+        padding: 0;
+    }
+    
+    @media only screen and (max-width : 580px)
+    {
+        .popup_send_feedback
+        {
+            width: 90%;
+        }
+    }
+    
+/* ./blocks/popup/_send/popup_send_feedback.css: end */ /**/
+
+/* ../../vendors/islands-page/common.blocks/search/__input/search__input.css: begin */ /**/
+    /* input__box-layout */
+    .search__input .input__box-layout
+    {
+        width: 100%;
+    
+        border-collapse: collapse;
+    
+        vertical-align: top;
+    }
+    
+    /* input__box-layout-cell */
+    .search__input .input__box-layout-cell
+    {
+        padding: 0;
+    }
+    
+    .search__input .input__box-layout-cell_pos_first
+    {
+        width: 0;
+    }
+    
+    .search__input .input__box-layout-cell_pos_last
+    {
+        width: 100%;
+    }
+    
+    /* input__control */
+    .search__input .input__control_visibility_hidden
+    {
+        visibility: hidden;
+    }
+    
+/* ../../vendors/islands-page/common.blocks/search/__input/search__input.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/input.css: begin */ /**/
+    .input
+    {
+        position: relative;
+    
+        display: inline-block;
+    
+        width: 100%;
+    }
+    
+    .i-ua_js_no .input__hint_fallback_yes,
+    .i-ua_placeholder_yes .input__hint_fallback_yes
+    {
+        display: none;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/input.css: end */ /**/
+
+/* ./blocks/input/input.css: begin */ /**/
+    .input
+    {
+        width: 83%;
+    }
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        .form-wrap_type_mobile .input
+        {
+            width: 100%;
+            padding: 0;
+        }
+    }
+    
+/* ./blocks/input/input.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/_disabled/input_disabled_yes.css: begin */ /**/
+    .input_disabled_yes.input_type_textarea .input__control
+    {
+        resize: none;
+    }
+    
+    .input_disabled_yes .input__clear
+    {
+        display: none;
+    }
+    
+    .input_disabled_yes,
+    .input_disabled_yes .input__control
+    {
+        color: #aaa !important;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .input_disabled_yes.input .input__box
+        {
+            background: rgba(0,0,0,.08);
+        }
+    
+        .input_disabled_yes.input .input__box:before
+        {
+            border-color: transparent;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/_disabled/input_disabled_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/input/_disabled/input_disabled_yes.css: begin */ /**/
+    .input_disabled_yes .input__box,
+    .input_disabled_yes .input__control
+    {
+        cursor: default;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/input/_disabled/input_disabled_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/_theme/input_theme_normal.css: begin */ /**/
+    .input_theme_normal,
+    .input_theme_normal .input__control
+    {
+        font-family: Arial, sans-serif;
+    
+        color: #000;
+    }
+    
+    .input_theme_normal .input__control::-webkit-input-placeholder
+    {
+        color: #999;
+    }
+    
+    .input_theme_normal .input__control::-moz-placeholder
+    {
+        opacity: 1; /*В firefox полупрозрачный по умолчанию*/
+        color: #999;
+    }
+    
+    .input_theme_normal .input__control:-ms-input-placeholder
+    {
+        color: #999;
+    }
+    
+    .input_theme_normal .input__hint
+    {
+        color: #999;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .input_theme_normal .input__box
+        {
+            background: #fff;
+        }
+    
+        .input_theme_normal .input__box:before
+        {
+            border: 1px solid #cbcbcb;
+        }
+    
+        .input_theme_normal.input_focused_yes .input__box:before
+        {
+            border-color: #d0ba65;
+            -webkit-box-shadow: 0 0 10px #fc0;
+                    box-shadow: 0 0 10px #fc0;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/_theme/input_theme_normal.css: end */ /**/
+
+/* ../../desktop.blocks/input/_theme/input_theme_normal.css: begin */ /**/
+    .input_theme_normal,
+    .input_theme_normal .input__control
+    {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+    }
+    
+/* ../../desktop.blocks/input/_theme/input_theme_normal.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/__box/input__box.css: begin */ /**/
+    /* Обертка для нативного инпута (__control) и очищающего крестика (__clear). */
+    .input__box
+    {
+        position: relative;
+    
+        display: block;
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    
+        cursor: text;
+    }
+    
+    .input__box:before
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    
+        padding: 0;
+    
+        content: '';
+    
+        -webkit-background-clip: padding-box;
+                background-clip: padding-box;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/__box/input__box.css: end */ /**/
+
+/* ./blocks/input/__box/input__box.css: begin */ /**/
+    .input__box
+    {
+        display: inline-block;
+    
+        width: 350px;
+    }
+    
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        .form-wrap_type_mobile .input__box
+        {
+            width: 100%;
+            padding: 0;
+        }
+    }
+    
+/* ./blocks/input/__box/input__box.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/__control/input__control.css: begin */ /**/
+    .input__control
+    {
+        position: relative;
+        z-index: 3;
+    
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+    
+        text-overflow: ellipsis;
+    
+        font-size: 100%;
+    
+        color: #000;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    
+        -webkit-appearance: none;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .input__control
+        {
+            padding: .4em 0;
+    
+            border: 0;
+            outline: 0;
+            background: none;
+        }
+    }
+    
+    /* Лишние отступы у текста */
+    .input__control::-webkit-search-decoration
+    {
+        -webkit-appearance: none;
+    }
+    
+    /* Нативный крестик */
+    .input__control::-webkit-search-cancel-button
+    {
+        display: none;
+    }
+    
+    /* Сбрасываем желтый бг у инпутов при автозаполнении */
+    .input__control:-webkit-autofill
+    {
+        top: 1px;
+        left: 1px;
+    
+        height: 1.9em;
+    
+        -webkit-box-shadow: inset 0 0 0 50px #fff;
+        -webkit-text-fill-color: #000;
+    }
+    
+    /* Скрываем нативный крестик в IE10 */
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+    {
+        .input__control::-ms-clear
+        {
+            display: none;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/__control/input__control.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/input/__control/input__control.css: begin */ /**/
+    .input__control:-webkit-autofill
+    {
+        top: .1em;
+        left: .2em;
+    
+        height: 1.6em;
+    
+        -webkit-box-shadow: inset 0 0 0 50px #fff;
+        -webkit-text-fill-color: #000;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/input/__control/input__control.css: end */ /**/
+
+/* ./blocks/input/__control/input__control.css: begin */ /**/
+    .input__control
+    {
+        padding: .5em 0 .5em .4em !important;
+    
+        font-size: 15px;
+    }
+    
+    .input_type_link .input__control,
+    .input_name_email .input__control
+    {
+        width: calc(100% - 25px);
+    }
+    
+/* ./blocks/input/__control/input__control.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/__clear/input__clear.css: begin */ /**/
+    /* Позиционируется относительно input__box.
+     * Важно, чтобы правая граница элемента с очищающим крестиком
+     * совпадала с правой границей input__box, иначе появляется
+     * возможность кликнуть по правому бордеру input__box. */
+    .input__clear
+    {
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    
+        visibility: hidden;
+    
+        margin: 0;
+        padding: 0;
+    
+        opacity: 0;
+        background: url(../../vendors/islands-components/common.blocks/input/__clear/input__clear.svg) 50% 50% no-repeat;
+    
+        -webkit-transition: visibility 0s linear .1s, opacity .1s ease-out;
+                transition: visibility 0s linear .1s, opacity .1s ease-out;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/__clear/input__clear.css: end */ /**/
+
+/* ./blocks/input/__clear/input__clear.css: begin */ /**/
+    .input__clear
+    {
+        width: 25px;
+    }
+    
+/* ./blocks/input/__clear/input__clear.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/__clear/_visibility/input__clear_visibility_visible.css: begin */ /**/
+    .input__clear_visibility_visible
+    {
+        visibility: visible;
+    
+        cursor: pointer;
+    
+        opacity: .3;
+    
+        -webkit-transition: opacity .1s ease-out;
+                transition: opacity .1s ease-out;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/__clear/_visibility/input__clear_visibility_visible.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/input/__clear/_visibility/input__clear_visibility_visible.css: begin */ /**/
+    .input__clear_visibility_visible:hover
+    {
+        opacity: .8;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/input/__clear/_visibility/input__clear_visibility_visible.css: end */ /**/
+
+/* ../../desktop.blocks/input/_has-clear/input_has-clear_no.css: begin */ /**/
+    .input_has-clear_no .input__clear
+    {
+        display: none !important;
+        visibility: hidden !important;
+        overflow: hidden;
+    
+        width: 0 !important;
+    }
+    
+    .input_has-clear_no .input__box
+    {
+        padding-right: 0 !important;
+    }
+    
+    .input_has-clear_no .input__box::after
+    {
+        display: none !important;
+    }
+    
+/* ../../desktop.blocks/input/_has-clear/input_has-clear_no.css: end */ /**/
+
+/* ../../desktop.blocks/input/__system/input__system.css: begin */ /**/
+    .input__system
+    {
+        position: absolute;
+        z-index: 100;
+        top: 5px;
+        right: 30px;
+    
+        height: 25px;
+        padding: 0 0 0 10px;
+    
+        font-size: 11px;
+        line-height: 23px;
+    
+        color: #c00;
+        background: #fff;
+    }
+    
+/* ../../desktop.blocks/input/__system/input__system.css: end */ /**/
+
+/* ../../desktop.blocks/input/__control/_type/input__control_type_phone-number.css: begin */ /**/
+    .input__control_type_phone-number
+    {
+        padding-left: 16px !important;
+    
+        border-width: 0 !important;
+    }
+    
+/* ../../desktop.blocks/input/__control/_type/input__control_type_phone-number.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/_type/input_type_textarea.css: begin */ /**/
+    .input_type_textarea
+    {
+        vertical-align: top;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .input_type_textarea .input__control
+        {
+            display: block;
+    
+            padding-top: .4em;
+            padding-right: 1px;
+            padding-bottom: 1px;
+    
+            resize: vertical;
+            vertical-align: baseline;
+    
+            -webkit-overflow-scrolling: touch; /* Fixed bug — overflow textarea no scrolling on touch devices */
+        }
+    
+        /* Only FF */
+        .input_type_textarea .input__control, x:-moz-any-link
+        {
+            padding-top: .44em;
+        }
+    
+        .input_type_textarea .input__clear
+        {
+            display: none;
+        }
+    }
+    
+    .input.input_type_textarea .input__box
+    {
+        padding: 1px 1px 1px 0;
+    }
+    
+    /* body — increases the weight of selector to override INPUT height */
+    body .input_type_textarea .input__control
+    {
+        height: auto;
+        min-height: 2em;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/_type/input_type_textarea.css: end */ /**/
+
+/* ./blocks/input/_type/input_type_textarea.css: begin */ /**/
+    .input_type_textarea
+    {
+        margin-bottom: 23px;
+        padding: 0 64px 0 32px;
+    }
+    
+    .input_type_textarea .input__label
+    {
+        padding-top: .6em;
+    }
+    
+    .input_type_textarea .input__control
+    {
+        padding-bottom: .4em;
+    }
+    
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        .input_type_textarea
+        {
+            margin-bottom: 10px;
+        }
+    
+        .input_type_textarea .input__control
+        {
+            padding-left: .4em !important;
+        }
+    }
+    
+/* ./blocks/input/_type/input_type_textarea.css: end */ /**/
+
+/* ./blocks/input/_type/input_type_file.css: begin */ /**/
+    .input_type_file
+    {
+        display: none;
+    }
+    
+/* ./blocks/input/_type/input_type_file.css: end */ /**/
+
+/* ./blocks/input/_type/input_type_text.css: begin */ /**/
+    .input_type_text
+    {
+        padding: 0 64px 0 32px;
+    }
+    
+/* ./blocks/input/_type/input_type_text.css: end */ /**/
+
+/* ./blocks/input/_type/input_type_link.css: begin */ /**/
+    .input_type_link
+    {
+        padding: 0 64px 0 32px;
+    }
+    
+/* ./blocks/input/_type/input_type_link.css: end */ /**/
+
+/* ./blocks/input/_type/input_type_hidden.css: begin */ /**/
+    .input_type_hidden
+    {
+        display: none;
+    }
+    
+/* ./blocks/input/_type/input_type_hidden.css: end */ /**/
+
+/* ./blocks/input/_name/input_name_email.css: begin */ /**/
+    .input_name_email
+    {
+        padding: 0 64px 0 32px;
+    }
+    
+    .input_name_email .input__box
+    {
+        width: 210px;
+    }
+    
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        .form_type_mobile .questions-mobile__email .input_name_email
+        {
+            display: block;
+    
+            width: 94%;
+            margin: 0 auto;
+        }
+    
+        .form_type_mobile .input_name_email .input__box
+        {
+            width: 100%;
+        }
+    }
+    
+/* ./blocks/input/_name/input_name_email.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/_size/input_size_s.css: begin */ /**/
+    .input_size_s
+    {
+        font-size: 13px;
+        line-height: 28px;
+    }
+    
+    .input_size_s .input__clear
+    {
+        width: 28px;
+    
+        -webkit-background-size: 10px;
+                background-size: 10px;
+    }
+    
+    .input_size_s .input__box
+    {
+        padding-right: 22px;
+    }
+    
+    .input_size_s .input__control
+    {
+        padding-left: 7px;
+    }
+    
+    /* Для ИЕ10+ делаем отступ слева с помощью border, т.к. при длинном тексте в инпуте padding игнорируется
+       https://st.yandex-team.ru/ISLCOMPONENTS-865
+    */
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+    {
+        .input_size_s .input__control
+        {
+            padding-left: 0;
+    
+            border-left: 7px solid transparent;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/_size/input_size_s.css: end */ /**/
+
+/* ./blocks/input/_enter/input_enter_mail.css: begin */ /**/
+    .input_enter_mail .input__box
+    {
+        width: 195px;
+    }
+    
+/* ./blocks/input/_enter/input_enter_mail.css: end */ /**/
+
+/* ./blocks/input/_error/input_error_yes.css: begin */ /**/
+    .input_error_yes.input_focused_yes .input__box,
+    .input_error_yes .input__box
+    {
+        border: 1px solid #a33332;
+        box-shadow: none;
+    }
+    
+    .input_error_yes.input_theme_normal .input__box:before
+    {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    
+        box-shadow: none;
+    }
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        .input_error_yes.input_focused_yes .input__box,
+        .input_error_yes .input__box
+        {
+            border-color: #d52220;
+        }
+    }
+    
+/* ./blocks/input/_error/input_error_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/__label/input__label.css: begin */ /**/
+    .input__label
+    {
+        display: block;
+    
+        margin: 0 .4em .25em 0;
+    
+        line-height: normal;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/__label/input__label.css: end */ /**/
+
+/* ./blocks/input/__label/input__label.css: begin */ /**/
+    .input__label
+    {
+        display: inline-block;
+    
+        width: 85px;
+        margin-right: 3px;
+        padding-top: .5em;
+    
+        vertical-align: top;
+    
+        font-size: 15px;
+    
+        color: #000;
+    }
+    
+    .form-wrap_type_mobile .input__label
+    {
+        display: none;
+    }
+    
+/* ./blocks/input/__label/input__label.css: end */ /**/
+
+/* ./blocks/input/__title/input__title.css: begin */ /**/
+    .input__title
+    {
+        margin: 2px 0 0 89px;
+    
+        font-size: 13px;
+        line-height: 22px;
+    
+        color: rgba(0, 0, 0, .5);
+    }
+    
+    .b-page_is_mobile .input__title
+    {
+        margin: 2px 0 0;
+    }
+    
+/* ./blocks/input/__title/input__title.css: end */ /**/
+
+/* ./blocks/input/__control/_type/input__control_type_textarea.css: begin */ /**/
+    .input__control_type_textarea
+    {
+        display: inline-block;
+    
+        width: 100%;
+        height: 100px;
+    
+        resize: none !important;
+        vertical-align: top;
+    }
+    
+    .input__control_type_textarea::webkitinputplaceholder
+    {
+        padding-left: 2px;
+    }
+/* ./blocks/input/__control/_type/input__control_type_textarea.css: end */ /**/
+
+/* ./blocks/input/__title/_type/input__title_type_error-email.css: begin */ /**/
+    .input__title_type_error-email
+    {
+        display: none;
+    
+        color: #a33332;
+    }
+/* ./blocks/input/__title/_type/input__title_type_error-email.css: end */ /**/
+
+/* ./blocks/input/__title/_type/input__title_type_empty-email.css: begin */ /**/
+    .input__title_type_empty-email
+    {
+        display: none;
+    
+        color: #a33332;
+    }
+/* ./blocks/input/__title/_type/input__title_type_empty-email.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/input/_size/input_size_m.css: begin */ /**/
+    .input_size_m
+    {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    
+    .input_size_m .input__clear
+    {
+        width: 32px;
+    }
+    
+    .input_size_m .input__control
+    {
+        padding-left: 10px;
+    }
+    
+    .input_size_m .input__box
+    {
+        padding-right: 30px;
+    }
+    
+    .input_size_m .input__hint
+    {
+        padding-left: 11px;
+    }
+    
+    /* Для ИЕ10+ делаем отступ слева с помощью border, т.к. при длинном тексте в инпуте padding игнорируется
+       https://st.yandex-team.ru/ISLCOMPONENTS-865
+    */
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+    {
+        .input_size_m .input__control
+        {
+            padding-left: 0;
+    
+            border-left: 10px solid transparent;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/input/_size/input_size_m.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/button/button.css: begin */ /**/
+    .button
+    {
+        position: relative;
+    
+        display: inline-block;
+    
+        margin: 0;
+        padding: 0;
+    
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+        text-align: center;
+        white-space: nowrap;
+    
+        outline: 0;
+    }
+    
+    .button::-moz-focus-inner
+    {
+        padding: 0;
+    
+        border: 0;
+    }
+    
+    /* Прячем стили от IE < 9 */
+    @media all and (min-width: 0)
+    {
+        .button
+        {
+            border: 0;
+            background: none; /* убираем нативный фон кнопки */
+        }
+    }
+    
+    a.button:link,
+    a.button:visited,
+    a.button:hover
+    {
+        text-decoration: none;
+    
+        outline: hidden;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/button/button.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/button/button.css: begin */ /**/
+    .button
+    {
+        cursor: pointer;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/button/button.css: end */ /**/
+
+/* ./blocks/button/button.css: begin */ /**/
+    .button
+    {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+    }
+    
+/* ./blocks/button/button.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/button/__text/button__text.css: begin */ /**/
+    .button__text
+    {
+        position: relative;
+    
+        pointer-events: none;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/button/__text/button__text.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/button/_disabled/button_disabled_yes.css: begin */ /**/
+    .button_disabled_yes,
+    a.button_disabled_yes .button__text
+    {
+        color: #aaa !important;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .button_disabled_yes.button:before
+        {
+            border: 0;
+            background: none;
+        }
+    
+        .button_disabled_yes.button
+        {
+            background: rgba(0,0,0,.08) !important;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/button/_disabled/button_disabled_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/button/_disabled/button_disabled_yes.css: begin */ /**/
+    .button_disabled_yes
+    {
+        cursor: default !important;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/button/_disabled/button_disabled_yes.css: end */ /**/
+
+/* ./blocks/button/_disabled/button_disabled_yes.css: begin */ /**/
+    button.button_disabled_yes
+    {
+        position: relative;
+    
+        margin-left: 120px;
+    
+        border: 1px solid #aaa;
+        background: #eaeaea;
+    }
+    
+    button.button_disabled_yes:hover
+    {
+        background: #eaeaea;
+    }
+    
+    button.button_disabled_yes:before
+    {
+        display: none;
+    }
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        button.button_disabled_yes
+        {
+            margin: 10px auto 0;
+        }
+        button.button_disabled_yes:hover
+        {
+            background: #eaeaea;
+        }
+    }
+    
+/* ./blocks/button/_disabled/button_disabled_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/button/_theme/button_theme_normal.css: begin */ /**/
+    a.button_theme_normal,
+    .button_theme_normal
+    {
+        font-family: Arial, sans-serif;
+    
+        color: #000;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .button_theme_normal
+        {
+            border-radius: 3px;
+        }
+    
+        /* background & border */
+        .button_theme_normal:before
+        {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+    
+            padding: 0;
+    
+            content: '';
+    
+            border: 1px solid rgba(0,0,0,.2);
+            border-radius: 3px;
+            background-color: #fff;
+            -webkit-background-clip: padding-box;
+                    background-clip: padding-box;
+        }
+    
+        /* _pressed */
+        .button_theme_normal.button_pressed_yes:before
+        {
+            border-color: rgba(0,0,0,.3);
+            background-color: #f6f5f3;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/button/_theme/button_theme_normal.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/button/_theme/button_theme_normal.css: begin */ /**/
+    .button_theme_normal.button_hovered_yes
+    {
+        color: #000 !important;
+    }
+    
+    @media all and (min-width:0)
+    {
+        /* _focused */
+        .button_theme_normal.button_focused_yes
+        {
+            border-radius: 3px;
+            box-shadow: 0 0 6px #fc0;
+        }
+    
+        /* Рамка при фокусе тоже должна темнеть. */
+        .button_theme_normal.button_focused_yes:before
+        {
+            border-color: rgba(178,142,0,.6);
+        }
+    
+        /* Не подсвечиваем фокус, полученный по клику. */
+        .pointerfocus .button_theme_normal.button_focused_yes
+        {
+            box-shadow: none;
+        }
+    
+        /* Не менять цвет рамки при фокусе, полученном по клику. */
+        .pointerfocus .button_theme_normal.button_focused_yes:before
+        {
+            border-color: rgba(0,0,0,.2);
+        }
+    
+        /* _hovered */
+        .button_theme_normal.button_hovered_yes:not(.button_focused_yes):before
+        {
+            border-color: rgba(0,0,0,.3);
+        }
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/button/_theme/button_theme_normal.css: end */ /**/
+
+/* ../../desktop.blocks/button/_theme/button_theme_normal.css: begin */ /**/
+    a.button_theme_normal,
+    .button_theme_normal
+    {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+        color: #000;
+    }
+    
+/* ../../desktop.blocks/button/_theme/button_theme_normal.css: end */ /**/
+
+/* ./blocks/button/_theme/button_theme_question.css: begin */ /**/
+    .button_theme_question
+    {
+        display: inline-block;
+    
+        margin-left: 20px;
+        padding: 4px 0 5px;
+    
+        cursor: pointer;
+    
+        font-size: 13px;
+    
+        border: 1px solid #b7b2a9;
+        border-radius: 4px;
+        background: none;
+    }
+    
+    .button_theme_question:last-child
+    {
+        margin-left: 10px;
+    }
+    
+    .button_theme_question .button__text
+    {
+        padding: 0 1em;
+    }
+    
+/* ./blocks/button/_theme/button_theme_question.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/button/_theme/button_theme_action.css: begin */ /**/
+    a.button_theme_action,
+    .button_theme_action
+    {
+        font-family: Arial, sans-serif;
+    
+        color: #000;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .button_theme_action
+        {
+            border-radius: 3px;
+        }
+    
+        /* background & border */
+        .button_theme_action:before
+        {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+    
+            padding: 0;
+    
+            content: '';
+    
+            border: 1px solid rgba(191,153,0,.8);
+            border-radius: 3px;
+            background-color: #ffdb4d;
+            -webkit-background-clip: padding-box;
+                    background-clip: padding-box;
+        }
+    
+        /* _pressed */
+        .button_theme_action.button_pressed_yes:before
+        {
+            border: 1px solid rgba(159,127,0,.8);
+            background-color: #fc0;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/button/_theme/button_theme_action.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/button/_theme/button_theme_action.css: begin */ /**/
+    .button_theme_action.button_hovered_yes
+    {
+        color: #000 !important;
+    }
+    
+    @media all and (min-width:0)
+    {
+        /* _focused */
+        .button_theme_action.button_focused_yes
+        {
+            box-shadow: 0 0 6px #fc0;
+        }
+    
+        /* Не подсвечиваем фокус, полученный по клику. */
+        .pointerfocus .button_theme_action.button_focused_yes
+        {
+            box-shadow: none;
+        }
+    
+        /* _hovered */
+        .button_theme_action.button_hovered_yes:not(.button_focused_yes):before
+        {
+            border-color: rgba(159,127,0,.8);
+        }
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/button/_theme/button_theme_action.css: end */ /**/
+
+/* ../../desktop.blocks/button/_theme/button_theme_action.css: begin */ /**/
+    a.button_theme_action,
+    .button_theme_action
+    {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Trebuchet MS', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
+    }
+    
+/* ../../desktop.blocks/button/_theme/button_theme_action.css: end */ /**/
+
+/* ./blocks/button/_select/button_select_page.css: begin */ /**/
+    .button_select_page
+    {
+        display: inline-block;
+    
+        margin: 0;
+        padding: 4px 12px;
+    
+        cursor: pointer;
+    
+        font-size: 13px;
+    }
+    
+/* ./blocks/button/_select/button_select_page.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/button/_size/button_size_s.css: begin */ /**/
+    .button_size_s
+    {
+        font-size: 13px;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .button_size_s
+        {
+            line-height: 28px;
+        }
+    }
+    
+    .button_size_s .button__text
+    {
+        padding: 0 13px;
+    }
+    
+    /* Стрелочка в кнопке */
+    .button_size_s.button_arrow_down .button__text:after,
+    .button_size_s.button_arrow_up .button__text:after
+    {
+        right: 10px;
+    }
+    
+    .button_size_s.button.button_arrow_down .button__text,
+    .button_size_s.button.button_arrow_up .button__text
+    {
+        padding-right: 28px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/button/_size/button_size_s.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/button/_size/button_size_m.css: begin */ /**/
+    .button_size_m
+    {
+        font-size: 15px;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .button_size_m
+        {
+            line-height: 32px;
+        }
+    }
+    
+    .button_size_m .button__text
+    {
+        padding: 0 15px;
+    }
+    
+    /* Стрелочка в кнопке */
+    .button_size_m.button_arrow_down .button__text:after,
+    .button_size_m.button_arrow_up .button__text:after
+    {
+        right: 12px;
+    }
+    
+    .button_size_m.button.button_arrow_down .button__text,
+    .button_size_m.button.button_arrow_up .button__text
+    {
+        padding-right: 31px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/button/_size/button_size_m.css: end */ /**/
+
+/* ./blocks/button/_type/button_type_send.css: begin */ /**/
+    a.button_type_send:link
+    {
+        cursor: pointer;
+    }
+    
+    .button_type_send
+    {
+        position: relative;
+    
+        width: 150px;
+        height: 36px;
+        margin-left: 120px;
+    
+        border: 1px solid #d2b550;
+        background: #ffdc61;
+        box-shadow: none;
+    }
+    
+    .button_type_send:before
+    {
+        display: none;
+    }
+    
+    .button_type_send:hover
+    {
+        background: #fae188;
+    }
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        .button_type_send
+        {
+            display: block;
+    
+            width: 260px;
+            margin: 10px auto 0;
+    
+            line-height: 38px;
+    
+            border: 1px solid #d9c894;
+            border-radius: 2px;
+            background: #ffdc61;
+        }
+    }
+    
+/* ./blocks/button/_type/button_type_send.css: end */ /**/
+
+/* ./blocks/button/_type/button_type_file.css: begin */ /**/
+    .button_type_file
+    {
+        margin-left: 10px;
+    
+        cursor: pointer;
+    
+        border: 1px solid #b7b2a9;
+        border-radius: 4px;
+        background: none;
+    }
+    
+/* ./blocks/button/_type/button_type_file.css: end */ /**/
+
+/* ./blocks/button/_type/button_type_continue.css: begin */ /**/
+    .button_type_continue
+    {
+        float: right;
+    
+        width: 50%;
+    
+        font-weight: bold;
+    
+        border: 1px solid;
+        border-color: #eee transparent transparent transparent;
+    }
+    
+    
+    .feedback-popup_type_desktop .button_type_continue
+    {
+        display: inline-block;
+        float: none;
+    
+        width: auto;
+        height: 34px;
+        margin-right: 20px;
+    
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 28px;
+    
+        color: #000;
+        border: none;
+        border-radius: 3px;
+        background: #fedd61;
+    }
+    
+    .feedback-popup_type_desktop .button_type_continue .button__text
+    {
+        padding: 0 20px;
+    }
+    
+    .button_type_continue.button_focused_yes
+    {
+        box-shadow: none;
+    }
+    
+    .feedback-popup_type_desktop .button_type_continue:before
+    {
+        display: none;
+    }
+    
+    .feedback-popup_type_desktop .button_type_continue:hover
+    {
+        background: #ffd200;
+    }
+    
+    .feedback-popup_type_desktop .button_type_continue:active
+    {
+        background: #f7ca00;
+    }
+    
+/* ./blocks/button/_type/button_type_continue.css: end */ /**/
+
+/* ./blocks/button/_type/button_type_cancel.css: begin */ /**/
+    .button_type_cancel
+    {
+        float: left;
+    
+        width: 50%;
+    
+        border-width: 1px;
+        border-style: solid;
+        border-color: #eee #eee transparent transparent ;
+    }
+    
+    .feedback-popup_type_desktop .button_type_cancel
+    {
+        display: inline-block;
+        float: none;
+    
+        width: auto;
+        height: 34px;
+        margin-right: 15px;
+    
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 28px;
+    
+        color: #000;
+        border: 1px solid rgba(0,0,0,.25);
+        border-radius: 3px;
+    }
+    
+    .feedback-popup_type_desktop .button_type_cancel .button__text
+    {
+        padding: 0 20px;
+    }
+    
+    .feedback-popup_type_desktop .button_type_cancel:before
+    {
+        display: none;
+    }
+    
+    .feedback-popup_type_desktop .button_type_cancel:hover
+    {
+        border-color: rgba(0, 0, 0, .4);
+    }
+    
+    .button_type_cancel.button_focused_yes
+    {
+        box-shadow: none;
+    }
+    
+    .feedback-popup_type_desktop .button_type_cancel:active
+    {
+        border-color: rgba(0, 0, 0, .4);
+        background: rgba(0, 0, 0, .08);
+    }
+    
+/* ./blocks/button/_type/button_type_cancel.css: end */ /**/
+
+/* ./blocks/button/_name/button_name_popup-feedback.css: begin */ /**/
+    .button_name_popup-feedback
+    {
+        position: relative;
+    
+        font-size: 16px;
+        line-height: 50px;
+    
+        border-radius: 0;
+        background: #fff;
+        box-shadow: none;
+    }
+    
+    .button_name_popup-feedback:before
+    {
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        bottom: 1px;
+        left: 1px;
+    
+        content: '';
+    
+        background: #fff;
+        box-shadow: none;
+    }
+    
+    .button_name_popup-feedback:hover:before
+    {
+        background: #fff;
+    }
+    
+/* ./blocks/button/_name/button_name_popup-feedback.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/button/_only-icon/button_only-icon_yes.css: begin */ /**/
+    .button_only-icon_yes .button__text
+    {
+        display: inline-block;
+    
+        width: 4px;
+    }
+    
+    .button_only-icon_yes .button__icon
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    
+        margin: -8px 0 0 -8px;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/button/_only-icon/button_only-icon_yes.css: end */ /**/
+
+/* ./blocks/button/_only-icon/button_only-icon_yes.css: begin */ /**/
+    .button_only-icon_yes .static-text
+    {
+        display: none;
+    }
+    
+    .button_only-icon_yes .button__text
+    {
+        display: inline;
+    
+        padding: 0;
+    }
+    
+/* ./blocks/button/_only-icon/button_only-icon_yes.css: end */ /**/
+
+/* ./blocks/button/_only-icon/button_only-icon_no.css: begin */ /**/
+    .button_only-icon_no .spin
+    {
+        display: none;
+    }
+    
+/* ./blocks/button/_only-icon/button_only-icon_no.css: end */ /**/
+
+/* ../../vendors/islands-page/common.blocks/search/search.css: begin */ /**/
+    .search
+    {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .search__table
+    {
+        width: 100%;
+    
+        border-collapse: collapse;
+    }
+    
+    .search__cell
+    {
+        padding: 0;
+    
+        vertical-align: top;
+    }
+    
+    body .search__input
+    {
+        padding-right: 6px;
+    }
+    
+    .search__button
+    {
+        width: 1%;
+        padding: 0;
+    
+        vertical-align: middle;
+    }
+    
+    /* https://st.yandex-team.ru/ISLCOMPONENTS-122 */
+    .search .input_size_m .input__control
+    {
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    
+/* ../../vendors/islands-page/common.blocks/search/search.css: end */ /**/
+
+/* ../../vendors/islands-page/desktop.blocks/search/search.css: begin */ /**/
+    .search__button .button
+    {
+        min-width: 72px;
+    }
+    
+/* ../../vendors/islands-page/desktop.blocks/search/search.css: end */ /**/
+
+/* ./blocks/add-link/add-link.css: begin */ /**/
+    @media only screen and (max-device-width: 650px)
+    {
+        .add-link
+        {
+            width: 94%;
+            margin: 0 auto;
+        }
+    }
+    
+/* ./blocks/add-link/add-link.css: end */ /**/
+
+/* ./blocks/success/success.css: begin */ /**/
+    .success
+    {
+        position: relative;
+        top: 80px;
+    
+        display: none;
+    
+        width: 510px;
+        margin: 0 auto;
+    
+        font-size: 15px;
+    
+        border: 1px solid #dddcda;
+        background: #fff;
+    }
+    
+    .success__inner
+    {
+        display: block;
+    
+        padding: 15px 20px;
+    }
+    
+    .success_type_custo
+    {
+        display: block;
+    }
+    
+    .success_type_custo .top-5
+    {
+        width: calc(100% + 40px);
+        margin: 30px 0 0 -20px;
+    }
+    
+    .success_type_custo .b-link_type_question
+    {
+        margin: 0 20px;
+    }
+    
+    .success_type_custo .question:last-child
+    {
+        margin-bottom: 25px;
+    }
+    
+    .success_type_custo .question__answer:before
+    {
+        left: 18px;
+    }
+    
+    .success__title
+    {
+        margin: 10px 0;
+    
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        .success
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+    
+            width: 100%;
+            margin: 0;
+        }
+    }
+    
+/* ./blocks/success/success.css: end */ /**/
+
+/* ./blocks/row-bottom/row-bottom.css: begin */ /**/
+    .row-bottom
+    {
+        margin-top: 25px;
+        padding: 25px 0;
+    
+        border-top: 1px solid #d8d8d8;
+        background: #fdfbf6;
+    }
+    
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        .form_type_mobile .questions-mobile__email .input_name_email
+        {
+            display: block;
+    
+            width: 94%;
+            margin: 0 auto;
+        }
+    
+        .form_type_mobile .input_name_email .input__box
+        {
+            width: 100%;
+        }
+    }
+    
+/* ./blocks/row-bottom/row-bottom.css: end */ /**/
+
+/* ./blocks/questions/questions.css: begin */ /**/
+    .questions
+    {
+        display: none;
+    
+        padding-bottom: 22px;
+    }
+    
+/* ./blocks/questions/questions.css: end */ /**/
+
+/* ./blocks/questions/__answer/questions__answer.css: begin */ /**/
+    .questions__answer
+    {
+        position: relative;
+    
+        display: none;
+    
+        margin-top: 15px;
+        padding: 12px 64px 15px 32px;
+    
+        border-top: 1px solid #dbdbdb;
+        border-bottom: 1px solid #dbdbdb;
+        background: #fdfbf6;
+    }
+    
+    .questions__answer:before
+    {
+        position: absolute;
+        top: -9px;
+        left: 119px;
+    
+        width: 15px;
+        height: 15px;
+    
+        content: '';
+    
+        border-top: 1px solid #dbdbdb;
+        border-right: 1px solid #dbdbdb;
+        background: #fdfbf6;
+    
+        transform: rotate(-45deg);
+    }
+    
+    .questions__answer a:link,
+    .questions__answer a:visited
+    {
+        text-decoration: none;
+    
+        color: #0670c1;
+    }
+    
+/* ./blocks/questions/__answer/questions__answer.css: end */ /**/
+
+/* ./blocks/questions/__answer-block/questions__answer-block.css: begin */ /**/
+    .questions__answer-block
+    {
+        margin: 0;
+    
+        letter-spacing: -.03em;
+    
+        line-height: 18px;
+    }
+    
+/* ./blocks/questions/__answer-block/questions__answer-block.css: end */ /**/
+
+/* ./blocks/questions/__button-block/questions__button-block.css: begin */ /**/
+    .questions__button-block
+    {
+        margin-top: 10px;
+    
+        font-size: 13px;
+    
+        color: #333;
+    }
+    
+/* ./blocks/questions/__button-block/questions__button-block.css: end */ /**/
+
+/* ./blocks/questions/__item/questions__item.css: begin */ /**/
+    .questions__item
+    {
+        margin-bottom: 15px;
+    
+        font-kerning: initial;
+    }
+    
+/* ./blocks/questions/__item/questions__item.css: end */ /**/
+
+/* ./blocks/questions/__link/questions__link.css: begin */ /**/
+    .questions__link
+    {
+        padding-right: 20px;
+        letter-spacing: -0.03em;
+    }
+    
+/* ./blocks/questions/__link/questions__link.css: end */ /**/
+
+/* ./blocks/questions/__dynamic-list/questions__dynamic-list.css: begin */ /**/
+    .questions__dynamic-list
+    {
+        display: none;
+    }
+    
+/* ./blocks/questions/__dynamic-list/questions__dynamic-list.css: end */ /**/
+
+/* ./blocks/questions/__answer/_show/questions__answer_show_yes.css: begin */ /**/
+    .questions__answer_show_yes
+    {
+        display: block;
+    }
+    
+/* ./blocks/questions/__answer/_show/questions__answer_show_yes.css: end */ /**/
+
+/* ./blocks/questions/_show/questions_show_yes.css: begin */ /**/
+    .questions_show_yes
+    {
+        display: block;
+    }
+    
+/* ./blocks/questions/_show/questions_show_yes.css: end */ /**/
+
+/* ./blocks/questions/_saas/questions_saas_yes.css: begin */ /**/
+    .questions_saas_yes .questions__dynamic-list
+    {
+        display: block;
+    }
+    
+    .questions_saas_yes .questions__static-list
+    {
+        display: none;
+    }
+    
+/* ./blocks/questions/_saas/questions_saas_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/checkbox/checkbox.css: begin */ /**/
+    .checkbox
+    {
+        display: inline-table;
+    }
+    
+    .checkbox .checkbox__label
+    {
+        display: table-cell;
+    }
+    
+    .i-ua_js_no .checkbox__box:before,
+    .i-ua_js_no .checkbox__tick
+    {
+        display: none;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/checkbox/checkbox.css: end */ /**/
+
+/* ./blocks/checkbox/checkbox.css: begin */ /**/
+    .checkbox
+    {
+        display: block;
+    
+        margin: 0 0 24px 0;
+    }
+    
+/* ./blocks/checkbox/checkbox.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/checkbox/__box/checkbox__box.css: begin */ /**/
+    .checkbox__box
+    {
+        position: relative;
+    
+        white-space: nowrap;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .checkbox__box:before
+        {
+            border-radius: 3px;
+            background-clip: padding-box!important;
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/checkbox/__box/checkbox__box.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/checkbox/__control/checkbox__control.css: begin */ /**/
+    .i-ua_js_yes .checkbox__control
+    {
+        position: absolute;
+        z-index: 4;
+        top: 0;
+        left: 0;
+    
+        width: 101%;
+        height: 101%;
+        margin: 0;
+        padding: 0;
+    
+        opacity: 0;
+        border: 0;
+        background: none;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/checkbox/__control/checkbox__control.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/checkbox/__control/checkbox__control.css: begin */ /**/
+    .checkbox__control
+    {
+        cursor: pointer;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/checkbox/__control/checkbox__control.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/checkbox/__tick/checkbox__tick.css: begin */ /**/
+    .checkbox__tick
+    {
+        position: relative;
+        z-index: 3;
+    
+        display: inline-block;
+        visibility: hidden;
+    
+        padding: 0;
+    
+        vertical-align: baseline;
+        pointer-events: none;
+    
+        opacity: 0;
+        background: url(../../vendors/islands-components/common.blocks/checkbox/__tick/checkbox__tick.svg) 0 100% no-repeat;
+    
+        -webkit-transition: bottom .05s ease-out 0s, opacity .05s ease-out 0s, visibility 0s ease-out .05s;
+                transition: bottom .05s ease-out 0s, opacity .05s ease-out 0s, visibility 0s ease-out .05s;
+    }
+    
+    .i-ua_inlinesvg_no .checkbox_size_s .checkbox__tick
+    {
+        background-image: url(../../vendors/islands-components/common.blocks/checkbox/__tick/checkbox__tick_size_s.png);
+    }
+    
+    .i-ua_inlinesvg_no .checkbox_size_m .checkbox__tick
+    {
+        background-image: url(../../vendors/islands-components/common.blocks/checkbox/__tick/checkbox__tick_size_m.png);
+    }
+    
+    .i-ua_inlinesvg_no .checkbox_disabled_yes .checkbox__tick
+    {
+        background-image: url(../../vendors/islands-components/common.blocks/checkbox/__tick/checkbox__tick_disabled_yes.png);
+    }
+    
+/* ../../vendors/islands-components/common.blocks/checkbox/__tick/checkbox__tick.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/checkbox/_theme/checkbox_theme_normal.css: begin */ /**/
+    .checkbox_theme_normal
+    {
+        font-family: Arial, sans-serif;
+    
+        color: #000;
+    }
+    
+    /* :after — border & background */
+    .checkbox_theme_normal .checkbox__box:before
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    
+        padding: 0;
+    
+        content: '';
+    
+        border: 1px solid rgba(0,0,0,.2);
+        border-radius: 3px;
+        background-color: #fff;
+        background-clip: padding-box;
+    }
+    
+    /* _checked */
+    .checkbox_theme_normal .checkbox__box_checked_yes:before
+    {
+        background: #ffeba0;
+    }
+    
+    @media all and (min-width:0)
+    {
+        .checkbox_theme_normal .checkbox__box_checked_yes:before,
+        .checkbox_theme_normal .checkbox__box_checked_yes.checkbox__box_focused_yes:before
+        {
+            border-color: rgba(153,122,0,.5);
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/checkbox/_theme/checkbox_theme_normal.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/checkbox/_theme/checkbox_theme_normal.css: begin */ /**/
+    @media all and (min-width:0)
+    {
+        /* _focused */
+        /* :before — для состояния focused */
+        .checkbox_theme_normal .checkbox__box_focused_yes:before
+        {
+            box-shadow: 0 0 6px #fc0;
+        }
+    
+        .checkbox_theme_normal .checkbox__box_focused_yes:before
+        {
+            border-color: rgba(178,142,0,.6);
+        }
+    
+        /* _hovered */
+        .checkbox_theme_normal.checkbox_hovered_yes:not(.checkbox_focused_yes) .checkbox__box:before
+        {
+            border-color: rgba(0,0,0,.3);
+        }
+    
+        .checkbox_theme_normal.checkbox_hovered_yes.checkbox_checked_yes:not(.checkbox_focused_yes) .checkbox__box:before
+        {
+            border-color: rgba(129,103,0,.6);
+        }
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/checkbox/_theme/checkbox_theme_normal.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/checkbox/_theme/checkbox_theme_pseudo.css: begin */ /**/
+    .checkbox_theme_pseudo
+    {
+        font-family: Arial, sans-serif;
+    
+        color: #000;
+    }
+    
+    /* :after — background */
+    .checkbox_theme_pseudo .checkbox__box:before
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    
+        padding: 0;
+    
+        content: '';
+    
+        border: 1px solid rgba(0,0,0,.2);
+        border-radius: 3px;
+        background-clip: padding-box;
+    }
+    
+    
+    @media all and (min-width:0)
+    {
+        /* _checked */
+        .checkbox_theme_pseudo .checkbox__box_checked_yes:before
+        {
+            background: #ffeba0;
+        }
+    
+        .checkbox_theme_pseudo .checkbox__box_checked_yes:before,
+        .checkbox_theme_pseudo .checkbox__box_checked_yes.checkbox__box_focused_yes:before
+        {
+            border-color: rgba(153,122,0,.5);
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/checkbox/_theme/checkbox_theme_pseudo.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/checkbox/_theme/checkbox_theme_pseudo.css: begin */ /**/
+    @media all and (min-width:0)
+    {
+        /* _focused */
+        /* :before — для состояния focused */
+        .checkbox_theme_pseudo .checkbox__box_focused_yes:before
+        {
+            box-shadow: 0 0 6px #fc0;
+        }
+    
+        .checkbox_theme_pseudo .checkbox__box_focused_yes:before
+        {
+            border-color: rgba(178,142,0,.6);
+        }
+    
+        /* _hovered */
+        .checkbox_theme_pseudo.checkbox_hovered_yes:not(.checkbox_focused_yes) .checkbox__box:before
+        {
+            border-color: rgba(0,0,0,.3);
+        }
+    
+        .checkbox_theme_pseudo.checkbox_hovered_yes.checkbox_checked_yes:not(.checkbox_focused_yes) .checkbox__box:before
+        {
+            border-color: rgba(129,103,0,.6);
+        }
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/checkbox/_theme/checkbox_theme_pseudo.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/checkbox/_checked/checkbox_checked_yes.css: begin */ /**/
+    .checkbox_checked_yes .checkbox__tick.checkbox__tick
+    {
+        bottom: 1px; /* перебиваем .checkbox_size_s/m .checkbox__tick*/
+    }
+    
+    .checkbox_checked_yes .checkbox__tick
+    {
+        visibility: visible;
+    
+        opacity: 1;
+    
+        -webkit-transition-delay: 0s;
+                transition-delay: 0s;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/checkbox/_checked/checkbox_checked_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/checkbox/_disabled/checkbox_disabled_yes.css: begin */ /**/
+    @media all and (min-width:0)
+    {
+        .checkbox_disabled_yes .checkbox__box:before
+        {
+            border-color: rgba(0,0,0,.08);
+            background: rgba(0,0,0,.08);
+        }
+    
+        .checkbox_disabled_yes .checkbox__tick
+        {
+            opacity: .4;
+        }
+    }
+    
+    .checkbox_disabled_yes .checkbox__label
+    {
+        color: #999;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/checkbox/_disabled/checkbox_disabled_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/checkbox/_disabled/checkbox_disabled_yes.css: begin */ /**/
+    .checkbox_disabled_yes .checkbox__control,
+    .checkbox_disabled_yes .checkbox__label
+    {
+        cursor: default;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/checkbox/_disabled/checkbox_disabled_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/checkbox/__label/checkbox__label.css: begin */ /**/
+    .checkbox__label
+    {
+        padding-left: .4em;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/checkbox/__label/checkbox__label.css: end */ /**/
+
+/* ../../vendors/islands-components/desktop.blocks/checkbox/__label/checkbox__label.css: begin */ /**/
+    .checkbox__label
+    {
+        cursor: pointer;
+    }
+    
+/* ../../vendors/islands-components/desktop.blocks/checkbox/__label/checkbox__label.css: end */ /**/
+
+/* ./blocks/checkbox/__label/checkbox__label.css: begin */ /**/
+    .checkbox .checkbox__label
+    {
+        position: relative;
+        top: 1px;
+    
+        display: inline-block;
+    
+        cursor: pointer;
+    
+        color: #313131;
+    }
+    
+/* ./blocks/checkbox/__label/checkbox__label.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/checkbox/_size/checkbox_size_m.css: begin */ /**/
+    .checkbox_size_m
+    {
+        font-size: 15px;
+    }
+    
+    .checkbox_size_m .checkbox__box:before
+    {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .checkbox_size_m .checkbox__tick
+    {
+        bottom: 10px;
+        left: 3px;
+    
+        width: 18px;
+        height: 18px;
+    
+        -webkit-background-size: contain;
+                background-size: contain;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/checkbox/_size/checkbox_size_m.css: end */ /**/
+
+/* ./blocks/checkbox/_select/checkbox_select_page.css: begin */ /**/
+    .checkbox_select_page
+    {
+        display: block;
+    
+        margin-bottom: 25px;
+    
+        font-size: 15px;
+    }
+    
+/* ./blocks/checkbox/_select/checkbox_select_page.css: end */ /**/
+
+/* ../../vendors/islands-promo/desktop.blocks/static-text/static-text.css: begin */ /**/
+    .static-text
+    {
+        max-width: 684px;
+    }
+    
+    .static-text p
+    {
+        font-size:  14px;
+        
+        margin:  0 0 17px 0;
+        
+        line-height:  20px;
+    }
+/* ../../vendors/islands-promo/desktop.blocks/static-text/static-text.css: end */ /**/
+
+/* ./blocks/add-screenshot/add-screenshot.css: begin */ /**/
+    .add-screenshot
+    {
+        margin: 0 0 32px 120px;
+    }
+    
+    .form-wrap_type_mobile .add-screenshot
+    {
+        display: none;
+    }
+    
+/* ./blocks/add-screenshot/add-screenshot.css: end */ /**/
+
+/* ./blocks/add-screenshot/__screenshot/add-screenshot__screenshot.css: begin */ /**/
+    .add-screenshot__screenshot
+    {
+        position: relative;
+    
+        display: inline-block;
+    
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,.15);
+    }
+    
+/* ./blocks/add-screenshot/__screenshot/add-screenshot__screenshot.css: end */ /**/
+
+/* ./blocks/add-screenshot/__souz/add-screenshot__souz.css: begin */ /**/
+    .add-screenshot__souz
+    {
+        display: inline-block;
+    
+        padding: 0 20px;
+    
+        vertical-align: middle;
+    }
+    
+/* ./blocks/add-screenshot/__souz/add-screenshot__souz.css: end */ /**/
+
+/* ./blocks/add-screenshot/__buttons/add-screenshot__buttons.css: begin */ /**/
+    .add-screenshot__buttons
+    {
+        display: inline-block;
+    
+        margin-top: 6px;
+    
+        vertical-align: middle;
+    }
+    
+/* ./blocks/add-screenshot/__buttons/add-screenshot__buttons.css: end */ /**/
+
+/* ./blocks/add-screenshot/__error-msg/add-screenshot__error-msg.css: begin */ /**/
+    .add-screenshot__error-msg
+    {
+        position: absolute;
+    
+        display: none;
+    
+        margin-top: 2px;
+    
+        color: #a33332;
+    }
+    
+/* ./blocks/add-screenshot/__error-msg/add-screenshot__error-msg.css: end */ /**/
+
+/* ./blocks/add-screenshot/__file-title/add-screenshot__file-title.css: begin */ /**/
+    .add-screenshot__file-title
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    
+        overflow: hidden;
+    
+        width: 100px;
+        height: 15px;
+        margin: auto;
+        padding: 0 17px;
+    
+        vertical-align: middle;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    
+        color: #8b8b8b;
+    }
+    
+/* ./blocks/add-screenshot/__file-title/add-screenshot__file-title.css: end */ /**/
+
+/* ./blocks/add-screenshot/__screenshot-block/add-screenshot__screenshot-block.css: begin */ /**/
+    .add-screenshot__screenshot-block .button_type_file
+    {
+        margin-left: 0;
+    }
+    
+/* ./blocks/add-screenshot/__screenshot-block/add-screenshot__screenshot-block.css: end */ /**/
+
+/* ./blocks/add-screenshot/__screenshot/_error/add-screenshot__screenshot_error_yes.css: begin */ /**/
+    .add-screenshot__screenshot_error_yes
+    {
+        box-shadow: none;
+    }
+    .add-screenshot__screenshot_error_yes .image
+    {
+        min-width: 135px;
+    }
+    
+/* ./blocks/add-screenshot/__screenshot/_error/add-screenshot__screenshot_error_yes.css: end */ /**/
+
+/* ./blocks/add-screenshot/__screenshot/_fill/add-screenshot__screenshot_fill_yes.css: begin */ /**/
+    .add-screenshot__screenshot_fill_yes
+    {
+        border: none;
+        box-shadow: none;
+    }
+    
+/* ./blocks/add-screenshot/__screenshot/_fill/add-screenshot__screenshot_fill_yes.css: end */ /**/
+
+/* ./blocks/add-screenshot/__screenshot-block/_show/add-screenshot__screenshot-block_show_yes.css: begin */ /**/
+    .add-screenshot__screenshot-block_show_yes
+    {
+        height: 30px;
+    
+        opacity: 1;
+    
+        transition: opacity 1s ease, height 1s ease;
+    }
+    
+/* ./blocks/add-screenshot/__screenshot-block/_show/add-screenshot__screenshot-block_show_yes.css: end */ /**/
+
+/* ./blocks/add-screenshot/__screenshot-block/_show/add-screenshot__screenshot-block_show_no.css: begin */ /**/
+    .add-screenshot__screenshot-block_show_no
+    {
+        height: 0;
+        margin-bottom: -20px;
+    
+        opacity: 0;
+    
+        transition: opacity .2s ease-out, height 1s ease;
+    }
+    
+/* ./blocks/add-screenshot/__screenshot-block/_show/add-screenshot__screenshot-block_show_no.css: end */ /**/
+
+/* ./blocks/add-screenshot/__screenshot-block/_show/add-screenshot__screenshot-block_show_image.css: begin */ /**/
+    .add-screenshot__screenshot-block_show_image
+    {
+        height: 100px;
+    
+        opacity: 1;
+    }
+    
+/* ./blocks/add-screenshot/__screenshot-block/_show/add-screenshot__screenshot-block_show_image.css: end */ /**/
+
+/* ./blocks/add-screenshot/__file-title/_show/add-screenshot__file-title_show_yes.css: begin */ /**/
+    .add-screenshot__file-title_show_yes
+    {
+        display: inline-block;
+    
+        font-size: 15px;
+        line-height: 12px;
+    }
+    
+/* ./blocks/add-screenshot/__file-title/_show/add-screenshot__file-title_show_yes.css: end */ /**/
+
+/* ./blocks/add-screenshot/__file-title/_show/add-screenshot__file-title_show_no.css: begin */ /**/
+    .add-screenshot__file-title_show_no
+    {
+        display: none;
+    }
+    
+/* ./blocks/add-screenshot/__file-title/_show/add-screenshot__file-title_show_no.css: end */ /**/
+
+/* ./blocks/screenshot-canvas/screenshot-canvas.css: begin */ /**/
+    .screenshot-canvas
+    {
+        width: 135px;
+        height: 100px;
+    
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+/* ./blocks/screenshot-canvas/screenshot-canvas.css: end */ /**/
+
+/* ./blocks/screenshot-canvas/__title/screenshot-canvas__title.css: begin */ /**/
+    .screenshot-canvas__title
+    {
+        position: absolute;
+        bottom: -25px;
+    
+        width: 100%;
+    
+        text-align: center;
+    }
+    
+/* ./blocks/screenshot-canvas/__title/screenshot-canvas__title.css: end */ /**/
+
+/* ./blocks/screenshot-canvas/_type/screenshot-canvas_type_popup.css: begin */ /**/
+    .screenshot-canvas_type_popup
+    {
+        position: relative;
+        z-index: 5;
+    
+        margin: 15px;
+    
+        border: 1px solid #fff;
+        border-width: 5px 6px;
+        background: #d6dec9;
+        box-shadow: none;
+    
+        transform: rotate(0deg);
+    }
+    
+    .screenshot-canvas_type_popup:hover
+    {
+        border-color: #ccc;
+    }
+    
+/* ./blocks/screenshot-canvas/_type/screenshot-canvas_type_popup.css: end */ /**/
+
+/* ./blocks/screenshot-canvas/_selected/screenshot-canvas_selected_yes.css: begin */ /**/
+    .screenshot-canvas_selected_yes:before
+    {
+        position: absolute;
+        top: -6px;
+        left: -7px;
+    
+        width: 100%;
+        height: 100%;
+        padding: 5px 6px;
+    
+        content: '';
+    
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+/* ./blocks/screenshot-canvas/_selected/screenshot-canvas_selected_yes.css: end */ /**/
+
+/* ./blocks/feedback-popup/__title/feedback-popup__title.css: begin */ /**/
+    .feedback-popup__title
+    {
+        padding: 40px;
+    
+        font-size: 16px;
+    }
+    
+    .feedback-popup_type_desktop .feedback-popup__title
+    {
+        padding: 20px 25px 15px;
+    
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    @media only screen and (max-width : 580px)
+    {
+        .feedback-popup__title
+        {
+            padding: 30px;
+        }
+    }
+    
+/* ./blocks/feedback-popup/__title/feedback-popup__title.css: end */ /**/
+
+/* ./blocks/feedback-popup/__buttons-wrap/feedback-popup__buttons-wrap.css: begin */ /**/
+    .feedback-popup_type_desktop .feedback-popup__buttons-wrap
+    {
+        padding: 0 25px 25px;
+    }
+    
+/* ./blocks/feedback-popup/__buttons-wrap/feedback-popup__buttons-wrap.css: end */ /**/
+
+/* ./blocks/feedback-popup/_type/feedback-popup_type_desktop.css: begin */ /**/
+    .feedback-popup_type_desktop
+    {
+    
+    }
+/* ./blocks/feedback-popup/_type/feedback-popup_type_desktop.css: end */ /**/
+
+/* ./blocks/select-screenshot/select-screenshot.css: begin */ /**/
+    .select-screenshot
+    {
+        width: 50%;
+        padding: 10px 0;
+    }
+    
+/* ./blocks/select-screenshot/select-screenshot.css: end */ /**/
+
+/* ./blocks/select-screenshot/__title/select-screenshot__title.css: begin */ /**/
+    .select-screenshot__title
+    {
+        margin: 0 0 0 15px;
+    
+        font-size: 13px;
+        font-weight: normal;
+    
+        color: #888;
+    }
+    
+/* ./blocks/select-screenshot/__title/select-screenshot__title.css: end */ /**/
+
+/* ./blocks/email/email.css: begin */ /**/
+    .email
+    {
+        margin-bottom: 24px;
+    }
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        .email
+        {
+            width: 94%;
+            margin: 0 auto;
+        }
+    }
+    
+/* ./blocks/email/email.css: end */ /**/
+
+/* ./blocks/email/_error/email_error_yes.css: begin */ /**/
+    .email_error_yes .input_focused_yes .input__box:before,
+    .email_error_yes .input__box:before
+    {
+        border: 1px solid #a33332;
+        box-shadow: none;
+    }
+    
+    .email_error_yes .input_theme_normal .input__box:before
+    {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    
+        box-shadow: none;
+    }
+    
+    @media only screen and (max-device-width: 650px)
+    {
+        .email_error_yes .input_focused_yes .input__box,
+        .email_error_yes .input__box
+        {
+            border-color: #d52220;
+        }
+    }
+    
+/* ./blocks/email/_error/email_error_yes.css: end */ /**/
+
+/* ./blocks/many-letters/many-letters.css: begin */ /**/
+    .many-letters
+    {
+        margin: 0 72px 25px 120px;
+    }
+    
+/* ./blocks/many-letters/many-letters.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/spin/spin.css: begin */ /**/
+    .spin
+    {
+        display: none;
+    
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    
+        font: 0/0 a;
+    }
+    
+    @-webkit-keyframes islands-spin
+    {
+        0%
+        {
+            -webkit-transform: rotate(0);
+        }
+        100%
+        {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+    
+    @keyframes islands-spin
+    {
+        0%
+        {
+            -webkit-transform: rotate(0);
+                    transform: rotate(0);
+        }
+        100%
+        {
+            -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg);
+        }
+    }
+    
+/* ../../vendors/islands-components/common.blocks/spin/spin.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/spin/_theme/spin_theme_gray-32.css: begin */ /**/
+    .spin_theme_gray-32 .spin__icon
+    {
+        width: 1px;
+        height: 1px;
+        padding: 31px 31px 0 0;
+    
+        opacity: .4;
+        background-image: url(../../vendors/islands-components/common.blocks/spin/_theme/spin_theme_gray.svg);
+    }
+    
+    /* Когда нет поддержки SVG */
+    .i-ua_inlinesvg_no .spin_theme_gray-32 .spin__icon
+    {
+        background-image: url(../../vendors/islands-components/common.blocks/spin/_theme/spin_theme_gray-32.png);
+    }
+    
+    /* Когда нет поддержки transforms2d */
+    .spin_theme_gray-32.spin_support-transforms_no .spin__icon
+    {
+        background-image: url(../../vendors/islands-components/common.blocks/spin/_theme/spin_theme_gray-32.sprite.png);
+    }
+    
+/* ../../vendors/islands-components/common.blocks/spin/_theme/spin_theme_gray-32.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/spin/_progress/spin_progress_yes.css: begin */ /**/
+    .spin_progress_yes
+    {
+        display: block;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/spin/_progress/spin_progress_yes.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/spin/__icon/spin__icon.css: begin */ /**/
+    .spin__icon
+    {
+        border: 0;
+        background-repeat: no-repeat;
+    
+        -webkit-backface-visibility: hidden; /* облегчаем анимацию */
+           -moz-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+    }
+    
+/* ../../vendors/islands-components/common.blocks/spin/__icon/spin__icon.css: end */ /**/
+
+/* ../../vendors/islands-components/common.blocks/spin/_theme/spin_theme_gray-24.css: begin */ /**/
+    .spin_theme_gray-24 .spin__icon
+    {
+        width: 1px;
+        height: 1px;
+        padding: 23px 23px 0 0;
+    
+        opacity: .4;
+        background-image: url(../../vendors/islands-components/common.blocks/spin/_theme/spin_theme_gray.svg);
+    }
+    
+    /* Когда нет поддержки SVG */
+    .i-ua_inlinesvg_no .spin_theme_gray-24 .spin__icon
+    {
+        background-image: url(../../vendors/islands-components/common.blocks/spin/_theme/spin_theme_gray-24.png);
+    }
+    
+    /* Когда нет поддержки transforms2d */
+    .spin_theme_gray-24.spin_support-transforms_no .spin__icon
+    {
+        background-image: url(../../vendors/islands-components/common.blocks/spin/_theme/spin_theme_gray-24.sprite.png);
+    }
+    
+/* ../../vendors/islands-components/common.blocks/spin/_theme/spin_theme_gray-24.css: end */ /**/
+
+/* ./blocks/footer-text/footer-text.css: begin */ /**/
+    .footer-text
+    {
+        width: 440px;
+        margin: auto;
+        padding: 20px 80px 20px 32px;
+    
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 14px;
+    
+        color: rgba(0, 0, 0, .75);
+    }
+    
+    .b-page_is_mobile .footer-text
+    {
+        display: none;
+    }
+    
+/* ./blocks/footer-text/footer-text.css: end */ /**/
